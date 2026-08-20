@@ -12,3 +12,10 @@ _parse_ocr.py
 _build_data.py
 .vscode
 .idea
+
+# Local Netlify folder
+.netlify
+
+scripts/__pycache__/
+*.pyc
+scripts/transcripts/
