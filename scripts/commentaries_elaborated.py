@@ -7,7 +7,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "O mito como espelho interior",
-                "body": "O Profeta não se lê como crónica de viagem. É linguagem mítica: Almustafa é a consciência que, ao fim de um ciclo, sintetiza o que aprendeu; os habitantes de Orphalese são as vozes da personalidade — corpo, emoção, mente — finalmente reunidas para escutar. Doze anos evocam a circunferência da experiência humana; a ilha natal sugere o regresso ao princípio espiritual de onde se partiu.",
+                "body": "O Profeta não se lê como crônica de viagem. É linguagem mítica: Almustafa é a consciência que, ao fim de um ciclo, sintetiza o que aprendeu; os habitantes de Orphalese são as vozes da personalidade — corpo, emoção, mente — finalmente reunidas para escutar. Doze anos evocam a circunferência da experiência humana; a ilha natal sugere o regresso ao princípio espiritual de onde se partiu.",
             },
             {
                 "heading": "Consciência pelo contraste",
@@ -15,7 +15,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "O pedido de Almitra",
-                "body": "A vidente — a primeira a crer — formula o pedido essencial: «Revele-nos a nós mesmos.» Não pede milagres externos; pede leitura interior. Toda a obra responde a esse apelo. O que se segue não é discurso imposto, mas o que já se movia nas almas e aguardava forma.",
+                "body": "A vidente — a primeira a crer — formula o pedido essencial: “Revele-nos a nós mesmos.” Não pede milagres externos; pede leitura interior. Toda a obra responde a esse apelo. O que se segue não é discurso imposto, mas o que já se movia nas almas e aguardava forma.",
             },
         ],
         "keys": [
@@ -37,7 +37,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "Caminhos árduos e íngremes",
-                "body": "«Quando o amor vos chamar, segui-o.» Seguir não é conforto: é verticalidade. Para os clássicos, amar é buscar o que falta para se tornar plenamente humano. Por isso o caminho é íngreme. O amor poda o que sobra, sacode as raízes, exige leveza. Não é o cupido de festa: é Eros que reconstrói.",
+                "body": "“Quando o amor lhes acenar, sigam-no.” Seguir não é conforto: é verticalidade. Para os clássicos, amar é buscar o que falta para se tornar plenamente humano. Por isso o caminho é íngreme. O amor poda o que sobra, sacode as raízes, exige leveza. Não é o cupido de festa: é Eros que reconstrói.",
             },
             {
                 "heading": "Coroa e cruz",
@@ -49,37 +49,37 @@ COMMENTARIES = {
             },
             {
                 "heading": "Desejo legítimo",
-                "body": "O amor não deseja senão cumprir-se. Se ainda precisamos de desejos, que sejam os de correr como o regato para o mar, de expandir o coração até caber o coração de Deus, de sacralizar a aurora, o meio-dia e a noite. Amar assim é viver o tempo como oferenda — e deixar um rasto humano.",
+                "body": "O amor não deseja senão cumprir-se. Se ainda precisamos de desejos, que sejam os de correr como o regato para o mar, de expandir o coração até caber o coração de Deus, de sacralizar a aurora, o meio-dia e a noite. Amar assim é viver o tempo como oferenda — e deixar um rastro humano.",
             },
         ],
         "keys": [
             "Amor verdadeiro exige crescimento, não entretenimento.",
             "Se o vínculo te diminui, não é amor.",
-            "«O amor não tem outro desejo senão o de cumprir a si mesmo.»",
+            "“O amor não tem outro desejo senão o de cumprir a si mesmo.”",
         ],
         "reflections": [
             "O meu amor dá asas ou corta asas?",
-            "Estou a pedir ao outro o que só posso conquistar em mim?",
+            "Estou pedindo ao outro o que só posso conquistar em mim?",
         ],
     },
     "o-casamento": {
-        "summary": "O matrimónio, em Gibran, não é fusão nem contrato de posse. É consagração de um espaço humano elevado — duas colunas que sustentam o mesmo frontão, com vento do céu a dançar entre elas.",
+        "summary": "O matrimônio, em Gibran, não é fusão nem contrato de posse. É consagração de um espaço humano elevado — duas colunas que sustentam o mesmo frontão, com vento do céu a dançar entre elas.",
         "sections": [
             {
                 "heading": "Unir-se em torno do sagrado",
-                "body": "Nas tradições que Gibran ecoa, o casamento foi cerimónia religiosa porque os seres humanos se unem em torno do elevado e se separam em torno do meramente material. Não basta o contrato civil: é preciso um eixo comum de valores — justiça, fraternidade, bondade — que ambos contemplem como estrela.",
+                "body": "Nas tradições que Gibran ecoa, o casamento foi cerimônia religiosa porque os seres humanos se unem em torno do elevado e se separam em torno do meramente material. Não basta o contrato civil: é preciso um eixo comum de valores — justiça, fraternidade, bondade — que ambos contemplem como estrela.",
             },
             {
                 "heading": "Espaços na união",
-                "body": "«Haja espaços na vossa união.» Amar não é anular a individualidade. As cordas do alaúde vibram juntas e, contudo, permanecem distintas. Quem exige fusão sufoca; quem cultiva mistério interior traz frutos para partilhar. O carvalho e o cipreste não crescem à sombra um do outro.",
+                "body": "“Permitam que haja espaços em sua junção.” Amar não é anular a individualidade. As cordas do alaúde vibram juntas e, contudo, permanecem distintas. Quem exige fusão sufoca; quem cultiva mistério interior traz frutos para partilhar. O carvalho e o cipreste não crescem à sombra um do outro.",
             },
             {
                 "heading": "Gotas a caminho do oceano",
-                "body": "A imagem oriental da gota que busca o oceano ilumina o casal: caminhar juntos para a unidade maior, sem confundir a fusão de duas gotas com o mar. O amor verdadeiro dá asas; o apego corta o voo. «O teu amor dá-me asas» — medida simples e severa de qualquer vínculo.",
+                "body": "A imagem oriental da gota que busca o oceano ilumina o casal: caminhar juntos para a unidade maior, sem confundir a fusão de duas gotas com o mar. O amor verdadeiro dá asas; o apego corta o voo. “O teu amor dá-me asas” — medida simples e severa de qualquer vínculo.",
             },
             {
                 "heading": "Três planos da união",
-                "body": "Inspirado em ecos platónicos, o comentário distingue uniões pelo corpo, pela afinidade psicológica e pelos valores (nous). Só a última resiste ao tempo e aproxima. As outras esgotam-se ou esfriam. Nascer juntos, em sentido profundo, é reconhecer a mesma chama diante do nobre.",
+                "body": "Inspirado em ecos platônicos, o comentário distingue uniões pelo corpo, pela afinidade psicológica e pelos valores (nous). Só a última resiste ao tempo e aproxima. As outras esgotam-se ou esfriam. Nascer juntos, em sentido profundo, é reconhecer a mesma chama diante do nobre.",
             },
         ],
         "keys": [
@@ -93,15 +93,15 @@ COMMENTARIES = {
         ],
     },
     "os-filhos": {
-        "summary": "Os filhos não vos pertencem. São setas do arco da vida. O papel dos pais é tensão e direção — nunca destino imposto nem moldagem à própria imagem.",
+        "summary": "Os filhos não pertencem a vocês. São setas do arco da vida. O papel dos pais é tensão e direção — nunca destino imposto nem moldagem à própria imagem.",
         "sections": [
             {
-                "heading": "Vieram através de vós, não de vós",
+                "heading": "Vieram através de vocês, não de vocês",
                 "body": "A mãe com o filho ao colo ilustra a tentação de posse. Gibran corrige: a vida passou pelo corpo, mas o mistério da pessoa não é propriedade. Nem o próprio corpo é posse definitiva; quanto menos o ser que nele habita. Apego gera medo e cobiça; compreensão gera cuidado sem cárcere.",
             },
             {
                 "heading": "Arcos e setas",
-                "body": "Os pais são arcos; os filhos, setas. A estabilidade do arco permite o voo. Querer que a seta volte atrás ou copie a curva do arco é negar a vida, que «não anda para trás nem se demora com o ontem». Educar é preparar o lançamento, não reter a flecha.",
+                "body": "Os pais são arcos; os filhos, setas. A estabilidade do arco permite o voo. Querer que a seta volte atrás ou copie a curva do arco é negar a vida, que “não anda para trás nem se demora com o ontem”. Educar é preparar o lançamento, não reter a flecha.",
             },
             {
                 "heading": "Abrigo do corpo, liberdade da alma",
@@ -115,7 +115,7 @@ COMMENTARIES = {
         ],
         "reflections": [
             "Onde confundo cuidado com posse?",
-            "Que asas estou a dar — ou a cortar — a quem dependeu de mim?",
+            "Que asas estou dando — ou cortando — a quem dependeu de mim?",
         ],
     },
     "a-caridade": {
@@ -145,11 +145,11 @@ COMMENTARIES = {
         ],
     },
     "o-comer-e-o-beber": {
-        "summary": "Até a mesa pode ser altar ou voracidade. Comer e beber, em Gibran, perguntam: que fomes do homem estamos a alimentar — só as do corpo, ou também as da alma?",
+        "summary": "Até a mesa pode ser altar ou voracidade. Comer e beber, em Gibran, perguntam: que fomes do homem estamos alimentando — só as do corpo, ou também as da alma?",
         "sections": [
             {
                 "heading": "O estalajadeiro no limiar",
-                "body": "Quem passou a vida a saciar a fome física interroga, no fim, se bastou. A pergunta ao Profeta é ajuste de contas: de que outras sedes padece o humano? O quotidiano mais banal torna-se espelho ético.",
+                "body": "Quem passou a vida a saciar a fome física interroga, no fim, se bastou. A pergunta ao Profeta é ajuste de contas: de que outras sedes padece o humano? O cotidiano mais banal torna-se espelho ético.",
             },
             {
                 "heading": "Sacrifício e gratidão",
@@ -166,7 +166,7 @@ COMMENTARIES = {
             "O homem tem fomes que o pão sozinho não cura.",
         ],
         "reflections": [
-            "Que fome estou a tentar calar quando como sem atenção?",
+            "Que fome estou tentando calar quando como sem atenção?",
             "A minha mesa celebra a vida ou apenas o apetite?",
         ],
     },
@@ -201,7 +201,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Dois lados da mesma taça",
-                "body": "«A vossa alegria é a vossa tristeza sem máscara.» Não são inimigas: são irmãs. Quem nunca mergulhou na dor ri pela metade. Quem rejeita a tristeza empobrece também o júbilo. O mesmo poço serve às duas.",
+                "body": "“Sua alegria é a sua tristeza desmascarada.” Não são inimigas: são irmãs. Quem nunca mergulhou na dor ri pela metade. Quem rejeita a tristeza empobrece também o júbilo. O mesmo poço serve às duas.",
             },
             {
                 "heading": "Complementaridade",
@@ -235,7 +235,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "Morada da alma",
-                "body": "A verdadeira morada abriga e libera. Sem vida interior, a casa é casca. Com vida interior, torna-se templo quotidiano — lugar de onde se sai com algo a oferecer ao mundo.",
+                "body": "A verdadeira morada abriga e libera. Sem vida interior, a casa é casca. Com vida interior, torna-se templo cotidiano — lugar de onde se sai com algo a oferecer ao mundo.",
             },
         ],
         "keys": [
@@ -275,7 +275,7 @@ COMMENTARIES = {
         ],
     },
     "comprar-e-vender": {
-        "summary": "O comércio justo é troca de vida por vida. Quando o lucro engole a dignidade, o mercado deixa de ser humano. Gibran exige ética no gesto mais quotidiano da praça.",
+        "summary": "O comércio justo é troca de vida por vida. Quando o lucro engole a dignidade, o mercado deixa de ser humano. Gibran exige ética no gesto mais cotidiano da praça.",
         "sections": [
             {
                 "heading": "A terra dá para todos",
@@ -287,7 +287,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "Filosofia na praça",
-                "body": "Sem chave filosófica, Gibran parece só beleza verbal. Com ela, cada gesto económico revela caráter. O modo de negociar denuncia o que se ama: a vida comum ou apenas o próprio ganho.",
+                "body": "Sem chave filosófica, Gibran parece só beleza verbal. Com ela, cada gesto econômico revela caráter. O modo de negociar denuncia o que se ama: a vida comum ou apenas o próprio ganho.",
             },
         ],
         "keys": [
@@ -301,7 +301,7 @@ COMMENTARIES = {
         ],
     },
     "o-ensino": {
-        "summary": "Ensinar de verdade é elevar a consciência. Não é adestrar nem empilhar informação: é professar — viver e crer naquilo que se transmite — e guiar o outro até ao limiar da própria mente.",
+        "summary": "Ensinar de verdade é elevar a consciência. Não é adestrar nem empilhar informação: é professar — viver e crer naquilo que se transmite — e guiar o outro até o limiar da própria mente.",
         "sections": [
             {
                 "heading": "Professor: profissão de fé",
@@ -323,7 +323,7 @@ COMMENTARIES = {
         ],
         "reflections": [
             "Quando ensino, imponho-me ou libero o outro?",
-            "O que professo de facto com os meus atos?",
+            "O que professo de fato com os meus atos?",
         ],
     },
     "crime-e-castigo": {
@@ -331,7 +331,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Quando o espírito vagueia",
-                "body": "Gibran associa o delito ao espírito que vagueia desprevenido — à alienação de si. Ferir o outro é ferir a unidade. O sentimento de que o mal repercute em nós mesmos já é gérmen de fraternidade.",
+                "body": "Gibran associa o delito ao espírito que vagueia desprevenido — à alienação de si. Ferir o outro é ferir a unidade. O sentimento de que o mal repercute em nós mesmos já é germe de fraternidade.",
             },
             {
                 "heading": "O justo e o injusto no mesmo templo",
@@ -379,7 +379,7 @@ COMMENTARIES = {
         ],
     },
     "a-liberdade": {
-        "summary": "Muitas vezes chamamos liberdade à troca de cadeias. A liberdade profunda é interior e exige domínio de si. Sem consciência, o «livre» permanece escravo do desejo.",
+        "summary": "Muitas vezes chamamos liberdade à troca de cadeias. A liberdade profunda é interior e exige domínio de si. Sem consciência, o “livre” permanece escravo do desejo.",
         "sections": [
             {
                 "heading": "Cadeias douradas",
@@ -435,7 +435,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Quebrar a concha",
-                "body": "«A vossa dor é o quebrar da concha que envolve a vossa compreensão.» Como o fruto que precisa romper, a alma precisa ser ferida para crescer. Aceitar a dor com a serenidade das estações é sabedoria; fugir dela eternamente é permanecer imaturo.",
+                "body": "“Sua dor é o rompimento da casca que enclausura a sua compreensão.” Como o fruto que precisa romper, a alma precisa ser ferida para crescer. Aceitar a dor com a serenidade das estações é sabedoria; fugir dela eternamente é permanecer imaturo.",
             },
             {
                 "heading": "Suportar e transformar",
@@ -465,11 +465,11 @@ COMMENTARIES = {
             },
             {
                 "heading": "Silêncio que revela",
-                "body": "O coração conhece em silêncio os segredos dos dias e das noites, mas os ouvidos têm sede das palavras do coração. Dizer «quero conhecer-me» já é início de conhecimento. A atenção paciente revela o que a pressa obscurece.",
+                "body": "O coração conhece em silêncio os segredos dos dias e das noites, mas os ouvidos têm sede das palavras do coração. Dizer “quero conhecer-me” já é início de conhecimento. A atenção paciente revela o que a pressa obscurece.",
             },
             {
                 "heading": "Abrir a cela",
-                "body": "Educar, em chave platónica, é abrir as grades da alma prisioneira. Conhecer-se é libertar-se das máscaras e orientar a vida pelo que se é em profundidade — não pelo que o mercado exige que se pareça.",
+                "body": "Educar, em chave platônica, é abrir as grades da alma prisioneira. Conhecer-se é libertar-se das máscaras e orientar a vida pelo que se é em profundidade — não pelo que o mercado exige que se pareça.",
             },
         ],
         "keys": [
@@ -478,7 +478,7 @@ COMMENTARIES = {
             "Conhecer-se é condição de liberdade.",
         ],
         "reflections": [
-            "Que perguntas periféricas uso para evitar a pergunta «quem sou?»",
+            "Que perguntas periféricas uso para evitar a pergunta “quem sou?”",
             "Que máscara ainda confundo comigo?",
         ],
     },
@@ -487,7 +487,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Necessidade, não desejo",
-                "body": "«O vosso amigo é a resposta às vossas necessidades.» Não aos desejos de uso. Kant lembra: tratar alguém como meio é imoral. Usar o outro para preencher carência não é amizade — é manipulação. A principal necessidade humana é a fraternidade.",
+                "body": "“Seu amigo é a resposta para suas necessidades.” Não aos desejos de uso. Kant lembra: tratar alguém como meio é imoral. Usar o outro para preencher carência não é amizade — é manipulação. A principal necessidade humana é a fraternidade.",
             },
             {
                 "heading": "Campo cultivado com amor",
@@ -495,7 +495,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "Apoio e abrigo",
-                "body": "O amigo é apoio para crescer e abrigo contra as próprias alienações. Tem a coragem de dizer «não te sigo na descida». Dar asas ou cortá-las: essa é a medida final de todas as relações.",
+                "body": "O amigo é apoio para crescer e abrigo contra as próprias alienações. Tem a coragem de dizer “não te sigo na descida”. Dar asas ou cortá-las: essa é a medida final de todas as relações.",
             },
         ],
         "keys": [
@@ -513,7 +513,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Ruído contra si",
-                "body": "Grande parte do falar quotidiano serve para não enfrentar a própria alma. O silêncio da solidão revela a nudez interior — e por isso se foge para o ruído. Conversar assim é anestesia, não encontro.",
+                "body": "Grande parte do falar cotidiano serve para não enfrentar a própria alma. O silêncio da solidão revela a nudez interior — e por isso se foge para o ruído. Conversar assim é anestesia, não encontro.",
             },
             {
                 "heading": "Pensamento em gaiola",
@@ -539,7 +539,7 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Horizontes medíocres",
-                "body": "Muitos planeiam só até ao fim de semana ou às férias. Quase ninguém contempla a obra inteira da existência — porque isso confronta a morte. Sem essa mira, a vida fragmenta-se em urgências banais.",
+                "body": "Muitos planejam só até o fim de semana ou às férias. Quase ninguém contempla a obra inteira da existência — porque isso confronta a morte. Sem essa mira, a vida fragmenta-se em urgências banais.",
             },
             {
                 "heading": "Tempo real",
@@ -569,7 +569,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "O bem sedento",
-                "body": "Pode-se falar do bem que habita em nós; o «mal» é frequentemente esse bem a sofrer fome e sede, a buscar alimento até em lugares turvos. Não se é mau quando se falha — está-se lento, dividido, ainda a caminho.",
+                "body": "Pode-se falar do bem que habita em nós; o “mal” é frequentemente esse bem a sofrer fome e sede, a buscar alimento até em lugares turvos. Não se é mau quando se falha — está-se lento, dividido, ainda a caminho.",
             },
             {
                 "heading": "Sem insultar a tartaruga",
@@ -582,7 +582,7 @@ COMMENTARIES = {
             "Bondade reconhece ritmos diferentes.",
         ],
         "reflections": [
-            "Onde condeno como «mal» o que ainda é imaturidade?",
+            "Onde condeno como “mal” o que ainda é imaturidade?",
             "Como nutrir o bem em mim sem orgulho sobre os outros?",
         ],
     },
@@ -591,11 +591,11 @@ COMMENTARIES = {
         "sections": [
             {
                 "heading": "Pontífice da vida",
-                "body": "A sacerdotisa pergunta pela prece. Nas tradições filosóficas, o pontífice não é apenas oficial de culto: é quem faz ponte — artista, legislador, educador — entre o ideal e o quotidiano. Orar é praticar essa ponte no interior.",
+                "body": "A sacerdotisa pergunta pela prece. Nas tradições filosóficas, o pontífice não é apenas oficial de culto: é quem faz ponte — artista, legislador, educador — entre o ideal e o cotidiano. Orar é praticar essa ponte no interior.",
             },
             {
                 "heading": "Pedir e agradecer",
-                "body": "Deus não precisa das nossas palavras; a alma precisa da direção delas. Pedir menos e agradecer mais transforma a prece. A melhor oração é viver de modo que a própria vida diga «sim» ao sentido.",
+                "body": "Deus não precisa das nossas palavras; a alma precisa da direção delas. Pedir menos e agradecer mais transforma a prece. A melhor oração é viver de modo que a própria vida diga “sim” ao sentido.",
             },
             {
                 "heading": "Silêncio que reza",
@@ -609,7 +609,7 @@ COMMENTARIES = {
         ],
         "reflections": [
             "A minha oração pede ou agradece?",
-            "Como posso tornar um gesto quotidiano em ponte com o sentido?",
+            "Como posso tornar um gesto cotidiano em ponte com o sentido?",
         ],
     },
     "o-prazer": {
@@ -639,7 +639,7 @@ COMMENTARIES = {
         ],
     },
     "a-beleza": {
-        "summary": "A beleza eleva e transforma. Não é só o que agrada aos sentidos: revela a harmonia entre o visível e o invisível. «A beleza é a eternidade contemplando a si mesma no espelho.»",
+        "summary": "A beleza eleva e transforma. Não é só o que agrada aos sentidos: revela a harmonia entre o visível e o invisível. “A beleza é a eternidade contemplando a si mesma no espelho.”",
         "sections": [
             {
                 "heading": "Além da aparência",
@@ -647,7 +647,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "Via espiritual",
-                "body": "Na leitura da série, a estética encontra a tradição clássica: o belo como caminho de elevação moral. Contemplar não é passividade; é exercício de alma. Cultivar a beleza no quotidiano é resistir à vulgaridade que empobrece o humano.",
+                "body": "Na leitura da série, a estética encontra a tradição clássica: o belo como caminho de elevação moral. Contemplar não é passividade; é exercício de alma. Cultivar a beleza no cotidiano é resistir à vulgaridade que empobrece o humano.",
             },
             {
                 "heading": "Eternidade e espelho",
@@ -661,19 +661,19 @@ COMMENTARIES = {
         ],
         "reflections": [
             "O que chamo de belo revela o que amo?",
-            "Que beleza do quotidiano ainda não sei honrar?",
+            "Que beleza do cotidiano ainda não sei honrar?",
         ],
     },
     "a-religiao": {
-        "summary": "Religião não é fatia da agenda: é a qualidade de todas as ações. O templo verdadeiro é o dia-a-dia. Separar «horas para Deus» e «horas para mim» é ainda não ter compreendido.",
+        "summary": "Religião não é fatia da agenda: é a qualidade de todas as ações. O templo verdadeiro é o dia-a-dia. Separar “horas para Deus” e “horas para mim” é ainda não ter compreendido.",
         "sections": [
             {
                 "heading": "Tudo o que se faz",
-                "body": "«Tenho eu falado de outra coisa hoje?» A religião, em Gibran, atravessa trabalho, afeto, justiça e silêncio. É o espanto que brota na alma mesmo enquanto as mãos talham a pedra. Fé e atos não se divorciam.",
+                "body": "“Tenho eu falado de outra coisa hoje?” A religião, em Gibran, atravessa trabalho, afeto, justiça e silêncio. É o espanto que brota na alma mesmo enquanto as mãos talham a pedra. Fé e atos não se divorciam.",
             },
             {
                 "heading": "Sacralizar o ofício",
-                "body": "O trabalho torna-se tortura quando nele não se vê o que se pode somar ao mundo. Sacralizar é dar sentido: tornar cada gesto contribuição ao humano melhor. Divisões artificiais entre «espaço religioso» e «espaço secular» empobrecem ambos.",
+                "body": "O trabalho torna-se tortura quando nele não se vê o que se pode somar ao mundo. Sacralizar é dar sentido: tornar cada gesto contribuição ao humano melhor. Divisões artificiais entre “espaço religioso” e “espaço secular” empobrecem ambos.",
             },
             {
                 "heading": "Ver Deus no jogo da vida",
@@ -683,10 +683,10 @@ COMMENTARIES = {
         "keys": [
             "Religião é a vida inteira.",
             "Fé sem atos é divisão artificial.",
-            "Sacralizar é dar sentido ao quotidiano.",
+            "Sacralizar é dar sentido ao cotidiano.",
         ],
         "reflections": [
-            "Onde separo o «sagrado» do que faço todos os dias?",
+            "Onde separo o “sagrado” do que faço todos os dias?",
             "Que gesto meu poderia tornar-se mais íntegro?",
         ],
     },
@@ -729,7 +729,7 @@ COMMENTARIES = {
             },
             {
                 "heading": "A promessa do regresso",
-                "body": "«Mais um curto instante… e outra mulher me conceberá.» A sabedoria não morre com o corpo do sábio. Renasce sempre que uma geração souber perguntar — e sempre que uma Almitra souber lembrar, sozinha no quebra-mar, as últimas palavras.",
+                "body": "“Mais um curto instante… e outra mulher me conceberá.” A sabedoria não morre com o corpo do sábio. Renasce sempre que uma geração souber perguntar — e sempre que uma Almitra souber lembrar, sozinha no quebra-mar, as últimas palavras.",
             },
         ],
         "keys": [

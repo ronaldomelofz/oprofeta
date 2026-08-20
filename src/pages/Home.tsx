@@ -43,7 +43,7 @@ export function Home() {
           </p>
         </div>
         <blockquote>
-          <p>“{data.chapters[1]?.quote || 'Quando o amor vos chamar, segui-o…'}”</p>
+          <p>“{data.chapters[1]?.quote || 'Quando o amor lhes acenar, sigam-no…'}”</p>
           <cite>O amor</cite>
         </blockquote>
       </section>

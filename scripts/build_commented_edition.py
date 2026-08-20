@@ -46,11 +46,11 @@ FALLBACK = {
         "sections": [
             {
                 "heading": "Além da aparência",
-                "body": "Na leitura comentada, Lúcia Helena Galvão mostra que Gibran desloca a beleza do gosto superficial para um campo formativo: aquilo que educa o olhar e a conduta. A frase-chave do episódio resume o movimento: «A beleza é a eternidade contemplando a si mesma no espelho.»",
+                "body": "Na leitura comentada, Lúcia Helena Galvão mostra que Gibran desloca a beleza do gosto superficial para um campo formativo: aquilo que educa o olhar e a conduta. A frase-chave do episódio resume o movimento: “A beleza é a eternidade contemplando a si mesma no espelho.”",
             },
             {
                 "heading": "Beleza e elevação moral",
-                "body": "A tradição clássica — de Platão a Aristóteles, e ecos contemporâneos como Roger Scruton — trata o belo como caminho espiritual. Cultivar a estética na vida prática é reconhecer o verdadeiro belo no quotidiano, não apenas no ornamento.",
+                "body": "A tradição clássica — de Platão a Aristóteles, e ecos contemporâneos como Roger Scruton — trata o belo como caminho espiritual. Cultivar a estética na vida prática é reconhecer o verdadeiro belo no cotidiano, não apenas no ornamento.",
             },
             {
                 "heading": "Vocês são o espelho",
@@ -60,11 +60,11 @@ FALLBACK = {
         "keys": [
             "A beleza verdadeira eleva e transforma, não apenas agrada.",
             "Estética e moral se encontram no cultivo do olhar.",
-            "«A beleza é a eternidade contemplando a si mesma no espelho.»",
+            "“A beleza é a eternidade contemplando a si mesma no espelho.”",
         ],
         "reflections": [
             "O que chamo de belo revela o que valorizo?",
-            "Há beleza no meu quotidiano que ainda não sei contemplar?",
+            "Há beleza no meu cotidiano que ainda não sei contemplar?",
         ],
     },
     "a-morte": {
@@ -80,7 +80,7 @@ FALLBACK = {
             },
             {
                 "heading": "Só então se dança de verdade",
-                "body": "Beber do rio do silêncio, atingir o cume e só então começar a subir; quando a terra reivindica o corpo, começa a dança verdadeira. A despedida do ciclo prepara o regresso — «outra mulher me conceberá».",
+                "body": "Beber do rio do silêncio, atingir o cume e só então começar a subir; quando a terra reivindica o corpo, começa a dança verdadeira. A despedida do ciclo prepara o regresso — “outra mulher me conceberá”.",
             },
         ],
         "keys": [
@@ -106,7 +106,7 @@ FALLBACK = {
             },
             {
                 "heading": "Almitra e o pedido",
-                "body": "A vidente Almitra — a primeira a crer — pede que ele fale antes de ir. «Revele-nos a nós mesmos.» Toda a obra nasce desse instante: o diálogo interior torna-se palavra oferecida aos filhos dos filhos.",
+                "body": "A vidente Almitra — a primeira a crer — pede que ele fale antes de ir. “Revele-nos a nós mesmos.” Toda a obra nasce desse instante: o diálogo interior torna-se palavra oferecida aos filhos dos filhos.",
             },
         ],
         "keys": [
@@ -131,7 +131,7 @@ FALLBACK = {
                 "body": "O capitão do navio é paciente; as velas estão cheias, mas espera o silêncio do profeta. Partir é consentimento interior, não fuga. O rio já atingiu o mar.",
             },
             {
-                "heading": "«Outra mulher me conceberá»",
+                "heading": "“Outra mulher me conceberá”",
                 "body": "A última palavra é renovação: um breve descanso sobre o vento e o regresso. A sabedoria não morre com o corpo do sábio — renasce em cada geração que souber perguntar.",
             },
         ],
@@ -235,7 +235,7 @@ def score_sentence(s: str, title: str) -> float:
             score += 2.0
     if s.startswith(("Porque", "Porque", "Ou seja", "Ou seja", "Então", "Portanto", "Assim")):
         score += 0.8
-    if "«" in s or "”" in s or '"' in s:
+    if "“" in s or "”" in s or '"' in s:
         score += 0.5
     # penalize pure bio repetition if late
     if "mary haskell" in s_low or "tuberculose" in s_low:
@@ -250,7 +250,7 @@ def build_sections_from_transcript(text: str, title: str) -> tuple[str, list[dic
     sents = split_sentences(text)
     if not sents:
         return (
-            f"Leitura comentada do capítulo «{title}» na série da Nova Acrópole.",
+            f"Leitura comentada do capítulo “{title}” na série da Nova Acrópole.",
             [],
             [],
             [],
@@ -289,7 +289,7 @@ def build_sections_from_transcript(text: str, title: str) -> tuple[str, list[dic
     # group into sections of ~3 sentences
     sections = []
     headings = [
-        "O que Gibran está a dizer",
+        "O que Gibran está dizendo",
         "Chave filosófica",
         "Imagens e símbolos",
         "Aplicação na vida",
@@ -324,7 +324,7 @@ def build_sections_from_transcript(text: str, title: str) -> tuple[str, list[dic
     reflections = [
         f"Como este capítulo sobre {title.lower()} desafia o que eu costumo entender por essa palavra?",
         "Que gesto concreto este texto pede de mim nesta semana?",
-        "Onde estou a viver só a casca deste ensinamento?",
+        "Onde estou vivendo só a casca deste ensinamento?",
     ]
     return summary, sections, keys[:5], reflections
 
@@ -378,7 +378,7 @@ def essay_for(slug: str, title: str) -> dict:
         }
 
     return {
-        "summary": f"Comentário filosófico ao capítulo «{title}», no espírito da série da Nova Acrópole.",
+        "summary": f"Comentário filosófico ao capítulo “{title}”, no espírito da série da Nova Acrópole.",
         "sections": [
             {
                 "heading": "Ler nas entrelinhas",
@@ -446,9 +446,9 @@ def main() -> None:
     data["meta"]["subtitle"] = "Khalil Gibran · leitura filosófica capítulo a capítulo"
     data["meta"]["translator"] = "Rafael Arrais (2013)"
     data["meta"]["note"] = (
-        "Edição comentada: texto de O Profeta (PDF «O Profeta - Khalil Gibran.pdf») "
+        "Edição comentada: texto de O Profeta (PDF “O Profeta - Khalil Gibran.pdf”) "
         "com chaves de leitura destiladas das palestras de Lúcia Helena Galvão na série "
-        "«O Profeta» do canal Nova Acrópole Brasil. Os vídeos originais estão embutidos em cada capítulo."
+        "“O Profeta” do canal Nova Acrópole Brasil. Os vídeos originais estão embutidos em cada capítulo."
     )
     data["meta"]["edition"] = "comentada"
     data["meta"]["sources"] = {
