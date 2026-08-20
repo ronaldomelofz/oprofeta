@@ -14,9 +14,7 @@ export function About() {
           <h2>O texto</h2>
           <p>
             Publicado em 1923, <em>O Profeta</em> de Khalil Gibran é prosa poética sobre os eixos da vida
-            humana. O texto deste site foi extraído de <strong>O Profeta - Khalil Gibran.pdf</strong>{' '}
-            (tradução de Rafael Arrais, 2013). O PDF Challita na pasta do projeto serviu de contraste
-            editorial.
+            humana.
           </p>
         </section>
 

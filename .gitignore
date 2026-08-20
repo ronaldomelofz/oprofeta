@@ -19,5 +19,8 @@ _build_data.py
 scripts/__pycache__/
 *.pyc
 scripts/transcripts/
+videos/*.mp4
+videos/*.webm
+videos/*.mkv
 _new_pdf.txt
 _rebuild_from_new_pdf.py
