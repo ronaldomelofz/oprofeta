@@ -6,7 +6,8 @@ Site interativo da obra *O Profeta*, de Khalil Gibran, com leitura capítulo a c
 
 - Vite + React + TypeScript
 - React Router
-- Deploy: Netlify (`https://livro-oprofeta.netlify.app`)
+- Deploy: Netlify (`https://oprofetagibran.netlify.app`)
+- Texto: `O Profeta - Khalil Gibran.pdf` (tradução Rafael Arrais)
 
 ## Desenvolvimento
 
@@ -23,5 +24,5 @@ npm run build
 
 ## Conteúdo
 
-- Texto: tradução Mansour Challita (PDF na raiz do projeto)
+- Texto: `O Profeta - Khalil Gibran.pdf` (tradução Rafael Arrais, 2013)
 - Explicações e embeds: série YouTube Nova Acrópole

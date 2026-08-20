@@ -32,7 +32,7 @@ export function Layout() {
       </main>
       <footer className="footer">
         <p>
-          Texto de Khalil Gibran (1923) · Tradução Mansour Challita · Comentários inspirados na série da{' '}
+          Texto de Khalil Gibran (1923) · Tradução Rafael Arrais · Comentários inspirados na série da{' '}
           <a href="https://www.youtube.com/@NovaAcropole" target="_blank" rel="noreferrer">
             Nova Acrópole
           </a>

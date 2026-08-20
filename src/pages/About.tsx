@@ -18,9 +18,8 @@ export function About() {
             palavra.
           </p>
           <p>
-            O texto apresentado segue a tradução de Mansour Challita, a partir do PDF disponível neste
-            projeto. O capítulo <strong>A Religião</strong> foi complementado com base no original em inglês
-            (domínio público), porque a página correspondente no PDF está incompleta.
+            O texto apresentado foi extraído do arquivo <strong>O Profeta - Khalil Gibran.pdf</strong>, na
+            tradução de Rafael Arrais (2013), revisada pelo Acordo Ortográfico.
           </p>
         </section>
 
@@ -42,10 +41,10 @@ export function About() {
           <h2>Créditos</h2>
           <ul>
             <li>Autor: Khalil Gibran</li>
-            <li>Tradução de referência: Mansour Challita</li>
+            <li>Tradução de referência: Rafael Arrais (2013)</li>
             <li>Comentários de referência: Lúcia Helena Galvão / Nova Acrópole Brasil</li>
             <li>
-              Publicação: <a href="https://livro-oprofeta.netlify.app/">livro-oprofeta.netlify.app</a>
+              Publicação: <a href="https://oprofetagibran.netlify.app/">oprofetagibran.netlify.app</a>
             </li>
           </ul>
         </section>
