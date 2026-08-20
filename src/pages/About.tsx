@@ -45,7 +45,7 @@ export function About() {
             <li>Tradução de referência: Mansour Challita</li>
             <li>Comentários de referência: Lúcia Helena Galvão / Nova Acrópole Brasil</li>
             <li>
-              Publicação: <a href="https://oprofeta.netlify.app/">oprofeta.netlify.app</a>
+              Publicação: <a href="https://livro-oprofeta.netlify.app/">livro-oprofeta.netlify.app</a>
             </li>
           </ul>
         </section>
