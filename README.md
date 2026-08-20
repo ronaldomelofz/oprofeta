@@ -1,13 +1,12 @@
-# O Profeta
+# O Profeta Comentado
 
-Site interativo da obra *O Profeta*, de Khalil Gibran, com leitura capítulo a capítulo e chaves de interpretação inspiradas na série comentada por Lúcia Helena Galvão no canal [Nova Acrópole](https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran).
+Edição comentada de *O Profeta*, de Khalil Gibran: texto integral capítulo a capítulo com leitura filosófica destilada da série de Lúcia Helena Galvão no canal [Nova Acrópole](https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran).
 
 ## Stack
 
 - Vite + React + TypeScript
 - React Router
 - Deploy: Netlify (`https://oprofetagibran.netlify.app`)
-- Texto: `O Profeta - Khalil Gibran.pdf` (tradução Rafael Arrais)
 
 ## Desenvolvimento
 
@@ -25,4 +24,6 @@ npm run build
 ## Conteúdo
 
 - Texto: `O Profeta - Khalil Gibran.pdf` (tradução Rafael Arrais, 2013)
-- Explicações e embeds: série YouTube Nova Acrópole
+- Contraste editorial: `o-profeta-gibran-khalil-gibra.pdf` (Mansour Challita)
+- Comentários: destilados das palestras YouTube Nova Acrópole
+- Scripts: `scripts/build_commentaries.py`
