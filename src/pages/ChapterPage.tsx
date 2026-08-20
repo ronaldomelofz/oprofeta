@@ -3,7 +3,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { data } from '../App'
 import './ChapterPage.css'
 
-type Panel = 'texto' | 'explicacao'
+type Panel = 'comentada' | 'texto' | 'video'
 
 export function ChapterPage() {
   const { slug } = useParams()
@@ -11,12 +11,10 @@ export function ChapterPage() {
   const chapter = index >= 0 ? data.chapters[index] : null
   const prev = index > 0 ? data.chapters[index - 1] : null
   const next = index >= 0 && index < data.chapters.length - 1 ? data.chapters[index + 1] : null
-  const [panel, setPanel] = useState<Panel>('texto')
-  const [reveal, setReveal] = useState(0)
+  const [panel, setPanel] = useState<Panel>('comentada')
 
   useEffect(() => {
-    setPanel('texto')
-    setReveal(0)
+    setPanel('comentada')
   }, [slug])
 
   const progress = useMemo(() => {
@@ -33,8 +31,7 @@ export function ChapterPage() {
     )
   }
 
-  const visibleParas = chapter.paragraphs.slice(0, Math.max(4, reveal || chapter.paragraphs.length))
-  const canRevealMore = reveal > 0 && reveal < chapter.paragraphs.length
+  const commentary = chapter.commentary
 
   return (
     <article className="chapter">
@@ -44,70 +41,89 @@ export function ChapterPage() {
 
       <header className="chapter-head">
         <p className="eyebrow">
-          Capítulo {String(chapter.id).padStart(2, '0')} · {progress}% da jornada
+          Edição comentada · Capítulo {String(chapter.id).padStart(2, '0')} · {progress}%
         </p>
         <h1>{chapter.title}</h1>
         {chapter.quote ? <p className="chapter-quote">“{chapter.quote}”</p> : null}
+        <p className="chapter-deck">{commentary.summary}</p>
       </header>
 
       <div className="panel-switch" role="tablist" aria-label="Modo de leitura">
-        <button
-          role="tab"
-          aria-selected={panel === 'texto'}
-          className={panel === 'texto' ? 'active' : ''}
-          onClick={() => setPanel('texto')}
-        >
-          Texto
-        </button>
-        <button
-          role="tab"
-          aria-selected={panel === 'explicacao'}
-          className={panel === 'explicacao' ? 'active' : ''}
-          onClick={() => setPanel('explicacao')}
-        >
-          Explicação
-        </button>
+        {(
+          [
+            ['comentada', 'Comentário'],
+            ['texto', 'Texto'],
+            ['video', 'Vídeo'],
+          ] as const
+        ).map(([id, label]) => (
+          <button
+            key={id}
+            role="tab"
+            aria-selected={panel === id}
+            className={panel === id ? 'active' : ''}
+            onClick={() => setPanel(id)}
+          >
+            {label}
+          </button>
+        ))}
       </div>
 
-      <div className="chapter-grid">
-        <section className={`panel text-panel ${panel === 'texto' ? 'show' : ''}`} aria-label="Texto do capítulo">
+      <div className="chapter-layout">
+        <section
+          className={`panel comment-panel ${panel === 'comentada' ? 'show' : ''}`}
+          aria-label="Comentário filosófico"
+        >
+          <p className="explain-source">
+            Leitura comentada · {data.meta.series.host} · {data.meta.series.channel}
+          </p>
+
+          <div className="essay">
+            {commentary.sections.map((section) => (
+              <section key={section.heading + section.body.slice(0, 24)} className="essay-block">
+                <h2>{section.heading}</h2>
+                <p>{section.body}</p>
+              </section>
+            ))}
+          </div>
+
+          {commentary.keys.length > 0 ? (
+            <div className="keys-box">
+              <h3>Chaves</h3>
+              <ul>
+                {commentary.keys.map((key) => (
+                  <li key={key}>{key}</li>
+                ))}
+              </ul>
+            </div>
+          ) : null}
+
+          {commentary.reflections.length > 0 ? (
+            <div className="reflect-box">
+              <h3>Para refletir</h3>
+              <ol>
+                {commentary.reflections.map((q) => (
+                  <li key={q}>{q}</li>
+                ))}
+              </ol>
+            </div>
+          ) : null}
+        </section>
+
+        <section className={`panel text-panel ${panel === 'texto' ? 'show' : ''}`} aria-label="Texto de Gibran">
+          <h2 className="panel-title">Texto de Khalil Gibran</h2>
           <div className="prose">
-            {(reveal === 0 ? chapter.paragraphs : visibleParas).map((para, i) => (
-              <p key={i} style={{ animationDelay: `${Math.min(i, 8) * 40}ms` }}>
+            {chapter.paragraphs.map((para, i) => (
+              <p key={i} style={{ animationDelay: `${Math.min(i, 8) * 35}ms` }}>
                 {para}
               </p>
             ))}
           </div>
-          {reveal === 0 && chapter.paragraphs.length > 8 ? (
-            <button className="soft-btn" onClick={() => setReveal(6)}>
-              Ler em etapas
-            </button>
-          ) : null}
-          {canRevealMore ? (
-            <button
-              className="soft-btn"
-              onClick={() => setReveal((n) => Math.min(n + 6, chapter.paragraphs.length))}
-            >
-              Continuar leitura
-            </button>
-          ) : null}
         </section>
 
-        <aside className={`panel explain-panel ${panel === 'explicacao' ? 'show' : ''}`} aria-label="Explicação">
-          <p className="explain-source">
-            Leitura comentada · {data.meta.series.host} · {data.meta.series.channel}
-          </p>
-          <h2>Chave de leitura</h2>
-          <p className="explain-summary">{chapter.explanation.summary}</p>
-          <ul className="key-list">
-            {chapter.explanation.keys.map((key) => (
-              <li key={key}>{key}</li>
-            ))}
-          </ul>
-
+        <section className={`panel video-panel ${panel === 'video' ? 'show' : ''}`} aria-label="Vídeo da série">
+          <h2 className="panel-title">Palestra comentada</h2>
           {chapter.videoId ? (
-            <div className="video-block">
-              <h3>Assistir ao comentário</h3>
+            <>
               <div className="video-frame">
                 <iframe
                   title={`Comentário: ${chapter.title}`}
@@ -118,19 +134,73 @@ export function ChapterPage() {
                 />
               </div>
               <a className="video-link" href={chapter.videoUrl!} target="_blank" rel="noreferrer">
-                Abrir no YouTube
+                Abrir no YouTube →
               </a>
-            </div>
+            </>
           ) : (
             <p className="no-video">
-              Este trecho enquadra a narrativa. Explore os capítulos temáticos com vídeos na{' '}
+              Este capítulo enquadra a narrativa. Os temas centrais têm palestra na{' '}
               <a href={data.meta.series.searchUrl} target="_blank" rel="noreferrer">
                 série completa
               </a>
               .
             </p>
           )}
-        </aside>
+        </section>
+      </div>
+
+      <div className="desktop-split" aria-hidden={false}>
+        <div className="desktop-comment">
+          <p className="explain-source">
+            Leitura comentada · {data.meta.series.host}
+          </p>
+          <div className="essay">
+            {commentary.sections.map((section) => (
+              <section key={'d-' + section.heading + section.body.slice(0, 16)} className="essay-block">
+                <h2>{section.heading}</h2>
+                <p>{section.body}</p>
+              </section>
+            ))}
+          </div>
+          <div className="keys-box">
+            <h3>Chaves</h3>
+            <ul>
+              {commentary.keys.map((key) => (
+                <li key={'d-' + key}>{key}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="reflect-box">
+            <h3>Para refletir</h3>
+            <ol>
+              {commentary.reflections.map((q) => (
+                <li key={'d-' + q}>{q}</li>
+              ))}
+            </ol>
+          </div>
+          {chapter.videoId ? (
+            <div className="video-block">
+              <h3>Assistir à palestra</h3>
+              <div className="video-frame">
+                <iframe
+                  title={`Comentário desktop: ${chapter.title}`}
+                  src={`https://www.youtube-nocookie.com/embed/${chapter.videoId}`}
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            </div>
+          ) : null}
+        </div>
+        <div className="desktop-text">
+          <h2 className="panel-title">Texto de Khalil Gibran</h2>
+          <div className="prose">
+            {chapter.paragraphs.map((para, i) => (
+              <p key={'dt-' + i}>{para}</p>
+            ))}
+          </div>
+        </div>
       </div>
 
       <nav className="chapter-nav" aria-label="Capítulos vizinhos">

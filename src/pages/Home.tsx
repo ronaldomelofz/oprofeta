@@ -11,18 +11,18 @@ export function Home() {
       <section className="hero" aria-label="Apresentação">
         <div className="hero-veil" aria-hidden="true" />
         <div className="hero-content">
-          <p className="hero-kicker">Orphalese · 12 anos · uma partida</p>
+          <p className="hero-kicker">Edição comentada · Nova Acrópole</p>
           <h1>O Profeta</h1>
           <p className="hero-lead">
-            Khalil Gibran deixa Al-Mustafa falar sobre amor, trabalho, liberdade e morte — e a cidade só
-            escuta quando o navio já chega.
+            Khalil Gibran, capítulo a capítulo — o texto integral ao lado da leitura filosófica de Lúcia
+            Helena Galvão, para abrir as entrelinhas do poema.
           </p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to={`/capitulo/${first.slug}`}>
-              Começar a leitura
+              Abrir a edição
             </Link>
             <Link className="btn btn-ghost" to="/jornada">
-              Ver a jornada
+              Mapa dos capítulos
             </Link>
           </div>
         </div>
@@ -35,23 +35,23 @@ export function Home() {
 
       <section className="intro-band">
         <div className="intro-copy">
-          <h2>Uma leitura que respira</h2>
+          <h2>Uma obra comentada</h2>
           <p>
-            Cada capítulo abre o texto de Gibran ao lado de uma explicação extraída do espírito da série
-            comentada por Lúcia Helena Galvão no canal da Nova Acrópole — para ler nas entrelinhas, sem
-            apressar a poesia.
+            Cada capítulo reúne o poema de Gibran, um comentário destilado das palestras da série e o vídeo
+            original no canal da Nova Acrópole. Ler aqui é acompanhar o Profeta com uma chave filosófica em
+            mãos.
           </p>
         </div>
         <blockquote>
-          <p>“{data.chapters[1]?.quote || 'O amor não conhece limites…'}”</p>
-          <cite>O Amor</cite>
+          <p>“{data.chapters[1]?.quote || 'Quando o amor vos chamar, segui-o…'}”</p>
+          <cite>O amor</cite>
         </blockquote>
       </section>
 
       <section className="featured">
         <div className="section-head">
-          <h2>Capítulos com vídeo</h2>
-          <Link to="/jornada">Abrir mapa completo →</Link>
+          <h2>Comece por estes</h2>
+          <Link to="/jornada">Ver os 28 capítulos →</Link>
         </div>
         <div className="featured-grid">
           {featured.map((chapter, i) => (
@@ -63,7 +63,7 @@ export function Home() {
             >
               <span className="feat-num">{String(chapter.id).padStart(2, '0')}</span>
               <h3>{chapter.title}</h3>
-              <p>{chapter.explanation.summary}</p>
+              <p>{chapter.commentary?.summary || chapter.explanation.summary}</p>
             </Link>
           ))}
         </div>

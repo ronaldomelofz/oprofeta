@@ -6,11 +6,11 @@ export function Journey() {
   return (
     <div className="journey">
       <header className="journey-head">
-        <p className="eyebrow">Mapa da obra</p>
+        <p className="eyebrow">Mapa da edição comentada</p>
         <h1>A jornada em Orphalese</h1>
         <p>
-          Vinte e oito momentos — da chegada do navio à despedida. Escolha um tema e leia o texto com a
-          chave filosófica da série Nova Acrópole.
+          Vinte e oito momentos — da chegada do navio à despedida. Em cada um: o texto de Gibran, o
+          comentário filosófico e, quando existe, a palestra da série Nova Acrópole.
         </p>
       </header>
 
@@ -21,10 +21,10 @@ export function Journey() {
               <span className="journey-index">{String(chapter.id).padStart(2, '0')}</span>
               <div className="journey-body">
                 <h2>{chapter.title}</h2>
-                <p>{chapter.explanation.summary}</p>
+                <p>{chapter.commentary?.summary || chapter.explanation.summary}</p>
               </div>
               <span className="journey-meta">
-                {chapter.videoId ? 'Com vídeo' : 'Texto'}
+                {chapter.videoId ? 'Texto + vídeo' : 'Texto'}
                 <span aria-hidden="true">→</span>
               </span>
             </Link>

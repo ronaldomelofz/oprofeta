@@ -16,7 +16,7 @@ export function Layout() {
           <span className="brand-mark" aria-hidden="true" />
           <span className="brand-text">
             <strong>O Profeta</strong>
-            <em>Khalil Gibran</em>
+            <em>Edição comentada</em>
           </span>
         </NavLink>
         <nav className="nav" aria-label="Principal">
@@ -32,7 +32,7 @@ export function Layout() {
       </main>
       <footer className="footer">
         <p>
-          Texto de Khalil Gibran (1923) · Tradução Rafael Arrais · Comentários inspirados na série da{' '}
+          O Profeta comentado · Khalil Gibran · chaves de leitura inspiradas na série da{' '}
           <a href="https://www.youtube.com/@NovaAcropole" target="_blank" rel="noreferrer">
             Nova Acrópole
           </a>

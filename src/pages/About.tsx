@@ -6,33 +6,30 @@ export function About() {
     <div className="about">
       <header>
         <p className="eyebrow">Contexto</p>
-        <h1>Sobre esta edição</h1>
+        <h1>Sobre esta edição comentada</h1>
       </header>
 
       <div className="about-grid">
         <section>
-          <h2>A obra</h2>
+          <h2>O texto</h2>
           <p>
-            Publicado em 1923, <em>O Profeta</em> de Khalil Gibran é prosa poética sobre os grandes eixos da
-            vida humana. Al-Mustafa, após doze anos em Orphalese, parte — e só então a cidade pede a sua
-            palavra.
-          </p>
-          <p>
-            O texto apresentado foi extraído do arquivo <strong>O Profeta - Khalil Gibran.pdf</strong>, na
-            tradução de Rafael Arrais (2013), revisada pelo Acordo Ortográfico.
+            Publicado em 1923, <em>O Profeta</em> de Khalil Gibran é prosa poética sobre os eixos da vida
+            humana. O texto deste site foi extraído de <strong>O Profeta - Khalil Gibran.pdf</strong>{' '}
+            (tradução de Rafael Arrais, 2013). O PDF Challita na pasta do projeto serviu de contraste
+            editorial.
           </p>
         </section>
 
         <section>
-          <h2>As explicações</h2>
+          <h2>O comentário</h2>
           <p>
-            Cada capítulo inclui uma chave de leitura inspirada na série{' '}
-            <strong>{data.meta.series.name}</strong>, apresentada por {data.meta.series.host} no canal{' '}
-            {data.meta.series.channel}. Os vídeos estão embutidos quando disponíveis.
+            Cada capítulo inclui uma leitura filosófica destilada das palestras de{' '}
+            {data.meta.series.host} na série <strong>{data.meta.series.name}</strong> ({' '}
+            {data.meta.series.channel}). Os vídeos originais estão embutidos sempre que disponíveis.
           </p>
           <p>
             <a href={data.meta.series.searchUrl} target="_blank" rel="noreferrer">
-              Ver busca no canal Nova Acrópole →
+              Ver a série no YouTube →
             </a>
           </p>
         </section>
