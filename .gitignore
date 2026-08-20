@@ -1,0 +1,14 @@
+node_modules
+dist
+.DS_Store
+*.local
+_extracted.txt
+_book_raw.txt
+_ocr_full.txt
+_chapters_preview.json
+_chapters_ocr.json
+_parse_book.py
+_parse_ocr.py
+_build_data.py
+.vscode
+.idea

@@ -1,0 +1,106 @@
+.journey {
+  padding: clamp(2rem, 6vw, 3.5rem) clamp(1rem, 4vw, 2.5rem) 4rem;
+  animation: fade-in 0.5s var(--ease);
+}
+
+.journey-head {
+  max-width: 40rem;
+  margin-bottom: 2.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.6rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.journey-head h1 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 3.6rem);
+  line-height: 1;
+  color: var(--sea);
+}
+
+.journey-head p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 1.05rem;
+}
+
+.journey-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.journey-list > li {
+  animation: rise 0.55s var(--ease) both;
+}
+
+.journey-item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: start;
+  padding: 1.15rem 1.2rem;
+  border-radius: 1rem;
+  background: rgba(247, 241, 230, 0.5);
+  border: 1px solid transparent;
+  transition: background 0.25s var(--ease), border-color 0.25s var(--ease), transform 0.25s var(--ease);
+}
+
+.journey-item:hover {
+  background: rgba(247, 241, 230, 0.92);
+  border-color: rgba(11, 61, 74, 0.12);
+  transform: translateX(4px);
+}
+
+.journey-index {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  color: var(--amber);
+  line-height: 1;
+  padding-top: 0.2rem;
+}
+
+.journey-body h2 {
+  margin: 0 0 0.35rem;
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 600;
+  color: var(--sea);
+}
+
+.journey-body p {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+}
+
+.journey-meta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sea-mist);
+  white-space: nowrap;
+  padding-top: 0.35rem;
+}
+
+@media (max-width: 700px) {
+  .journey-item {
+    grid-template-columns: auto 1fr;
+  }
+
+  .journey-meta {
+    grid-column: 2;
+    padding-top: 0;
+  }
+}

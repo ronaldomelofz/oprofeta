@@ -1,0 +1,75 @@
+.about {
+  padding: clamp(2rem, 6vw, 3.5rem) clamp(1rem, 4vw, 2.5rem) 4rem;
+  animation: fade-in 0.5s var(--ease);
+}
+
+.about header {
+  max-width: 40rem;
+  margin-bottom: 2.2rem;
+}
+
+.about .eyebrow {
+  margin: 0 0 0.55rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--amber);
+}
+
+.about h1 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(2.4rem, 6vw, 3.5rem);
+  color: var(--sea);
+  line-height: 1;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+}
+
+.about-grid section {
+  padding: 1.4rem 1.3rem 1.6rem;
+  border-radius: 1.15rem;
+  background: rgba(247, 241, 230, 0.62);
+  border: 1px solid rgba(11, 61, 74, 0.08);
+}
+
+.about-grid h2 {
+  margin: 0 0 0.8rem;
+  font-family: var(--font-display);
+  font-size: 1.55rem;
+  color: var(--sea);
+}
+
+.about-grid p,
+.about-grid li {
+  color: var(--ink-soft);
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.about-grid p + p {
+  margin-top: 0.8rem;
+}
+
+.about-grid ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.45rem;
+}
+
+.about-grid a {
+  color: var(--sea);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
