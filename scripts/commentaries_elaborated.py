@@ -1,745 +1,3590 @@
 # -*- coding: utf-8 -*-
-"""Comentários elaborados — prosa filosófica (não transcrição oral)."""
+"""Comentários elaborados — prosa filosófica densa (não transcrição oral)."""
 
-COMMENTARIES = {
-    "chegada-do-navio": {
-        "summary": "Antes de qualquer doutrina, Gibran ergue um mito: a consciência só se reconhece quando a partida se torna inevitável. Em Orphalese, a sabedoria habitou doze anos em silêncio — e só a maré que chama obriga a cidade a perguntar.",
-        "sections": [
-            {
-                "heading": "O mito como espelho interior",
-                "body": "O Profeta não se lê como crônica de viagem. É linguagem mítica: Almustafa é a consciência que, ao fim de um ciclo, sintetiza o que aprendeu; os habitantes de Orphalese são as vozes da personalidade — corpo, emoção, mente — finalmente reunidas para escutar. Doze anos evocam a circunferência da experiência humana; a ilha natal sugere o regresso ao princípio espiritual de onde se partiu.",
-            },
-            {
-                "heading": "Consciência pelo contraste",
-                "body": "Enquanto o sábio permaneceu, quase ninguém o interrogou. Quando o navio surge na névoa, a cidade desperta. Assim opera a consciência: no contraste entre ter e perder, entre presença e ausência, o valor se revela. A alegria da partida mistura-se à tristeza de deixar o que se amou — e dessa tensão nasce a palavra.",
-            },
-            {
-                "heading": "O pedido de Almitra",
-                "body": "A vidente — a primeira a crer — formula o pedido essencial: “Revele-nos a nós mesmos.” Não pede milagres externos; pede leitura interior. Toda a obra responde a esse apelo. O que se segue não é discurso imposto, mas o que já se movia nas almas e aguardava forma.",
-            },
-        ],
-        "keys": [
-            "O Profeta é mito: diálogo da consciência consigo mesma.",
-            "Valorizamos o que começa a escapar.",
-            "A verdadeira pergunta é: quem somos entre o nascimento e a morte?",
-        ],
-        "reflections": [
-            "Que sabedoria tenho ignorado enquanto ainda está perto?",
-            "O que só reconheço quando ameaça partir?",
-        ],
-    },
-    "o-amor": {
-        "summary": "Gibran alfabetiza de novo a palavra amor. Não fala do coração vermelho do costume, mas de uma força exigente que coroa e crucifica, poda e eleva — até que o homem se torne fragmento do coração da Vida.",
-        "sections": [
-            {
-                "heading": "Quando as vozes se calam",
-                "body": "Antes da primeira metáfora, o poema mostra um silêncio. Se o mito é interior, esse silêncio é a personalidade que cessa o ruído — corpo, emoção, mente tagarela — para que a consciência superior fale. Sem esse recolhimento, o amor permanece palavra vazia. Quem não se escuta em profundidade dificilmente amará em profundidade.",
-            },
-            {
-                "heading": "Caminhos árduos e íngremes",
-                "body": "“Quando o amor lhes acenar, sigam-no.” Seguir não é conforto: é verticalidade. Para os clássicos, amar é buscar o que falta para se tornar plenamente humano. Por isso o caminho é íngreme. O amor poda o que sobra, sacode as raízes, exige leveza. Não é o cupido de festa: é Eros que reconstrói.",
-            },
-            {
-                "heading": "Coroa e cruz",
-                "body": "Mesmo quando coroa, crucifica. Eleva a consciência e, ao mesmo tempo, corta a lógica do toma-lá-dá-cá. O amor verdadeiro é vertical: realiza-se no bem do outro, sem cobrança. Se o vínculo torna alguém mais mesquinho, não é amor — é paixão ou apego disfarçado. O vinho legítimo dissolve fronteiras e espalha-se em todas as direções.",
-            },
-            {
-                "heading": "Pão para o banquete sagrado",
-                "body": "As imagens do trigo — ceifar, peneirar, amassar, entregar ao fogo — descrevem uma pedagogia: o amor purifica até que o ser se torne alimento de sentido no todo. Não se fabrica o néctar divino; talha-se a taça. Se o vinho for verdadeiro, a taça derrete: o amor não aceita limites egoístas.",
-            },
-            {
-                "heading": "Desejo legítimo",
-                "body": "O amor não deseja senão cumprir-se. Se ainda precisamos de desejos, que sejam os de correr como o regato para o mar, de expandir o coração até caber o coração de Deus, de sacralizar a aurora, o meio-dia e a noite. Amar assim é viver o tempo como oferenda — e deixar um rastro humano.",
-            },
-        ],
-        "keys": [
-            "Amor verdadeiro exige crescimento, não entretenimento.",
-            "Se o vínculo te diminui, não é amor.",
-            "“O amor não tem outro desejo senão o de cumprir a si mesmo.”",
-        ],
-        "reflections": [
-            "O meu amor dá asas ou corta asas?",
-            "Estou pedindo ao outro o que só posso conquistar em mim?",
-        ],
-    },
-    "o-casamento": {
-        "summary": "O matrimônio, em Gibran, não é fusão nem contrato de posse. É consagração de um espaço humano elevado — duas colunas que sustentam o mesmo frontão, com vento do céu a dançar entre elas.",
-        "sections": [
-            {
-                "heading": "Unir-se em torno do sagrado",
-                "body": "Nas tradições que Gibran ecoa, o casamento foi cerimônia religiosa porque os seres humanos se unem em torno do elevado e se separam em torno do meramente material. Não basta o contrato civil: é preciso um eixo comum de valores — justiça, fraternidade, bondade — que ambos contemplem como estrela.",
-            },
-            {
-                "heading": "Espaços na união",
-                "body": "“Permitam que haja espaços em sua junção.” Amar não é anular a individualidade. As cordas do alaúde vibram juntas e, contudo, permanecem distintas. Quem exige fusão sufoca; quem cultiva mistério interior traz frutos para partilhar. O carvalho e o cipreste não crescem à sombra um do outro.",
-            },
-            {
-                "heading": "Gotas a caminho do oceano",
-                "body": "A imagem oriental da gota que busca o oceano ilumina o casal: caminhar juntos para a unidade maior, sem confundir a fusão de duas gotas com o mar. O amor verdadeiro dá asas; o apego corta o voo. “O teu amor dá-me asas” — medida simples e severa de qualquer vínculo.",
-            },
-            {
-                "heading": "Três planos da união",
-                "body": "Inspirado em ecos platônicos, o comentário distingue uniões pelo corpo, pela afinidade psicológica e pelos valores (nous). Só a última resiste ao tempo e aproxima. As outras esgotam-se ou esfriam. Nascer juntos, em sentido profundo, é reconhecer a mesma chama diante do nobre.",
-            },
-        ],
-        "keys": [
-            "Casamento é consagração, não posse.",
-            "União madura preserva identidade e partilha o alto.",
-            "Se o amor não te torna mais humano, não é amor.",
-        ],
-        "reflections": [
-            "O meu vínculo amplia ou reduz a minha humanidade?",
-            "Deixo espaço para o outro dançar a sua própria música?",
-        ],
-    },
-    "os-filhos": {
-        "summary": "Os filhos não pertencem a vocês. São setas do arco da vida. O papel dos pais é tensão e direção — nunca destino imposto nem moldagem à própria imagem.",
-        "sections": [
-            {
-                "heading": "Vieram através de vocês, não de vocês",
-                "body": "A mãe com o filho ao colo ilustra a tentação de posse. Gibran corrige: a vida passou pelo corpo, mas o mistério da pessoa não é propriedade. Nem o próprio corpo é posse definitiva; quanto menos o ser que nele habita. Apego gera medo e cobiça; compreensão gera cuidado sem cárcere.",
-            },
-            {
-                "heading": "Arcos e setas",
-                "body": "Os pais são arcos; os filhos, setas. A estabilidade do arco permite o voo. Querer que a seta volte atrás ou copie a curva do arco é negar a vida, que “não anda para trás nem se demora com o ontem”. Educar é preparar o lançamento, não reter a flecha.",
-            },
-            {
-                "heading": "Abrigo do corpo, liberdade da alma",
-                "body": "Pode-se abrigar o corpo da criança; não se pode habitar a sua alma. Pode-se esforçar por ser como eles nos seus sonhos futuros; não se deve forçá-los à imagem do passado dos pais. A generosidade parental é dar raízes e asas — e aceitar que o destino deles não é o nosso eco.",
-            },
-        ],
-        "keys": [
-            "Os filhos são da Vida, não dos pais.",
-            "Educar é lançar, não aprisionar.",
-            "A vida não se demora no ontem.",
-        ],
-        "reflections": [
-            "Onde confundo cuidado com posse?",
-            "Que asas estou dando — ou cortando — a quem dependeu de mim?",
-        ],
-    },
-    "a-caridade": {
-        "summary": "Dar de verdade é dar de si, não do excedente. A generosidade mede-se pela consciência do doador, não pelo valor do objeto — e recebe-se também com gratidão, sem empobrecer o outro.",
-        "sections": [
-            {
-                "heading": "O ciclo simbólico",
-                "body": "Antes da dádiva, o mito lembra: doze anos são uma vida completa. As perguntas da cidade são o diálogo da consciência consigo. A caridade, nesse quadro, não é filantropia ornamental: é prova de que se compreendeu a fraternidade como lei do crescimento humano.",
-            },
-            {
-                "heading": "Dar de si",
-                "body": "Há quem dê pouco do muito que possui; há quem dê tudo do pouco. Estes últimos creem na vida. Dar coisas sem se dar é comércio disfarçado. Dar buscando reconhecimento transforma o dom em vaidade. A árvore dá fruto porque essa é a sua natureza — não por cálculo de retorno.",
-            },
-            {
-                "heading": "Saber receber",
-                "body": "Fechar-se ao dom alheio também empobrece. Receber com gratidão é virtude: reconhece a dignidade de quem oferece. A caridade madura é circulação de vida, não hierarquia entre ricos e necessitados.",
-            },
-        ],
-        "keys": [
-            "A verdadeira dádiva é de si.",
-            "Generosidade sem cálculo; gratidão sem dívida.",
-            "Quem dá tudo do pouco confia na vida.",
-        ],
-        "reflections": [
-            "Quando dou, o que espero em troca?",
-            "Sei receber sem diminuir quem oferece?",
-        ],
-    },
-    "o-comer-e-o-beber": {
-        "summary": "Até a mesa pode ser altar ou voracidade. Comer e beber, em Gibran, perguntam: que fomes do homem estamos alimentando — só as do corpo, ou também as da alma?",
-        "sections": [
-            {
-                "heading": "O estalajadeiro no limiar",
-                "body": "Quem passou a vida a saciar a fome física interroga, no fim, se bastou. A pergunta ao Profeta é ajuste de contas: de que outras sedes padece o humano? O cotidiano mais banal torna-se espelho ético.",
-            },
-            {
-                "heading": "Sacrifício e gratidão",
-                "body": "Matar para viver exige consciência e agradecimento, não indiferença. A refeição pode participar da troca sagrada da existência — ou degradar-se em excesso que brutaliza. A medida humaniza; a gula reduz o homem ao instinto.",
-            },
-            {
-                "heading": "Alimento da alma",
-                "body": "Há pão e vinho do corpo; há também o que nutre a interioridade. Sacralizar o ato de comer é reconhecer que a vida se sustenta em dádiva mútua — e que a fome verdadeira do humano não se esgota no prato.",
-            },
-        ],
-        "keys": [
-            "A mesa pode ser altar.",
-            "Gratidão transforma o consumo em comunhão.",
-            "O homem tem fomes que o pão sozinho não cura.",
-        ],
-        "reflections": [
-            "Que fome estou tentando calar quando como sem atenção?",
-            "A minha mesa celebra a vida ou apenas o apetite?",
-        ],
-    },
-    "o-trabalho": {
-        "summary": "Trabalhar com amor é tecer-se no tecido do mundo. O ócio ocioso é morte disfarçada; o labor sem alma é prisão. Gibran devolve ao trabalho a dignidade de sonho terrestre cumprido.",
-        "sections": [
-            {
-                "heading": "Além do tripallium",
-                "body": "A etimologia popular associa trabalho a instrumento de tortura e à coerção. A cultura do carpe diem celebra o mínimo esforço. Gibran inverte: o trabalho, quando animado por amor, une o indivíduo a si, aos outros e ao sentido maior da existência.",
-            },
-            {
-                "heading": "Cumprir o sonho da Terra",
-                "body": "Trabalhar é tomar parte no sonho da Terra. Fazer pão com indiferença amassa um pedaço sem vida; fazer com amor torna o gesto sagrado. O ofício deixa de ser castigo e passa a ser expressão de quem se é.",
-            },
-            {
-                "heading": "Construção do homem",
-                "body": "A grande obra humana não é só a casa ou a máquina: é a construção do próprio homem. O trabalho bem vivido educa a vontade, a paciência e a fraternidade. Sem ele, a consciência estagna; com ele, a vida ganha forma.",
-            },
-        ],
-        "keys": [
-            "Trabalho com amor une ao sentido da vida.",
-            "Indiferença no ofício empobrece o mundo.",
-            "A obra maior é a construção de si.",
-        ],
-        "reflections": [
-            "O meu trabalho expressa quem sou ou apenas me consome?",
-            "Onde posso devolver alma ao que faço?",
-        ],
-    },
-    "alegria-e-tristeza": {
-        "summary": "Alegria e tristeza bebem do mesmo poço. A dor cava a profundidade onde a alegria poderá caber. Gibran recusa a fuga sentimental: quer a alma inteira.",
-        "sections": [
-            {
-                "heading": "Dois lados da mesma taça",
-                "body": "“Sua alegria é a sua tristeza desmascarada.” Não são inimigas: são irmãs. Quem nunca mergulhou na dor ri pela metade. Quem rejeita a tristeza empobrece também o júbilo. O mesmo poço serve às duas.",
-            },
-            {
-                "heading": "Complementaridade",
-                "body": "A pergunta feita por uma mulher evoca, no comentário filosófico, a harmonia por oposição — yin e yang, permanência e impulso. Não se trata de estereótipo: trata-se de reconhecer que a alma humana precisa das duas polaridades para vibrar em plenitude.",
-            },
-            {
-                "heading": "Profundidade de alma",
-                "body": "A tristeza não é falha moral; é inverno necessário. Esculpe o espaço interior por onde a luz passará. Aceitar as estações da alma é maturidade; anestesiar-se é empobrecer a vida.",
-            },
-        ],
-        "keys": [
-            "Alegria e tristeza são irmãs.",
-            "A dor aprofunda a capacidade de júbilo.",
-            "Fugir da tristeza empobrece a alegria.",
-        ],
-        "reflections": [
-            "Que tristeza ainda recuso e, com ela, que alegria adio?",
-            "Sei celebrar sem negar o preço da profundidade?",
-        ],
-    },
-    "as-casas": {
-        "summary": "A casa deve ser ninho, não prisão. Habitar é proteger o corpo sem sufocar o espírito que precisa de horizonte, solidão fecunda e respiração entre as pessoas.",
-        "sections": [
-            {
-                "heading": "Abrigo e distância sagrada",
-                "body": "Antes da moradia na cidade, Gibran pergunta pelo abrigo no deserto dos sonhos. O humano precisa de espaço interior — de se entremear com a natureza e consigo — para não asfixiar os outros. A convivência madura inspira-se no Sol: ilumina todos, respeitando a órbita de cada um.",
-            },
-            {
-                "heading": "Muros do medo",
-                "body": "Construímos demasiados muros por temor. O conforto pode separar da vastidão. A beleza da casa está na liberdade que permite, não no luxo que isola. Habitar bem é proteger sem encarcerar.",
-            },
-            {
-                "heading": "Morada da alma",
-                "body": "A verdadeira morada abriga e libera. Sem vida interior, a casa é casca. Com vida interior, torna-se templo cotidiano — lugar de onde se sai com algo a oferecer ao mundo.",
-            },
-        ],
-        "keys": [
-            "Casa é ninho, não gaiola.",
-            "Conviver exige órbitas e respeito.",
-            "Sem interioridade, o abrigo esvazia-se.",
-        ],
-        "reflections": [
-            "A minha casa protege ou isola?",
-            "Onde cultivo a solidão que me torna melhor companhia?",
-        ],
-    },
-    "as-roupas": {
-        "summary": "A veste protege e revela. Quando vira disfarce, esconde a nudez sagrada da pessoa. Gibran pede que a roupa não afogue a pele da alma.",
-        "sections": [
-            {
-                "heading": "Acerto de contas da consciência",
-                "body": "No mito, cada ofício interroga a própria obra. O tecelão pergunta pelas vestes: o que se construiu para cobrir o humano foi digno? A consciência pesa se a proteção virou máscara.",
-            },
-            {
-                "heading": "Pudor e liberdade",
-                "body": "O pudor verdadeiro nasce do respeito, não do medo. Há trajes que libertam o gesto e trajes que o aprisionam. A beleza vestida é sombra da beleza que se é; quando a sombra substitui a pessoa, a alma sufoca.",
-            },
-            {
-                "heading": "Despir as máscaras",
-                "body": "O amor e o autoconhecimento pedem nudez interior. A roupa necessária ao corpo não deve tornar-se armadura contra a verdade. Vestir-se com consciência é honrar a forma sem trair a essência.",
-            },
-        ],
-        "keys": [
-            "A roupa não deve afogar a alma.",
-            "Pudor é respeito, não medo.",
-            "Máscara demais empobrece o encontro.",
-        ],
-        "reflections": [
-            "O que as minhas aparências escondem?",
-            "Onde posso vestir-me com mais verdade?",
-        ],
-    },
-    "comprar-e-vender": {
-        "summary": "O comércio justo é troca de vida por vida. Quando o lucro engole a dignidade, o mercado deixa de ser humano. Gibran exige ética no gesto mais cotidiano da praça.",
-        "sections": [
-            {
-                "heading": "A terra dá para todos",
-                "body": "A escassez muitas vezes é inventada pela ganância. Explorar a necessidade alheia é ferir a fraternidade. Mercadores sem escrúpulo são mendigos com balança: pedem vantagem sob a aparência de troca.",
-            },
-            {
-                "heading": "Encontro, não emboscada",
-                "body": "Comprar e vender pode ser encontro humano — reconhecimento mútuo de necessidades e dádivas. Sem essa consciência, o mercado brutaliza. Com ela, a praça torna-se extensão da ética.",
-            },
-            {
-                "heading": "Filosofia na praça",
-                "body": "Sem chave filosófica, Gibran parece só beleza verbal. Com ela, cada gesto econômico revela caráter. O modo de negociar denuncia o que se ama: a vida comum ou apenas o próprio ganho.",
-            },
-        ],
-        "keys": [
-            "Comércio justo é troca de vida.",
-            "Ganância inventa escassez.",
-            "A ética também se mede na praça.",
-        ],
-        "reflections": [
-            "Nas minhas trocas, quem fica menor?",
-            "Onde posso tornar uma negociação mais humana?",
-        ],
-    },
-    "o-ensino": {
-        "summary": "Ensinar de verdade é elevar a consciência. Não é adestrar nem empilhar informação: é professar — viver e crer naquilo que se transmite — e guiar o outro até o limiar da própria mente.",
-        "sections": [
-            {
-                "heading": "Professor: profissão de fé",
-                "body": "A palavra professor vem de professar: declarar e praticar aquilo em que se crê. Informar não basta. O verdadeiro mestre vê no outro uma chama adormecida e trabalha para despertá-la — não para clonar opiniões.",
-            },
-            {
-                "heading": "Escada da consciência",
-                "body": "Ninguém passa por educação genuína sem sair maior como ser humano. Caso contrário, foi apenas treinado. O ensino, em Gibran, é vertical: amplia a visão, a responsabilidade e a liberdade interior.",
-            },
-            {
-                "heading": "Até ao limiar",
-                "body": "O sábio não empurra o discípulo para dentro da sua casa de ideias; conduz-o ao umbral da própria inteligência. A visão de um homem não empresta asas a outro. Cada consciência deve voar por si — com ajuda, sem substituição.",
-            },
-        ],
-        "keys": [
-            "Educar é elevar, não adestrar.",
-            "Professor é quem professa com a vida.",
-            "O mestre guia ao limiar; o aluno entra.",
-        ],
-        "reflections": [
-            "Quando ensino, imponho-me ou libero o outro?",
-            "O que professo de fato com os meus atos?",
-        ],
-    },
-    "crime-e-castigo": {
-        "summary": "Ninguém cai sozinho. O crime revela o tecido inteiro da cidade. Castigar sem compreender é repetir a ferida; julgar sem fraternidade é esquecer que o mal contra o outro também fere a si.",
-        "sections": [
-            {
-                "heading": "Quando o espírito vagueia",
-                "body": "Gibran associa o delito ao espírito que vagueia desprevenido — à alienação de si. Ferir o outro é ferir a unidade. O sentimento de que o mal repercute em nós mesmos já é germe de fraternidade.",
-            },
-            {
-                "heading": "O justo e o injusto no mesmo templo",
-                "body": "Somos capazes do bem e do mal que condenamos. Antes de castigar, reconhecer a parte comum na queda. Justiça sem piedade torna-se crueldade; piedade sem justiça, fraqueza. A cidade inteira participa da ferida.",
-            },
-            {
-                "heading": "Responsabilidade partilhada",
-                "body": "O castigo maduro não é vingança: é restauração possível da consciência. Sem essa mira, a pena multiplica a escuridão. Com ela, mesmo o julgamento pode servir à cura do laço humano.",
-            },
-        ],
-        "keys": [
-            "O crime revela a cidade inteira.",
-            "Julgar exige reconhecer-se no outro.",
-            "Justiça e piedade precisam uma da outra.",
-        ],
-        "reflections": [
-            "Onde condeno no outro o que nego em mim?",
-            "O meu desejo de castigo cura ou apenas fere?",
-        ],
-    },
-    "as-leis": {
-        "summary": "A lei útil lembra o que o coração já sabe. A lei que só pune o gesto exterior e esquece a liberdade interior torna-se ídolo vazio. Gibran prefere a justiça viva à letra morta.",
-        "sections": [
-            {
-                "heading": "Deleitar-se em legislar — e em violar",
-                "body": "Há prazer em estabelecer leis e, paradoxalmente, em quebrá-las. Isso denuncia que a norma externa não substitui a forma interior. Pode-se acorrentar o corpo; o espírito ainda dança — ou se corrompe em segredo.",
-            },
-            {
-                "heading": "Letra e vida",
-                "body": "A boa lei serve a vida; a vida não deve servir à lei como fetiche. Quando a regra se torna ídolo, perde-se o sentido da justiça. A filosofia pede leis que inspirem crescimento, não apenas controle.",
-            },
-            {
-                "heading": "Liberdade interior",
-                "body": "Sem governo de si, a liberdade civil é fachada. A lei verdadeira educa para a autonomia moral. Sem essa educação, multiplica-se a polícia e diminui-se a consciência.",
-            },
-        ],
-        "keys": [
-            "Lei viva serve a vida.",
-            "Norma sem interioridade vira hipocrisia.",
-            "Liberdade começa no governo de si.",
-        ],
-        "reflections": [
-            "Que leis exteriores cumpro sem leis interiores?",
-            "Onde uso a regra para dominar em vez de cuidar?",
-        ],
-    },
-    "a-liberdade": {
-        "summary": "Muitas vezes chamamos liberdade à troca de cadeias. A liberdade profunda é interior e exige domínio de si. Sem consciência, o “livre” permanece escravo do desejo.",
-        "sections": [
-            {
-                "heading": "Cadeias douradas",
-                "body": "Pode-se livrar do tirano externo e permanecer cativo do impulso. Gibran denuncia essa ilusão. Liberdade sem lucidez é só mudança de prisão — por vezes mais confortável, nunca mais humana.",
-            },
-            {
-                "heading": "Leve como asa, firme como raiz",
-                "body": "A liberdade madura não é capricho. É capacidade de escolher o melhor e cumpri-lo. Exige raiz ética e asa de iniciativa. Só quem se governa não precisa de grilhões contínuos.",
-            },
-            {
-                "heading": "Consciência da liberdade",
-                "body": "Sem reflexão, o homem é arrastado. Com reflexão, torna-se autor. A palestra insiste: liberdade inconsciente destrói; liberdade consciente constrói. O Profeta alfabetiza de novo também esta palavra.",
-            },
-        ],
-        "keys": [
-            "Liberdade sem domínio de si é ilusão.",
-            "Trocar de cadeia não é libertar-se.",
-            "A liberdade madura escolhe e assume.",
-        ],
-        "reflections": [
-            "De que desejo ainda sou prisioneiro?",
-            "A minha liberdade constrói ou apenas reclama?",
-        ],
-    },
-    "razao-e-paixao": {
-        "summary": "Razão e paixão são leme e vela. Separadas, o barco perde rumo ou força; unidas, atravessam o mar. A sacerdotisa pergunta porque quer sacralizar todas as potências do humano.",
-        "sections": [
-            {
-                "heading": "Sacralizar a vida interior",
-                "body": "Almitra — que já perguntara sobre o amor — agora pede razão e paixão. Como pontífice, busca sentido: que cada força interna sirva ao crescimento. O sagrado, dizia Eliade, é a função de dar sentido. Razão sem fogo seca; paixão sem leme naufraga.",
-            },
-            {
-                "heading": "Leme e vela",
-                "body": "Gibran inspira-se em tradições do Oriente e do Ocidente para exigir integração. Não se trata de reprimir a paixão nem de idolatrar o cálculo. Trata-se de dançar entre as duas — de deixar que uma eleve a outra.",
-            },
-            {
-                "heading": "O humano pleno",
-                "body": "O ser dividido empobrece o mundo. O ser reconciliado torna-se capaz de amar com inteligência e de pensar com coração. Essa união interior é condição de qualquer união exterior duradoura.",
-            },
-        ],
-        "keys": [
-            "Razão e paixão precisam uma da outra.",
-            "Sacralizar é dar sentido às forças interiores.",
-            "O humano pleno integra leme e vela.",
-        ],
-        "reflections": [
-            "Em que área da vida navego só com vela — ou só com leme?",
-            "Como posso reconciliar o que sinto e o que compreendo?",
-        ],
-    },
-    "a-dor": {
-        "summary": "A dor é o partir da casca que envolve a compreensão. Sem ela, o conhecimento permanece verde. Gibran não glorifica o sofrimento: revela a sua função formativa.",
-        "sections": [
-            {
-                "heading": "Quebrar a concha",
-                "body": "“Sua dor é o rompimento da casca que enclausura a sua compreensão.” Como o fruto que precisa romper, a alma precisa ser ferida para crescer. Aceitar a dor com a serenidade das estações é sabedoria; fugir dela eternamente é permanecer imaturo.",
-            },
-            {
-                "heading": "Suportar e transformar",
-                "body": "O comentário associa a pergunta feminina à arquétipa capacidade de permanência na dor — não como destino biológico rígido, mas como símbolo de fidelidade paciente ao sentido. A dor bem vivida pode amadurecer a fé e a força moral.",
-            },
-            {
-                "heading": "Cura sem fuga",
-                "body": "Muita cura começa quando se deixa de fugir do que dói. Não se trata de buscar o sofrimento; trata-se de não desperdiçar a lição que ele traz. A concha partida libera a vida que estava presa.",
-            },
-        ],
-        "keys": [
-            "A dor pode abrir compreensão.",
-            "Fugir da dor empobrece o crescimento.",
-            "Aceitar as estações da alma é maturidade.",
-        ],
-        "reflections": [
-            "Que dor ainda recuso e, com ela, que compreensão adio?",
-            "Como posso atravessar o sofrimento sem me endurecer?",
-        ],
-    },
-    "o-autoconhecimento": {
-        "summary": "Conhecer-se é a pergunta que a criatura deve ao criador do seu mistério. Sem ela, a vida dispersa-se em preocupações periféricas. Gibran — e a filosofia — colocam o autoconhecimento no centro.",
-        "sections": [
-            {
-                "heading": "A pergunta esquecida",
-                "body": "Como o boneco que, ganhando vida, pergunta só por casa, roupa e salário, assim o homem moderno foge da pergunta essencial: quem sou? O autoconhecimento não é narcisismo; é condição de qualquer escolha madura.",
-            },
-            {
-                "heading": "Silêncio que revela",
-                "body": "O coração conhece em silêncio os segredos dos dias e das noites, mas os ouvidos têm sede das palavras do coração. Dizer “quero conhecer-me” já é início de conhecimento. A atenção paciente revela o que a pressa obscurece.",
-            },
-            {
-                "heading": "Abrir a cela",
-                "body": "Educar, em chave platônica, é abrir as grades da alma prisioneira. Conhecer-se é libertar-se das máscaras e orientar a vida pelo que se é em profundidade — não pelo que o mercado exige que se pareça.",
-            },
-        ],
-        "keys": [
-            "Sem autoconhecimento, a vida dispersa-se.",
-            "A sede de conhecer-se já é conhecimento.",
-            "Conhecer-se é condição de liberdade.",
-        ],
-        "reflections": [
-            "Que perguntas periféricas uso para evitar a pergunta “quem sou?”",
-            "Que máscara ainda confundo comigo?",
-        ],
-    },
-    "a-amizade": {
-        "summary": "O amigo responde às necessidades humanas — não aos caprichos. Cultiva-se com amor e colhe-se com gratidão. A amizade verdadeira dá asas e protege-nos inclusive de nós mesmos.",
-        "sections": [
-            {
-                "heading": "Necessidade, não desejo",
-                "body": "“Seu amigo é a resposta para suas necessidades.” Não aos desejos de uso. Kant lembra: tratar alguém como meio é imoral. Usar o outro para preencher carência não é amizade — é manipulação. A principal necessidade humana é a fraternidade.",
-            },
-            {
-                "heading": "Campo cultivado com amor",
-                "body": "Cultivar a amizade esperando lucro é comércio. Cultivar pelo bem do outro, e receber com gratidão quando frutifica, é virtude. O toma-lá-dá-cá empobrece; a verticalidade do dom enriquece o vínculo.",
-            },
-            {
-                "heading": "Apoio e abrigo",
-                "body": "O amigo é apoio para crescer e abrigo contra as próprias alienações. Tem a coragem de dizer “não te sigo na descida”. Dar asas ou cortá-las: essa é a medida final de todas as relações.",
-            },
-        ],
-        "keys": [
-            "Amigo responde a necessidades humanas, não a caprichos.",
-            "Amizade não é investimento.",
-            "O verdadeiro amigo protege-te de ti mesmo.",
-        ],
-        "reflections": [
-            "Nas minhas amizades, uso ou encontro?",
-            "A quem dou asas — e a quem corto?",
-        ],
-    },
-    "a-conversacao": {
-        "summary": "Muita conversa é fuga da solidão e de si. O pensamento amordaçado pela tagarelice abre asas na gaiola, mas não voa. Gibran pede palavra que nasça do silêncio fecundo.",
-        "sections": [
-            {
-                "heading": "Ruído contra si",
-                "body": "Grande parte do falar cotidiano serve para não enfrentar a própria alma. O silêncio da solidão revela a nudez interior — e por isso se foge para o ruído. Conversar assim é anestesia, não encontro.",
-            },
-            {
-                "heading": "Pensamento em gaiola",
-                "body": "Quando a língua corre sem compromisso, o pensamento fica preso. Pensar dá trabalho e risco; repetir o coro coletivo é mais fácil. Gibran denuncia a clonagem verbal: ouve-se um, ouvem-se todos.",
-            },
-            {
-                "heading": "Palavra e silêncio",
-                "body": "Há palavras que iluminam e palavras que apenas enchem o ar. O silêncio oportuno também é eloquência. Falar quando o espírito move — e calar quando a alma ainda germina — é arte humana rara e necessária.",
-            },
-        ],
-        "keys": [
-            "Tagarelice pode ser fuga de si.",
-            "Pensar exige coragem; repetir é fácil.",
-            "O silêncio fecundo prepara a palavra verdadeira.",
-        ],
-        "reflections": [
-            "Quando falo para não me ouvir?",
-            "Que conversa recente me elevou — e qual me dispersou?",
-        ],
-    },
-    "o-tempo": {
-        "summary": "Medimos o tempo em horas; vivemos o tempo em intensidades. Pensar pequeno no tempo faz afogar-se num copo d’água. Gibran chama a medir a vida pelo crescimento da consciência.",
-        "sections": [
-            {
-                "heading": "Horizontes medíocres",
-                "body": "Muitos planejam só até o fim de semana ou às férias. Quase ninguém contempla a obra inteira da existência — porque isso confronta a morte. Sem essa mira, a vida fragmenta-se em urgências banais.",
-            },
-            {
-                "heading": "Tempo real",
-                "body": "O tempo verdadeiro mede-se por deslocamentos de consciência, não só por ponteiros. Ontem, hoje e amanhã são um no interior. Quem se atrasa no calendário pode adiantar-se na alma — e o contrário também é possível.",
-            },
-            {
-                "heading": "Não matar o instante",
-                "body": "Sacrificar o agora ao relógio é outra forma de pobreza. Habitar o instante com plenitude, sem negar o arco da vida, é a arte que Gibran sugere: presença sem pequenez, memória sem cárcere, futuro sem fuga.",
-            },
-        ],
-        "keys": [
-            "Pensar pequeno no tempo empobrece a vida.",
-            "Tempo real é crescimento de consciência.",
-            "O instante e a obra total precisam um do outro.",
-        ],
-        "reflections": [
-            "Qual é a obra que desejo ter cumprido ao fim da vida?",
-            "Onde mato o instante por medo do silêncio?",
-        ],
-    },
-    "o-bem-e-o-mal": {
-        "summary": "O mal é muitas vezes o bem torturado pela fome. Bondade é identificação consigo no Eu maior; o resto é atraso no caminho, não condenação definitiva. O ancião pergunta o essencial.",
-        "sections": [
-            {
-                "heading": "A pergunta do fim",
-                "body": "O ancião interroga o bem e o mal porque, no ocaso da vida, só o essencial importa. Platão situava a Ideia do Bem no cume: sem ela, como orientar a existência? Gibran responde sem dualismo simplista.",
-            },
-            {
-                "heading": "O bem sedento",
-                "body": "Pode-se falar do bem que habita em nós; o “mal” é frequentemente esse bem a sofrer fome e sede, a buscar alimento até em lugares turvos. Não se é mau quando se falha — está-se lento, dividido, ainda a caminho.",
-            },
-            {
-                "heading": "Sem insultar a tartaruga",
-                "body": "A ânsia do Eu maior está em todos, com ritmos distintos. Quem corre como torrente não deve humilhar quem serpenteia. O verdadeiramente bom não pergunta ao nu onde está a roupa: reconhece processos e oferece mão, não desprezo.",
-            },
-        ],
-        "keys": [
-            "O mal pode ser o bem faminto.",
-            "Falha não é essência maligna.",
-            "Bondade reconhece ritmos diferentes.",
-        ],
-        "reflections": [
-            "Onde condeno como “mal” o que ainda é imaturidade?",
-            "Como nutrir o bem em mim sem orgulho sobre os outros?",
-        ],
-    },
-    "a-oracao": {
-        "summary": "Rezar só na aflição empobrece a prece. A oração autêntica alinha a alma ao sagrado também na plenitude. O sacerdote, em sentido filosófico, é ponte entre céu e terra.",
-        "sections": [
-            {
-                "heading": "Pontífice da vida",
-                "body": "A sacerdotisa pergunta pela prece. Nas tradições filosóficas, o pontífice não é apenas oficial de culto: é quem faz ponte — artista, legislador, educador — entre o ideal e o cotidiano. Orar é praticar essa ponte no interior.",
-            },
-            {
-                "heading": "Pedir e agradecer",
-                "body": "Deus não precisa das nossas palavras; a alma precisa da direção delas. Pedir menos e agradecer mais transforma a prece. A melhor oração é viver de modo que a própria vida diga “sim” ao sentido.",
-            },
-            {
-                "heading": "Silêncio que reza",
-                "body": "Também se reza no silêncio — por vezes melhor. A prece madura não barganha: alinha. Não usa o sagrado como utilidade; coloca o eu ao serviço do que é maior.",
-            },
-        ],
-        "keys": [
-            "Prece é alinhamento, não barganha.",
-            "Orar também na alegria.",
-            "O pontífice une céu e terra na vida concreta.",
-        ],
-        "reflections": [
-            "A minha oração pede ou agradece?",
-            "Como posso tornar um gesto cotidiano em ponte com o sentido?",
-        ],
-    },
-    "o-prazer": {
-        "summary": "O prazer é canção de liberdade, não a liberdade. Pode celebrar-se — sem que o coração se perca no canto. Nem a fuga ascética nem a idolatria do gozo fazem justiça ao humano.",
-        "sections": [
-            {
-                "heading": "O eremita e a medida",
-                "body": "Faz sentido que um eremita pergunte pelo prazer: a renúncia radical e a condenação histórica do gozo geram distorções. Gibran propõe humanidade: nem pecaminizar a brisa, nem escravizar-se a ela.",
-            },
-            {
-                "heading": "Flor, não fruto final",
-                "body": "O prazer é desabrochar, não o destino último. É abismo a olhar o cume — sem ser o cume. Quem o persegue como tudo e quem o foge como crime erram o alvo. Abelha e flor ensinam: dar e receber prazer pode ser troca fecunda.",
-            },
-            {
-                "heading": "Liberdade no canto",
-                "body": "Ouvir de bom grado a canção do prazer — e não perder o coração nela. Gozo sem consciência esvazia; gozo consciente aprofunda. A liberdade usa o prazer; não se deixa usar por ele.",
-            },
-        ],
-        "keys": [
-            "Prazer é canção, não liberdade.",
-            "Nem fuga nem idolatria.",
-            "Prazer maduro é troca, não consumo.",
-        ],
-        "reflections": [
-            "O prazer serve a minha liberdade ou a consome?",
-            "Onde posso celebrar sem me perder?",
-        ],
-    },
-    "a-beleza": {
-        "summary": "A beleza eleva e transforma. Não é só o que agrada aos sentidos: revela a harmonia entre o visível e o invisível. “A beleza é a eternidade contemplando a si mesma no espelho.”",
-        "sections": [
-            {
-                "heading": "Além da aparência",
-                "body": "Gibran desloca o belo do gosto superficial para um campo formativo. Cada um descreve a beleza segundo a sua fome interior — e por isso o poema multiplica vozes. O verdadeiro belo educa o olhar e a conduta.",
-            },
-            {
-                "heading": "Via espiritual",
-                "body": "Na leitura da série, a estética encontra a tradição clássica: o belo como caminho de elevação moral. Contemplar não é passividade; é exercício de alma. Cultivar a beleza no cotidiano é resistir à vulgaridade que empobrece o humano.",
-            },
-            {
-                "heading": "Eternidade e espelho",
-                "body": "A vida desvela o rosto sagrado — e o contemplador descobre-se parte desse mistério. Não sois apenas espectadores da beleza: sois a eternidade e o espelho. Reconhecer isso obriga a viver de modo digno do que se contempla.",
-            },
-        ],
-        "keys": [
-            "Beleza verdadeira eleva.",
-            "Estética e ética se encontram.",
-            "Sois o espelho da eternidade.",
-        ],
-        "reflections": [
-            "O que chamo de belo revela o que amo?",
-            "Que beleza do cotidiano ainda não sei honrar?",
-        ],
-    },
-    "a-religiao": {
-        "summary": "Religião não é fatia da agenda: é a qualidade de todas as ações. O templo verdadeiro é o dia-a-dia. Separar “horas para Deus” e “horas para mim” é ainda não ter compreendido.",
-        "sections": [
-            {
-                "heading": "Tudo o que se faz",
-                "body": "“Tenho eu falado de outra coisa hoje?” A religião, em Gibran, atravessa trabalho, afeto, justiça e silêncio. É o espanto que brota na alma mesmo enquanto as mãos talham a pedra. Fé e atos não se divorciam.",
-            },
-            {
-                "heading": "Sacralizar o ofício",
-                "body": "O trabalho torna-se tortura quando nele não se vê o que se pode somar ao mundo. Sacralizar é dar sentido: tornar cada gesto contribuição ao humano melhor. Divisões artificiais entre “espaço religioso” e “espaço secular” empobrecem ambos.",
-            },
-            {
-                "heading": "Ver Deus no jogo da vida",
-                "body": "Não se conhece Deus só resolvendo enigmas. Olha-se às crianças, às nuvens, à chuva, às flores. A religião viva é contemplação encarnada — e ética que se recusa a usar o sagrado como máscara de conveniência.",
-            },
-        ],
-        "keys": [
-            "Religião é a vida inteira.",
-            "Fé sem atos é divisão artificial.",
-            "Sacralizar é dar sentido ao cotidiano.",
-        ],
-        "reflections": [
-            "Onde separo o “sagrado” do que faço todos os dias?",
-            "Que gesto meu poderia tornar-se mais íntegro?",
-        ],
-    },
-    "a-morte": {
-        "summary": "Vida e morte são uma, como o rio e o mar. O segredo da morte só se lê no coração da vida. Morrer é despir-se ao vento e fundir-se ao sol — para, enfim, dançar de verdade.",
-        "sections": [
-            {
-                "heading": "No coração da vida",
-                "body": "A coruja feita para a noite não descortina a luz do dia. Assim, quem só teme a morte sem amar a vida não compreende nenhuma das duas. O mistério revela-se a quem abre as portas do coração ao corpo vivo da existência.",
-            },
-            {
-                "heading": "O tremor diante do rei",
-                "body": "O temor da morte assemelha-se ao tremor do camponês honrado pelo rei: medo e distinção misturam-se. Despir-se ao vento e libertar o hálito não é aniquilação: é expansão. A poesia não explica — insinua.",
-            },
-            {
-                "heading": "Silêncio, cume, dança",
-                "body": "Só depois de beber o rio do silêncio se canta de verdade; só no cume se começa a subir; só quando a terra reivindica o corpo se dança plenamente. A morte, em Gibran, completa o arco — e prepara o regresso da sabedoria em novas formas.",
-            },
-        ],
-        "keys": [
-            "Vida e morte são uma.",
-            "O segredo da morte está na vida.",
-            "A poesia insinua o que o medo obscurece.",
-        ],
-        "reflections": [
-            "Como vivo hoje o que gostaria de ter vivido ao partir?",
-            "O meu medo da morte revela o que ainda não amei?",
-        ],
-    },
-    "a-despedida": {
-        "summary": "Fecha-se o ciclo: o vento convida a partir. O que foi semeado permanece. Almitra fica no quebra-mar — memória fiel — enquanto Almustafa promete regressar com a maré.",
-        "sections": [
-            {
-                "heading": "Sementes ao vento",
-                "body": "Os errantes não recomeçam onde pararam. Somos sementes: ao amadurecer, o vento espalha-nos. A despedida não apaga o vivido; transforma-o em sede maior de viver e em dádiva deixada na cidade.",
-            },
-            {
-                "heading": "O capitão e o silêncio",
-                "body": "O capitão espera pacientemente o silêncio do profeta. Partir é consentimento interior, não fuga. O rio já encontrou o mar; a grande mãe aperta o filho ao peito. Há um tempo certo para a palavra — e um tempo certo para o embarque.",
-            },
-            {
-                "heading": "A promessa do regresso",
-                "body": "“Mais um curto instante… e outra mulher me conceberá.” A sabedoria não morre com o corpo do sábio. Renasce sempre que uma geração souber perguntar — e sempre que uma Almitra souber lembrar, sozinha no quebra-mar, as últimas palavras.",
-            },
-        ],
-        "keys": [
-            "Partir é espalhar o que amadureceu.",
-            "A memória fiel também é um porto.",
-            "A sabedoria promete ciclo após ciclo.",
-        ],
-        "reflections": [
-            "O que deixo semeado ao fechar esta etapa?",
-            "Sei partir sem negar o que foi dado e recebido?",
-        ],
-    },
-}
+COMMENTARIES = {'chegada-do-navio': {'summary': 'Antes de abrir qualquer doutrina, a palestra ergue o cenário '
+                                 'mítico de O Profeta: um sábio ignorado por doze anos só é ouvido '
+                                 'quando o navio da partida surge no horizonte. Gibran — poeta e '
+                                 'filósofo — e a sombra luminosa de Mary Haskell preparam a '
+                                 'leitura em profundidade: o livro não é crônica, mas diálogo '
+                                 'interior projetado para fora, no qual a consciência nasce pelo '
+                                 'contraste.',
+                      'sections': [{'heading': 'Do belo plano ao Gibran em três dimensões',
+                                    'body': 'A série nasce de uma observação simples e '
+                                            'inquietante: muita gente ouve Gibran com emoção e '
+                                            'fica apenas com a superfície. A prosa poética de O '
+                                            'Profeta, traduzida em dezenas de línguas, sintetiza '
+                                            'tanto em tão pouco espaço que a escuta apressada '
+                                            'reduz a obra a uma versão plana, bidimensional. A '
+                                            'proposta é devolver-lhe a terceira dimensão — o tempo '
+                                            'da reflexão, o mastigar frase a frase, as entrelinhas '
+                                            'filosóficas. Todo verdadeiro poeta, diz a professora, '
+                                            'carrega filosofia: Fernando Pessoa e Cecília Meireles '
+                                            'o mostram; Gibran seria o caso mais típico, a ponto '
+                                            'de podermos chamá-lo filósofo. O Profeta figura entre '
+                                            'os poemas mais populares e, ousa-se dizer, mais belos '
+                                            'da humanidade moderna; ainda assim, listas de “cem '
+                                            'livros para ler antes de morrer” costumam omiti-lo, '
+                                            'como omitem A República de Platão. Comentar capítulo '
+                                            'a capítulo é, portanto, alfabetizar de novo o olhar: '
+                                            'passar do “achei bonito” ao entendimento do que a '
+                                            'beleza está dizendo.'},
+                                   {'heading': 'Exílio, perda e o anjo da guarda',
+                                    'body': 'Gibran nasce no Líbano e morre nos Estados Unidos em '
+                                            '1931. Chega jovem a Chicago com a família: irmão mais '
+                                            'velho, arrimo; mãe; duas irmãs. Não falam a língua, '
+                                            'faltam habilitação e recursos. A tuberculose leva o '
+                                            'irmão e a irmã mais nova; a mãe morre do coração. '
+                                            'Restam ele e Mariana, costureira que ajuda a '
+                                            'sustentar os dois. O talento — para a escrita e para '
+                                            'a pintura — já era evidente, mas o solo material era '
+                                            'árido. Sem o apoio de Mary Elizabeth Haskell, '
+                                            'professora norte-americana que o reconheceu ainda '
+                                            'quase adolescente e o sustentou praticamente a vida '
+                                            'inteira, talvez a permanência nos Estados Unidos e a '
+                                            'floração da obra não tivessem sido possíveis. Quando '
+                                            'ele falece, ela ainda o auxilia de algum modo. O '
+                                            'corpo volta ao Líbano: amava a terra natal e não pôde '
+                                            'regressar em vida. Celebridade sobretudo pela obra '
+                                            'escrita — e, nela, por O Profeta — Gibran deixa '
+                                            'também pintura; o livro de cabeceira, na avaliação da '
+                                            'palestra, deveria começar por esse volume, pedagógico '
+                                            'até nas vírgulas.'},
+                                   {'heading': 'Mary Haskell e as almas gêmeas',
+                                    'body': 'As Cartas de Amor do Profeta reúnem cerca de mil e '
+                                            'duzentas missivas trocadas ao longo de uma vida: '
+                                            'seiscentas de cada lado. Era amor profundo; ele a '
+                                            'pede em casamento e ela recusa; veem-se '
+                                            'esporadicamente, mas ela o inspira em tudo. Nas '
+                                            'cartas vê-se O Profeta nascer. Ela era tão brilhante '
+                                            'quanto ele; sobrevive até a década de 1960 e só '
+                                            'autoriza a publicação das cartas após a própria morte '
+                                            '— renunciando à fama que a exposição lhe daria '
+                                            'enquanto O Profeta já corria o mundo. Prefere a '
+                                            'sombra que empurra o outro para a luz. Falam de Deus, '
+                                            'sabedoria, vida interior; muitas vezes as cartas '
+                                            'parecem tratados filosóficos, não bilhetes de namoro. '
+                                            'Não destinavam-se ao público e quase foram '
+                                            'destruídas. Além do gênio literário, Gibran ilustra o '
+                                            'que Platão chamou de almas gêmeas: relação elevada, '
+                                            'transcendente, por trás da obra. Escrito em inglês em '
+                                            '1923, o livro já conhecia quarenta idiomas — proeza '
+                                            'rara para prosa poética num tempo que quase não '
+                                            'publica poesia.'},
+                                   {'heading': 'Mito, não novelinha',
+                                    'body': 'O Profeta é poema e, ao mesmo tempo, mito. Não se '
+                                            'toma ao pé da letra: a linguagem é simbólica, e a '
+                                            'filosofia trabalha há séculos com mito. Aristóteles, '
+                                            'na Arte Poética, ensina que no mito o personagem '
+                                            'central é você; os secundários não são “outros”, mas '
+                                            'fatores internos projetados para fora — cólera, '
+                                            'capricho, inconstância — a fim de que a alma se veja. '
+                                            'Mito narra a história interna do homem, não o enredo '
+                                            'de uma novela. Carl Jung, na psicologia analítica, '
+                                            'aproximou essa estrutura à da consciência onírica: no '
+                                            'sonho profundo, não há ninguém além de você; o chato, '
+                                            'o bondoso, o sábio e até o animal peçonhento são '
+                                            'aspectos seus projetados porque, dentro, você não os '
+                                            'enxerga. A estrutura dos sonhos assemelha-se à dos '
+                                            'mitos. Em O Profeta, o único personagem real é '
+                                            'Al-Mustafá; os demais são ele mesmo. Ler assim é '
+                                            'condição para não ficar na superfície narrativa.'},
+                                   {'heading': 'Ilha, Orphalese e os doze anos',
+                                    'body': 'A fábula mítica é esta: o sábio deixa a ilha e vai à '
+                                            'cidade imaginária de Orphalese para ensinar. Durante '
+                                            'doze anos, quase ninguém lhe dá atenção; só a '
+                                            'sacerdotisa Almitra o recebe com lucidez. Os outros o '
+                                            'ignoram. Doze não é acaso: evoca o ciclo zodiacal, a '
+                                            'circunferência de uma existência humana completa. '
+                                            'Completar o círculo e achar o centro — como na '
+                                            'geometria da circunferência, conjunto de pontos '
+                                            'equidistantes de um centro invisível — é sintetizar '
+                                            'sabedoria e transcender a mera rotação das '
+                                            'experiências. Recolher-se à ilha é regressar ao mundo '
+                                            'espiritual de origem. O livro inteiro será o balanço '
+                                            'final: cada pergunta dos habitantes corresponde ao '
+                                            'perfil de quem pergunta, e todos, no fundo, são '
+                                            'núcleos da mesma consciência dialogando consigo.'},
+                                   {'heading': 'O navio e a consciência por contraste',
+                                    'body': 'Um dia surge no horizonte o barco com barqueiros da '
+                                            'terra natal. Al-Mustafá alegra-se: enfim a volta. '
+                                            'Então opera a lei cruel e pedagógica da consciência: '
+                                            'ela nasce por contraste. Valorizamos o que começamos '
+                                            'a perder; no contraste entre ter e não ter, entre '
+                                            'branco e negro, as coisas se revelam — se o universo '
+                                            'fosse de uma só cor, não perceberíamos cor alguma. '
+                                            'Enquanto o sábio esteve disponível, a cidade dormia; '
+                                            'quando a notícia da partida corre, o pânico: doze '
+                                            'anos sem perguntar coisa alguma! Segurem-no; façam '
+                                            'perguntas. O povo cerca-o e O Profeta é isso: '
+                                            'capítulos curtos, respostas densas, cada tema uma '
+                                            'pergunta. A chegada do navio é, assim, o limiar '
+                                            'dramático em que a ignorância se torna urgência e a '
+                                            'sabedoria reprimida finalmente fala. Sem a ameaça da '
+                                            'ausência, talvez a cidade nunca tivesse ouvido.'},
+                                   {'heading': 'Diálogo interno no limiar da morte simbólica',
+                                    'body': 'Lido em chave mítica, o embarque não é turismo: é o '
+                                            'homem no fim do ciclo terrestre, reunindo tudo o que '
+                                            'aprendeu antes de recolher-se ao invisível. Os '
+                                            'habitantes em círculo em torno do profeta figuram a '
+                                            'personalidade — corpo, emoções, mente — finalmente '
+                                            'silenciada para ouvir a voz superior. A partida '
+                                            'anuncia também, em outras palestras da série, a '
+                                            'promessa de retorno (reencarnação, nova vida); aqui, '
+                                            'o essencial é a estrutura: um diálogo interno no qual '
+                                            'a consciência central ilumina, com equidade, todos os '
+                                            'pontos da vida. Platão, no Timeu, celebra a '
+                                            'circunferência como figura do sábio cujo centro '
+                                            'atende igualmente cada periferia. Orphalese em pânico '
+                                            'é, pois, a alma que só pergunta quando a morte '
+                                            'simbólica se aproxima — e, por isso mesmo, o momento '
+                                            'em que a sabedoria se condensará em palavras.'},
+                                   {'heading': 'Preparar o ouvido para o que virá',
+                                    'body': 'A chegada do navio não entrega ainda as respostas '
+                                            'sobre amor, matrimônio ou trabalho: entrega o método '
+                                            'de leitura. Sem biografia e sem chave mítica, o livro '
+                                            'vira ornamentação sentimental. Com elas, cada '
+                                            'capítulo seguinte será “alfabetização” filosófica: a '
+                                            'expectativa comum aponta para um sentido; Gibran '
+                                            'aponta para outro. A consciência por contraste, o '
+                                            'ciclo de doze, Almitra como quem já sabia ouvir, Mary '
+                                            'Haskell como sombra criadora — tudo isso prepara o '
+                                            'leitor a não confundir beleza com compreensão. O '
+                                            'projeto do clube de leitura é exatamente esse: tornar '
+                                            'O Profeta mais conhecido na horizontal e, sobretudo, '
+                                            'mais entendido na vertical. Quem só aplaude o ritmo '
+                                            'da recitação permanece no plano; quem digere as '
+                                            'entrelinhas entra no relevo da obra. O navio chegou; '
+                                            'agora a cidade — e nós — teremos de perguntar de '
+                                            'verdade, com a seriedade de quem sabe que a partida '
+                                            'não espera a nossa comodidade intelectual.'}],
+                      'keys': ['O Profeta é mito: o personagem central é você; os demais são '
+                               'fatores internos projetados.',
+                               'A consciência humana nasce por contraste: só valorizamos '
+                               'plenamente o que ameaça partir.',
+                               'Doze anos figuram o ciclo zodiacal — uma vida inteira condensada '
+                               'em sabedoria.',
+                               'Mary Haskell é a sombra luminosa por trás de Gibran: almas gêmeas '
+                               'e O Profeta nascendo nas cartas.',
+                               'Ouvir o poema sem as entrelinhas deixa apenas a versão '
+                               'bidimensional do belo.',
+                               'Almitra já ouvia; a cidade só pergunta quando o navio da partida '
+                               'surge no horizonte.'],
+                      'reflections': ['Que sabedoria ignorei enquanto ainda estava disponível à '
+                                      'minha volta?',
+                                      'Estou lendo O Profeta como novela ou como espelho interior?',
+                                      'Onde, na minha vida, só reconheço o valor das coisas no '
+                                      'limiar de perdê-las?',
+                                      'Que “Mary Haskell” — apoio silencioso e exigente — tenho eu '
+                                      'sido, ou recebido, na construção de algo maior?']},
+ 'o-amor': {'summary': 'Gibran alfabetiza de novo a palavra amor: não o coraçãozinho vermelho da '
+                       'paixão horizontal, mas a força exigente que coroa e crucifica, poda a '
+                       'videira e transforma o ser em pão do banquete sagrado. Amar é crescer na '
+                       'vertical, silenciar a personalidade tagarela e tornar-se fragmento do '
+                       'coração da Vida — ou então contentar-se com meio amor e meia humanidade.',
+            'sections': [{'heading': 'Expectativa romântica e amor que desce do alto',
+                          'body': 'A palestra começa por um contraste deliberado: a figurinha de '
+                                  'corações e casalzinho romântico não anuncia o que Gibran vai '
+                                  'dizer. Não que ele negue o amor entre pessoas; mas os filósofos '
+                                  'ensinam que primeiro se eleva a capacidade de amar — união com '
+                                  'a essência, com o divino — para depois jorrar vínculos '
+                                  'profundos na horizontal. Relações só horizontais tendem a ser '
+                                  'superficiais e passageiras; sem profundidade, o homem mal ama a '
+                                  'si mesmo. “Amor” é uma das palavras mais esvaziadas e '
+                                  'vulgarizadas; dizer “eu te amo” chega a soar démodé. Em O '
+                                  'Profeta, a expectativa é sempre x e Gibran responde y: quase '
+                                  'uma realfabetização. O capítulo é curto; cada linha, porém, '
+                                  'exige densificação. Almitra pergunta: “Fala-nos do amor.” Antes '
+                                  'mesmo da primeira metáfora, já há filosofia no silêncio que cai '
+                                  'sobre o povo.'},
+                         {'heading': 'Quando todas as vozes calam',
+                          'body': 'Se o mito é interior, o silêncio que precede a fala do profeta '
+                                  'é a personalidade educada a calar. Corpo, emoções e mente não '
+                                  'param: frio, calor, fome, tristeza, angústia, tagarelice '
+                                  'mental. Michel Echenique brincava: a mente fala tanto que, '
+                                  'debaixo do chuveiro, não se sente a água. A “voz do silêncio”, '
+                                  'da tradição tibetana, é o falador silencioso — a consciência '
+                                  'essencial — tentando falar enquanto nada cala. Controlamos '
+                                  'razoavelmente as pernas; emoções e pensamentos, quase nunca. '
+                                  'Imaginem o potencial se obedecessem como as pernas à ordem de '
+                                  'ir à pia. Quando Al-Mustafá fala e tudo silencia, as '
+                                  '“vozezinhas” da personalidade calam ante o Eu Superior. Quem é '
+                                  'superficial consigo dificilmente será profundo com outrem. Esse '
+                                  'silêncio já é condição do amar verdadeiro.'},
+                         {'heading': 'Caminhos árduos: Eros e Ares',
+                          'body': '“Quando o amor lhes acenar, sigam-no, embora os seus caminhos '
+                                  'sejam árduos e íngremes.” Para os clássicos, amar é buscar o '
+                                  'que falta para se tornar plenamente humano; crescer é vertical, '
+                                  'exige esforço, deixa coisas para trás. Platão: a melhor coisa '
+                                  'que se pode fazer por quem se ama é crescer como ser humano — '
+                                  'não grudar nem só dar bens materiais. A mitologia junta Ares e '
+                                  'Afrodite: amor e guerra interiores. Amar é derrotar debilidades '
+                                  'e conquistar territórios de fraternidade e profundidade. Não é '
+                                  'o cupido cor-de-rosa: é Eros forte que reconstrói. O '
+                                  'coraçãozinho vermelho, na palestra, simboliza a paixão — sobe e '
+                                  'desce, cai e recomeça — não o amor. Quando as asas envolvem, '
+                                  'abraça-se o amor ainda que a espada oculta fira: ele lapida, '
+                                  'alivia a mochila da subida. Quem se apega ao travesseiro não '
+                                  'voa. A rota é dele; ou se segue, ou se fica.'},
+                         {'heading': 'Obra em negro: o vento que derruba máscaras',
+                          'body': '“Quando ele falar convosco, acreditai nele, embora a sua voz '
+                                  'possa abalar os vossos sonhos como o vento do norte devasta o '
+                                  'jardim.” Os alquimistas falavam de obra em negro (constatação, '
+                                  'descida aos infernos), obra em branco (purificação) e obra em '
+                                  'vermelho (ascensão). Aqui está a obra negra: o amor venta o '
+                                  'artificial aderido à pessoa. Inteligência, de intellegere, é '
+                                  'escolher dentre — sobretudo escolher, entre máscaras, quem se '
+                                  'é. Em geral, acreditamos mais nas nossas máscaras do que os '
+                                  'outros; até o porteiro às vezes nos conhece melhor. O amor '
+                                  'exige ver-se para construir o que se quer ser. A tradição '
+                                  'budista: uma gota de verdadeiro amor justifica uma existência. '
+                                  'Platão: o amor ou é eterno ou não é amor. Para chegar a algum '
+                                  'lugar, é preciso saber onde se está e aonde se quer ir — como '
+                                  'quem se perde e liga pedindo orientação. O vento forte arranca '
+                                  'disfarces para que a viagem comece de fato.'},
+                         {'heading': 'Coroa, cruz e a poda da videira',
+                          'body': '“Mesmo quando o amor vos coroa, ele vos crucifica.” Eleva a '
+                                  'consciência e, ao mesmo tempo, corta a lógica horizontal do '
+                                  'toma-lá-dá-cá — nível medíocre de ligação, dizia Platão. O amor '
+                                  'verdadeiro é vertical, de mão única: realiza-se no bem do '
+                                  'amado, sem apresentar conta. “Olha o que eu fiz por você” é '
+                                  'fatura, não amor. A poda concentra a seiva no alto, como nas '
+                                  'vinícolas europeias que cortam galhos inferiores para uvas de '
+                                  'qualidade; quem não quer “desperdiçar” os inferiores fica com '
+                                  'fruto pobre. O amor poda o inferior para elevar o nobre e '
+                                  'depois irradiar. Por isso o matrimônio, nas tradições, é '
+                                  'cerimônia religiosa e não só contrato: homens se unem em torno '
+                                  'do sagrado e se dividem em torno do meramente material. Os '
+                                  'alquimistas diziam: não se fabrica o néctar dos deuses; '
+                                  'esculpe-se a taça. Se a taça estiver “ISO 9000”, depositam o '
+                                  'vinho — e o chamavam Alkaest, solvente universal: se for '
+                                  'legítimo, derrete a taça e espalha-se sem limites. Amor que '
+                                  'isola e egoíza é vinho falsificado.'},
+                         {'heading': 'Raízes abaladas e o trigo que vira pão',
+                          'body': 'O amor acaricia os ramos tenros e, ao mesmo tempo, abala as '
+                                  'raízes: questiona bases egoístas, o “ganhar sobre” em vez do '
+                                  '“ganhar com”, a realização só pessoal. Exige base moral e '
+                                  'humana sólida — quase um renascimento noutro patamar. Depois a '
+                                  'sequência do trigo: junta (unidade contra a “heresia da '
+                                  'separatividade”, o egoísmo); ceifa e desnuda; peneira '
+                                  'impurezas; mói até branquear; amassa até tornar moldável; '
+                                  'entrega ao fogo sagrado para ser pão na festa de Deus. Sagrado '
+                                  'é dar sentido: cada coisa no seu lugar no quebra-cabeça. '
+                                  'Plantas, animais e o sol cumprindo sua função são belos; o '
+                                  'homem tornando-se humano também. O ser em maior perigo de '
+                                  'extinção é o humano virtuoso — e dessa extinção derivam as '
+                                  'outras. Até conhecer os segredos do coração e tornar-se '
+                                  'fragmento do coração da Vida: a pérola do colar que deixa de '
+                                  'competir pela superfície, acha o fio interior e, por fim, vê '
+                                  'que o fio é uno em todas as pérolas.'},
+                         {'heading': 'Meio amor ou o amor que se basta',
+                          'body': 'Quem, por medo, busca só a paz e o prazer do amor, melhor '
+                                  'ocultar a nudez e afastar-se para um mundo sem estações: rirá '
+                                  'sem todo o riso, chorará sem todas as lágrimas. Amor como '
+                                  'entretenimento rende meia vida. “O amor só se dá a si e não '
+                                  'tira nada senão de si; não possui nem é possuído.” Realiza-se '
+                                  'em doar; contrapartida é investimento egoísta. Não digais “Deus '
+                                  'está no meu coração”, mas “eu estou no coração de Deus”: o '
+                                  'centro é a lei, o bem; o homem serve, não usa o divino como '
+                                  'utilitário. Platão: linha divisória — de “para que me serve?” a '
+                                  '“como posso servir?”. Não se altera o rumo do amor. Cícero: se '
+                                  'amas e te tornas mais altruísta, realmente amas; se te tornas '
+                                  'mais egoísta, não amas. “Pelas vossas obras vos conhecereis.” '
+                                  'Paixão que isola do mundo e corta asas não é o esperado; o amor '
+                                  'de Gibran e Mary Haskell deu asas a O Profeta.'},
+                         {'heading': 'Desejos legítimos e a sacralização do tempo',
+                          'body': 'O amor não deseja senão preencher-se — completar o humano. Se '
+                                  'ainda precisamos de desejos: fundir-se como regato que canta à '
+                                  'noite (todos os rios ao mar; a noite estrelada anuncia o '
+                                  'mistério do oceano); conhecer a dor do carinho demasiado e '
+                                  'sangrar de alegria pela expansão do coração — Mary escreve a '
+                                  'Khalil que pediu emprestado o coração de Deus para amar. '
+                                  'Acordar com coração alado, meditar o êxtase ao meio-dia, '
+                                  'regressar com gratidão e adormecer em prece: sacralizar o '
+                                  'tempo. Sri Ram: perder o coração todos os dias e procurá-lo nas '
+                                  'coisas até achar que é o coração de todas. Concentrar 360 graus '
+                                  'de amor num único grau produz laser que fulmina; espalhar o '
+                                  'coração em todas as direções humaniza. Os corações — cósmico, '
+                                  'espiritual, físico — parecem da mesma família; a sístole e a '
+                                  'diástole do Uno ecoam no peito. Assim Gibran propõe um amor '
+                                  'verdadeiramente humano: manual da construção de si, arte de '
+                                  'viver.'}],
+            'keys': ['Seguir o amor é caminho árduo e íngreme: crescer como humano é a melhor '
+                     'dádiva a quem se ama.',
+                     'Mesmo quando coroa, o amor crucifica: corta o toma-lá-dá-cá e exige '
+                     'verticalidade.',
+                     'O vinho legítimo é Alkaest: dissolve fronteiras; se isola e egoíza, é '
+                     'falsificado.',
+                     'O amor junta, ceifa, peneira, mói, amassa e entrega ao fogo até sermos pão '
+                     'do banquete sagrado.',
+                     'Não digais “Deus está no meu coração”, mas “eu estou no coração de Deus”.',
+                     'Se amas e te tornas mais mesquinho, não amas — pelas obras se conhece o '
+                     'sentimento.'],
+            'reflections': ['O meu amor dá asas ou corta asas — a mim e ao outro?',
+                            'Estou buscando o amor como aperfeiçoamento ou apenas como '
+                            'entretenimento e comodidade?',
+                            'Quando dou, estou apresentando conta ou realizando-me no bem do '
+                            'amado?',
+                            'Concentro meu coração num único “grau” ou deixo-o irradiar em 360 '
+                            'graus pela vida?']},
+ 'o-casamento': {'summary': 'O matrimônio, em Gibran, é consagração — expondere — de um espaço '
+                            'humano elevado, não fusão possessiva nem contrato de conveniência. '
+                            'Duas colunas erguem o mesmo frontão; o vento do céu dança entre elas. '
+                            'Unir-se noético em torno de valores aproxima com o tempo; unir-se só '
+                            'no corpo ou no gosto esgota-se. O verdadeiro casal dá asas e amplia o '
+                            'farol até a humanidade.',
+                 'sections': [{'heading': 'Casal, esposo e o farol no oceano',
+                               'body': 'Casal vem do latim do lugar onde se constrói casa; esposo, '
+                                       'de expondere: consagrar, ligar pelo sagrado. Tradições '
+                                       'marcam um círculo com luz e celebram ali — como farol num '
+                                       'oceano noturno — para depois ampliar o espaço iluminado. '
+                                       'Cria-se um espaço ideal de convivência humana elevada; '
+                                       'aprendendo a relacionar-se assim com um, estende-se à '
+                                       'humanidade. O coração tem potencial para amar bilhões; '
+                                       'contaminados pelo egoísmo, concentramos 360 graus num '
+                                       'único grau e produzimos raio laser que sufoca. O '
+                                       'matrimônio deveria ser experimento bem-sucedido de relação '
+                                       'humana, não cárcere afetivo. Sem eixo sagrado, o homem se '
+                                       'divide em torno do material: a água repartida em golinhos '
+                                       'não mata a sede de ninguém; a música partilhada não '
+                                       'diminui; o fogo que acende outra chama não se reduz — daí '
+                                       'o fogo como símbolo do espírito e a água da matéria.'},
+                              {'heading': 'Alkaest, Cícero e a cerimônia',
+                               'body': 'A alquimia medieval: não se fabrica o vinho do amor; '
+                                       'esculpe-se o cálice. Se legítimo, o amor canalizado por um '
+                                       'ser se estende em todas as direções — Alkaest, solvente '
+                                       'universal. Cícero, Da amizade: se amas e te tornas mais '
+                                       'fraterno e íntegro, realmente amas; se te tornas mais '
+                                       'egoísta e mesquinho, não amas. Por isso o casamento foi '
+                                       'cerimônia religiosa em tantas culturas: em torno do '
+                                       'elevado os homens se unem; em torno do material, '
+                                       'separam-se. Subir a pirâmide aproxima dos que estão ao '
+                                       'lado; descer afasta. Almitra — sacerdotisa, quem consagra '
+                                       '— pergunta pelo matrimônio depois de ter perguntado pelo '
+                                       'amor: a sequência não é casual. Gibran bebe da filosofia '
+                                       'grega e de simbolismos orientais; nas cartas com Mary '
+                                       'Haskell explicitam-se muitas fontes. O capítulo é '
+                                       'curtíssimo; cada palavra pesa.'},
+                              {'heading': 'Nascestes juntos: três mundos platônicos',
+                               'body': '“Vós nascestes juntos e juntos permanecereis para todo o '
+                                       'sempre.” “O que Deus uniu, o homem não separará” é '
+                                       'constatação, não ordem: o unido no divino não se desfaz. '
+                                       'Platão distingue união por soma (corpo), por psiquê '
+                                       '(afinidades) e por nous (valores, essência). União só '
+                                       'física esgota-se como chocolate em regime: o paladar denso '
+                                       'enjoa com a repetição; usa-se o outro como meio — o que '
+                                       'Kant chama de imoral. União psíquica (“gostamos das mesmas '
+                                       'coisas”) dura mais, mas gostos mudam e, sem ideal comum, '
+                                       'esfriam. União noética: o olho brilha ante a mesma '
+                                       'nobreza; ambos derivam na direção da mesma estrela e o '
+                                       'tempo aproxima. Pode unir pai e filho, amigos, irmãos; no '
+                                       'casal, às vezes os três mundos. Almas gêmeas: o divino '
+                                       'unido sobrevive à morte do corpo. Amor ou é eterno ou não '
+                                       'é amor — contra o “infinito enquanto dure”. É recuperação '
+                                       'da unidade na multiplicidade.'},
+                              {'heading': 'Asas da morte e a carta a Mary',
+                               'body': 'Juntos estareis quando as brancas asas da morte dissiparem '
+                                       'os dias — até na memória silenciosa de Deus. A experiência '
+                                       'terrestre, porém, é individual, embora compartilhada. '
+                                       'Gibran escreve a Mary: nunca crerá que não tem alma, nem '
+                                       'que sua alma possa separar-se da dela. No enterro, o rosto '
+                                       'dela era leve; sentia que não o perdera, enquanto outros '
+                                       'faziam tragédia de uma separação que, para ela, não '
+                                       'alcançava o plano em que estavam unidos. Platão fala do '
+                                       'desejo de chamar Hefesto para fundir as almas numa só — '
+                                       'recuperação do que sempre se foi. Um dia todos estarão '
+                                       'unidos no coração de Deus; agora recupera-se um pedaço do '
+                                       'quebra-cabeça. Diante da morte, a medida ética proposta na '
+                                       'palestra é clara: quem já consegui amar, missão cumprida; '
+                                       'quem ainda não, débito — pois o universo deve unir-se pelo '
+                                       'amor, e o matrimônio verdadeiro antecipa, em miniatura, '
+                                       'essa unidade.'},
+                              {'heading': 'Espaço entre as praias das almas',
+                               'body': '“Que haja espaços na vossa junção e que os ventos do céu '
+                                       'dancem entre vós.” A melodia romântica “você é tudo o que '
+                                       'eu preciso” é ilusão: o que falta é você mesmo; o outro '
+                                       'não substitui a coluna vertebral por bengala. A '
+                                       'convivência dissolve a fantasia — a avó da professora: o '
+                                       'jeito mais rápido de curar a paixão é casar, porque a '
+                                       'fantasia não resiste ao real. “Amai-vos, mas não façais do '
+                                       'amor um grilhão; haja um mar ondulante entre as praias de '
+                                       'vossas almas.” Cada um é gota a caminho do oceano; fundir '
+                                       'duas gotas não é o mar. “Teu amor me dá asas” — há amores '
+                                       'que cortam asas. Enchei a taça um do outro, mas não bebais '
+                                       'da mesma; dai pão, mas não do mesmo pedaço: compartilhar o '
+                                       'alimento da alma exige que cada um tenha conquistado o '
+                                       'nível para vê-lo. Sócrates: a parteira Fenarete não dá à '
+                                       'luz quem não está grávida; amor à verdade não é sarampo.'},
+                              {'heading': 'Elos completos, lira e dança com Deus',
+                               'body': 'O ser humano deveria ser elo encadeado até ligar céu e '
+                                       'terra; casamento não é união de dois meios-elos, mas de '
+                                       'dois elos completos — duas alianças que sobem juntos. '
+                                       'Cantai e dançai juntos, mas deixai cada um só, como cordas '
+                                       'da lira separadas que vibram na mesma harmonia. Na '
+                                       'orquestra, instrumentos grudados não fazem sinfonia. Sri '
+                                       'Ram: a vida é dança com Deus; tudo ao redor são membros do '
+                                       'grande Ser; harmonizar-se é não pisar no pé do divino — '
+                                       'inspirar o outro sem bloquear seu ritmo. Dai os corações, '
+                                       'mas não os confieis à guarda um do outro: só a mão da Vida '
+                                       'os contém. Privacidade e mistério não são segredos '
+                                       'mesquinhos: são divinos ócios, diálogo com a alma. Sem '
+                                       'vida interior — a “casa no campo” onde se cultiva — não há '
+                                       'frutos para partilhar; a convivência esvazia-se.'},
+                              {'heading': 'Colunas do templo, trama e urdidura',
+                               'body': 'Vivei juntos, mas não vos aconchegueis em demasia: as '
+                                       'colunas do templo erguem-se separadamente; o carvalho e o '
+                                       'cipreste não crescem à sombra um do outro. O frontão '
+                                       'triangular — tríade do sagrado em tantas tradições — exige '
+                                       'colunas à mesma altura; se uma fica baixa, o frontão '
+                                       'desliza. Crescer juntos é fator de soma. Platão, no '
+                                       'Político: bom tecido entrelaça trama e urdidura sem que '
+                                       'cada fio deixe de ser o que é. Quem não tem a si em '
+                                       'profundidade não terá o outro em profundidade; homens '
+                                       'superficiais geram relações superficiais, sustentadas por '
+                                       'hábito e comodidade — não pelo espondere. Gibran a Mary: o '
+                                       'que mais ama nela é que todos os dias lhe aponta o alto da '
+                                       'montanha e, em silêncio, deseja vê-lo lá amanhã — não se '
+                                       'contenta com o já feito. Assim o casal consagra a casa e '
+                                       'amplia o espaço até incluir a humanidade: através de um, '
+                                       'aprende-se a unir-se a todos.'},
+                              {'heading': 'Mito, fábula e o diálogo interno',
+                               'body': 'A palestra distingue mito simbólico de fábula moral '
+                                       'explícita. Os Miseráveis oferecem exemplo ético sem exigir '
+                                       'leitura “através”; O Fantasma da Ópera trabalha máscara, '
+                                       'subterrâneos e a opção entre essência e aparência — tudo a '
+                                       'ver além da historinha. O Profeta pertence a esta segunda '
+                                       'família: diálogo do centro da consciência com os pequenos '
+                                       'eus ao fim do ciclo. Consciência por contraste, doze anos, '
+                                       'Jung e Aristóteles reiteram a chave. Nesse quadro, o '
+                                       'casamento não é capítulo de etiqueta social nem manual de '
+                                       '“como ser feliz a dois”: é pedagogia da unidade sem '
+                                       'anulação, do sagrado sem possessão, do espaço que permite '
+                                       'ao vento do céu dançar entre duas praias de alma. Manual '
+                                       'do bem viver em poesia — e alfabetização no amor adulto, '
+                                       'no qual dois elos completos sobem juntos sem confundir-se '
+                                       'com metade um do outro.'}],
+                 'keys': ['Esposo vem de consagrar: união em torno do sagrado, não só contrato '
+                          'civil.',
+                          'Nascestes juntos: a união noética aproxima com o tempo; a só física ou '
+                          'psíquica esfria.',
+                          'Que haja espaços na junção — o amor não é grilhão nem fusão de duas '
+                          'gotas no lugar do oceano.',
+                          'Casamento une dois elos completos, não dois meios-seres à procura de '
+                          'completude externa.',
+                          'As colunas do templo erguem-se separadas; carvalho e cipreste não '
+                          'crescem à sombra um do outro.',
+                          'Se o vínculo te torna mais egoísta, o vinho foi falsificado.'],
+                 'reflections': ['O meu relacionamento me dá asas ou me corta as asas?',
+                                 'Unimo-nos por corpo, por gostos passageiros ou pela mesma '
+                                 'estrela de valores?',
+                                 'Deixo espaço para o mistério e a vida interior do outro — e '
+                                 'cultivo a minha?',
+                                 'Sou fator de soma na vida do outro, ou meio-elo à espera de ser '
+                                 'completado?']},
+ 'os-filhos': {'summary': 'Os filhos não são propriedade: são filhos do desejo da Vida por si '
+                          'mesma, flechas lançadas pelo Grande Arqueiro através do arco parental. '
+                          'Educar é representar o espiritual ausente, dar exemplo e limites, sem '
+                          'moldar o outro à própria imagem. A melhor dádiva a quem se ama é '
+                          'crescer como ser humano — ser, não apenas ter o que oferecer.',
+               'sections': [{'heading': 'O bem e o agradável',
+                             'body': 'A sociedade contemporânea oscila sem referencial claro na '
+                                     'educação dos filhos. Pais medianos querem o bem do filho, '
+                                     'mas confundem o bom com o agradável: entregam o carro sem '
+                                     'entregar valores, e a ambulância no trânsito lembra o preço '
+                                     'do vazio. O capítulo de Gibran é curto e denso. Dar à luz, '
+                                     'em sentido pleno, não se esgota no corpo — o animal também '
+                                     'gera corpo; o humano deve formar humanos. A sociedade ensina '
+                                     'a fazer coisas, não a construir homens. Perder a fé na '
+                                     'condição humana — “todos são corruptos, só a lei severa '
+                                     'basta” — é depressão coletiva; sem vigilância interior da '
+                                     'consciência, o jogo de dominó cai todo. A tarefa começa '
+                                     'quando a mulher com o bebê ao colo pergunta: “Fala-nos dos '
+                                     'filhos.”'},
+                            {'heading': 'Nem o corpo é posse',
+                             'body': 'É difícil à mãe não identificar o bebê como “seu”. Porém nem '
+                                     'o próprio corpo é posse definitiva: o que pode ser tirado '
+                                     'não era verdadeiramente teu. A essência veio ao mundo '
+                                     'através do corpo. Ter filhos pode despertar altruísmo — '
+                                     'noites em claro, doenças infantis — e o amor parental sadio '
+                                     'aproxima-se do amor vertical platônico: dá-se pelo bem do '
+                                     'outro, sem contrapartida. Quando contaminado pelo egoísmo, '
+                                     'vira previdência privada: “fiz tanto por você, olha como '
+                                     'agradece”, como se se cobrasse hora extra com adicional de '
+                                     'insalubridade. Transfere-se o egoísmo do próprio corpo ao '
+                                     'corpo da criança: só “a minha” interessa; a do vizinho é '
+                                     '“enjoada”. A síndrome do ninho vazio nasce dessa posse: '
+                                     'quando seguem o caminho natural, o pai sente-se lesado e '
+                                     'apresenta a conta. Egoísmo gera egoísmo e conflito. A '
+                                     'relação parental, para ser escola de humanidade, precisa '
+                                     'vencer essa transferência possessiva desde o colo.'},
+                            {'heading': 'Filhos do desejo da Vida',
+                             'body': '“Vossos filhos não são vossos filhos; são os filhos e filhas '
+                                     'do desejo da Vida por si mesma.” A essência da vida deseja '
+                                     'perpetuar-se: vibra no pensamento, na emoção e no corpo. No '
+                                     'plano material, a única eternidade possível é a renovação — '
+                                     'primavera com flores novas, não as mesmas da estação '
+                                     'passada. Quem se limita ao material frustra-se quando a vida '
+                                     'nova escapa; quer eternizar-se na posse do filho, como se a '
+                                     'flor seguinte ainda lhe pertencesse. A consciência humana, '
+                                     'porém, busca perpetuar-se sendo ela mesma: isso exige planos '
+                                     'sutis, algum grau de espiritualidade. Sem ela, a '
+                                     'possessividade não tem para onde escapar, e o ninho vazio '
+                                     'não encontra com o que se encher. “Quando a vida pressiona '
+                                     'por todos os lados, a saída é para cima.” Vêm através de '
+                                     'vós, mas não de vocês; estão convosco, mas não pertencem a vocês — '
+                                     'fórmula dura e libertadora para pais e educadores.'},
+                            {'heading': 'Hóspedes da natureza e o Tao Te Ching',
+                             'body': 'Lao-Tsé: os sábios antigos comportavam-se como hóspedes de '
+                                     'um hospedeiro cerimonioso. O corpo pertence à natureza e a '
+                                     'ela volta; somos hóspedes. Paradoxalmente, quem se '
+                                     'identifica com o corpo costuma profaná-lo — moda que '
+                                     'deforma, culto que debilita — enquanto o sábio, sem se '
+                                     'identificar, trata-o com justiça. Platão, nas Leis, liga '
+                                     'educação à representatividade: representa-se o que está '
+                                     'ausente. A tradição dos setenários: até sete, corpo; sete a '
+                                     'quatorze, energia; quatorze a vinte e um, emoções; aos vinte '
+                                     'e um, mente e reminiscências — daí a maioridade romana. '
+                                     'Antes da atualização mental plena, alguém deve representar '
+                                     'princípios espirituais ausentes. Pode-se representar o que '
+                                     'também falta em si? A condição do educador é virtude e '
+                                     'espiritualidade — não só informação rápida. “A melhor coisa '
+                                     'que podemos fazer por quem amamos é crescer como seres '
+                                     'humanos.”'},
+                            {'heading': 'Amor, não pensamentos; exemplo e heróis',
+                             'body': 'Podeis dar-lhes vosso amor, mas não vossos pensamentos: eles '
+                                     'têm os seus. O ser que vem através de nós é mistério; o '
+                                     'mínimo a esperar é que seja pessoa de bem. Epicteto: as '
+                                     'sementes de grandeza precisam de imagem para germinar — a '
+                                     'psique jovem necessita de heróis. Sem exemplo em casa, busca '
+                                     'fora o atrevido que quebra a inércia — às vezes o '
+                                     'delinquente. Fórmula antiga: fazer-se admirar pelo filho '
+                                     'como pequeno herói em esforço constante; a voz parental '
+                                     'pesará dez vezes mais. Enquadrar nas leis inexoráveis da '
+                                     'natureza, sobretudo causa e efeito: mimar sem causa gera '
+                                     'jovem que exige da sociedade o que os pais inventaram. Amyr '
+                                     'Klink agradeceu ao pai pelos limites que ensinaram a superar '
+                                     'limites com inteligência. O jovem pergunta, em palavras ou '
+                                     'em silêncio: “Qual é a melhor coisa da vida?” A sociedade '
+                                     'responde “prazer” — “muito prazer” no cumprimento — e ele '
+                                     'corre ao prazer concentrado: drogas, velocidade. Sem '
+                                     'valores, não há moeda de permuta. “Sabe lá o que é ter e ter '
+                                     'que ter para dar”, diz a canção.'},
+                            {'heading': 'Casa do amanhã e sementes',
+                             'body': 'Podeis abrigar os corpos, não as almas: vivem na casa do '
+                                     'amanhã, que não visitais nem em sonhos. Pais materialistas '
+                                     'querem ver o fruto cedo; o máximo é semear. Operários das '
+                                     'pirâmides trabalharam gerações sem ver a obra acabada — e '
+                                     'não amavam menos o ofício. Separar joio de trigo: discernir '
+                                     'em si a boa semente. Jorge Angel Livraga: que ninguém diga '
+                                     '“passei por eles e não me deram nada”. Sem vida interior — a '
+                                     'casa no campo da canção — mãos vazias. Adotar exige leis '
+                                     'rigorosas; gerar filho, apenas fertilidade: os filhos são '
+                                     'também da humanidade. Podeis esforçar-vos por ser como eles, '
+                                     'mas não fazê-los como vós: a vida não volta nem permanece no '
+                                     'ontem. Quem só tem a forma (conceito decorado) não adapta à '
+                                     'criança, ao ancião, ao simples; quem tem a essência embrulha '
+                                     'conforme o freguês. Formalismo é superficialidade; '
+                                     'profundidade é pedagógica.'},
+                            {'heading': 'Arcos, flechas e o Grande Arqueiro',
+                             'body': '“Sois os arcos dos quais vossos filhos, como flechas vivas, '
+                                     'são arremessados.” O Arqueiro vê o alvo no infinito e curva '
+                                     'o arco com poder. Ulisses, Arjuna, Buda, Rama: heróis do '
+                                     'arco e flecha — flexibilidade à vontade divina. Um dia fomos '
+                                     'flechas; um dia somos arcos; um dia identificamo-nos com o '
+                                     'Arqueiro. “Deixai que o Arqueiro vos curve com alegria: ama '
+                                     'a flecha que voa e o arco estável.” No Ramayana, o mar nunca '
+                                     'vira os arbustos flexíveis que dançam com a tempestade sem '
+                                     'perder a raiz — o rígido é arrancado e levado. Castaneda e '
+                                     'Dom Juan: o xamã em Chicago de terno e gravata — “não sou a '
+                                     'forma; manejo a forma conforme o contexto; os princípios são '
+                                     'os mesmos”. No Egito, o tau e a chave ankh: verticalidade, '
+                                     'estabilidade, eternidade. Educar é ser. Sabedoria é '
+                                     'reconhecimento do que já se sabia adormecido: educar, '
+                                     'eduzir, despertar.'},
+                            {'heading': 'Mito e o círculo da experiência',
+                             'body': 'Como sempre na série: Al-Mustafá, Orphalese, doze anos, '
+                                     'contraste, Aristóteles e Jung. Após percorrer a '
+                                     'circunferência da experiência, o homem pergunta onde ela '
+                                     'começa e descobre o centro — sabedoria invisível de onde o '
+                                     'círculo nasce. O capítulo dos filhos é esse sábio dialogando '
+                                     'com a dimensão parental de si. Biografia breve reitera '
+                                     'Gibran, Mary Haskell — que viu o potencial no imigrante '
+                                     '“desajustado” — e O Profeta em quarenta línguas. '
+                                     'Poeta-filósofo: forma bela e conteúdo denso; desdobrar o '
+                                     'livreto daria enciclopédia — sinal de sabedoria, não só de '
+                                     'erudição. Formar filhos é, no fundo, o mesmo ofício de '
+                                     'formar a si: sem isso, a flecha parte sem direção e o arco '
+                                     'estala sem alegria. Educar, eduzir, despertar: trazer à tona '
+                                     'o que já dormia na alma de quem ama e de quem é amado.'}],
+               'keys': ['Vossos filhos não são vossos: são do desejo da Vida por si mesma.',
+                        'A melhor coisa por quem se ama é crescer como ser humano.',
+                        'Educar é representar o espiritual ausente — e só se representa o que se '
+                        'tem.',
+                        'Sois arcos; os filhos, flechas vivas do Grande Arqueiro.',
+                        'Podeis abrigar corpos, não almas: elas habitam a casa do amanhã.',
+                        'Rigidez é sintoma de superficialidade; flexibilidade inteligente guarda a '
+                        'raiz e dança com o vento.'],
+               'reflections': ['Onde confundo o bem do filho com o que apenas me agrada ou me '
+                               'tranquiliza?',
+                               'Que exemplo de “pequeno herói” estou oferecendo — ou que vazio '
+                               'estou deixando a outros preencherem?',
+                               'Estou lançando flechas com alegria ou tentando fazê-las voltar ao '
+                               'arco?',
+                               'Tenho sementes interiores para dar, ou estou de mãos vazias diante '
+                               'de quem amo?']},
+ 'a-caridade': {'summary': 'A dádiva verdadeira não é comércio disfarçado nem propaganda da '
+                           'própria bondade: é dar de si, como o tomateiro dá o último fruto e a '
+                           'vela dá luz ao consumir-se. Generosidade mede o tamanho da pessoa; '
+                           'receber com coragem também é virtude. A vida dá através de nós — somos '
+                           'testemunhas e canais, não proprietários do dom.',
+                'sections': [{'heading': 'Qualidade do tempo e o homem rico que pergunta',
+                              'body': 'Gibran morre aos quarenta e sete anos: viveu pouco na '
+                                      'horizontal, muito na vertical — ainda aprendemos com ele. '
+                                      'Mary Haskell viabilizou o adolescente libanês sem inglês. O '
+                                      'Profeta, mito dos doze anos e do contraste, prepara o '
+                                      'capítulo. Sempre há relação entre quem pergunta e o teor: '
+                                      'um homem rico pede que se fale da dádiva — e a surpresa já '
+                                      'começa aí, pois o preconceito comum exclui o rico da '
+                                      'generosidade. A resposta, como sempre em Gibran, desmonta a '
+                                      'expectativa: a maior parte do que chamamos generosidade é '
+                                      'troca — reconhecimento, status, alívio de culpa. Com '
+                                      'interesse, amor, justiça e fraternidade descaracterizam-se. '
+                                      '“Por que gosta dele? Porque ganha bem” não é amor; “ajudei '
+                                      'porque me pagaram” não é fraternidade. Raros são os atos de '
+                                      'verdadeira dádiva: realizar-se como humano, sem outra '
+                                      'compensação que a própria virtude em exercício.'},
+                             {'heading': 'Dar de vós próprios, não só das posses',
+                              'body': '“Vós pouco dais quando dais de vossas posses; é quando dais '
+                                      'de vós próprios que realmente dais.” O preconceito de que '
+                                      'rico não pode ser generoso confunde despojamento com '
+                                      'virtude e ignora que às vezes dar coisas impede o '
+                                      'crescimento alheio — “a necessidade faz o sapo pular”. Ser '
+                                      'como fim não impede ter como meio: Platão com internet '
+                                      'teria ampliado o bem; ter como fim impede o ser. Posses '
+                                      'guardadas “por medo de precisar amanhã” revelam '
+                                      'insegurança. Mais difícil que abrir mão do físico é abrir '
+                                      'mão do emocional: o conto zen do príncipe que aceita dar '
+                                      'bens, mas explode quando o mestre o trata sem a honra de '
+                                      'príncipe — “isso é egoísmo”. A vida pede generosidade em '
+                                      'planos sucessivos; o tamanho da pessoa é o tamanho do que '
+                                      'entrega. Grandes homens o foram pelo que deram, não pelo '
+                                      'que acumularam.'},
+                             {'heading': 'O cão prudente e a areia movediça',
+                              'body': 'A imagem do cão excessivamente prudente que enterra ossos '
+                                      'na areia movediça enquanto segue peregrinos à cidade santa '
+                                      'é devastadora: nada material ou de honraria é realmente '
+                                      'nosso; a areia traga. “Aquilo que é realmente teu não pode '
+                                      'ser tirado de ti.” Artistas de fachada entram em depressão '
+                                      'quando a máscara cai. Elisabeth Kübler-Ross: quanto mais '
+                                      'materialista, menor a chance de chegar lúcido à morte — ali '
+                                      'carros e dígitos bancários afundam. O sólido é o que se '
+                                      'construiu como humano e o que se permitiu crescer nos '
+                                      'outros. Seguir a procissão como cão — porta aberta, hábito '
+                                      '— enquanto a mente está nos ossos: religiosidade '
+                                      'horizontal, investimento com Deus por medo ou desejo. “O '
+                                      'que é o medo da necessidade senão a própria necessidade?” '
+                                      'Poço cheio e sede inventada: avidez por segurança excessiva '
+                                      'endurece à necessidade alheia. Jung: o homem que fala tanto '
+                                      'de economia esbanja o espírito.'},
+                             {'heading': 'Tipos de doadores e a vela que é vela',
+                              'body': 'Há quem dê pouco do muito para ser elogiado — a mão '
+                                      'esquerda que não deve saber da direita. Há quem pouco tenha '
+                                      'e dê inteiro, confiando na vida; mas a pergunta sutil: se '
+                                      'faltasse, continuaria dando? Há quem dê com alegria (e a '
+                                      'alegria é recompensa) ou com pena (e a pena é batismo) — '
+                                      'nenhum dos dois é ainda a dádiva pura. Há os que dão sem '
+                                      'pena, sem buscar alegria e sem pensar na virtude: dão '
+                                      'porque são humanos, como o mirto espalha fragrância. O '
+                                      'tomateiro esturricado com três frutos vermelhos no galho '
+                                      'seco: última seiva oferecida, sem perguntar se merecíamos. '
+                                      'A vela linda que não se acende morre como peso de papel, '
+                                      'nunca como vela; acesa, consome-se dando luz. O humano que '
+                                      'não dá luz também morre sem ter sido. “Pelas mãos de tais '
+                                      'seres Deus fala.” Lao-Tsé: cano de bambu — se cheio de '
+                                      'poeira, sai pó; homens opacos geram sombras. Deus não '
+                                      'patrocina projetos egoístas: “para subir, conte comigo; '
+                                      'para descer, desça sozinho.”'},
+                             {'heading': 'Dar sem ser solicitado e o jogo do mico',
+                              'body': 'É belo dar quando pedido; mais belo dar por ter '
+                                      'compreendido; para o generoso, procurar quem receba é '
+                                      'alegria maior que a de dar. Não esperar gratidão; quem '
+                                      'recebeu não deve prender-se a devolver ao mesmo — cresça e '
+                                      'beneficie outros. O jogo do mico: quem vê beleza “porque '
+                                      'lembra fulano” junta pares; o egoísta fica com o coringa '
+                                      'sem par e perde o jogo da vida. “Tudo o que possuís será um '
+                                      'dia dado; dai agora para que a época da dádiva seja vossa.” '
+                                      'Ciclo completo: plantar, colher, distribuir — vida sem '
+                                      'outono é ciclo incompleto. Exercício prático: antes de '
+                                      'dormir, achar um ato generoso do dia; se não houver, regar '
+                                      'uma planta. Um gesto diário humaniza. “Só a quem merece” — '
+                                      'árvores e rebanhos não falam assim; reter é perecer. A '
+                                      'generosidade é da vida; você é veículo. Quem recebeu da '
+                                      'vida o oceano dos dias merece encher a taça no seu córrego. '
+                                      'No Cid: “eu sou digno de ter um rei” — eu sou digno de dar; '
+                                      'o mérito de receber é problema do outro com a vida.'},
+                             {'heading': 'A caridade de receber e as asas da dádiva',
+                              'body': 'Que mérito maior que a coragem e a confiança — e a caridade '
+                                      '— de receber? A manga do menino no sinal muda a vida do '
+                                      'executivo: pequeno ato como ponto de corte na consciência. '
+                                      'Quem sois vós para exigir que o necessitado desnude orgulho '
+                                      'e méritos? Procurai ver se mereceis ser doadores: a vida dá '
+                                      'a vida; vós sois testemunhas. Quem recebe não assume julgo '
+                                      'de gratidão que escraviza a si e ao benfeitor: erguei-vos '
+                                      'juntos sobre asas feitas das dádivas. Apolônio de Tiana no '
+                                      'templo egípcio: nenhum sacrifício aos deuses senão o do eu '
+                                      'animal nos altares da sabedoria — o divino só precisa do '
+                                      'vosso crescimento (livre-arbítrio). Pessoa nobre também: '
+                                      'espera que cresçais e transbordeis, não que devolvais o '
+                                      'investimento. Os Miseráveis: o padre e os castiçais — '
+                                      'generosidade que multiplica humanidade. Quem é humano gera '
+                                      'humanidade, como macieira gera maçãs.'},
+                             {'heading': 'Marco Aurélio e a lógica de ser bom',
+                              'body': 'Marco Aurélio responde com lógica impecável a quem pergunta '
+                                      'se sua bondade visa lugar junto aos deuses: se há algo após '
+                                      'a morte, convém ser bom agora para merecê-lo; se não há, '
+                                      'convém ser bom agora porque é a única oportunidade. De '
+                                      'qualquer modo, não desperdice. Ser é o mais precioso que o '
+                                      'humano pode fazer consigo. A dádiva, no alfabeto de Gibran, '
+                                      'desmonta a filantropia de vitrine e a avareza disfarçada de '
+                                      'prudência. Tempo vertical, canal limpo, tomateiro, vela, '
+                                      'areia movediça, asas compartilhadas: um mapa completo da '
+                                      'generosidade filosófica. Ler o capítulo rápido é perder '
+                                      'quase tudo; mastigá-lo é sair exigindo de si, cada noite, '
+                                      'ao menos um gesto que prove que ainda se é humano — um '
+                                      'sorriso, água na planta, atenção a quem atravessa o dia ao '
+                                      'nosso lado.'},
+                             {'heading': 'Mito e surpresa permanente',
+                              'body': 'Como nos demais capítulos: doze anos, contraste, Jung, '
+                                      'Aristóteles, relação entre pergunta e perguntador. Gibran '
+                                      'nunca confirma a expectativa comum — alfabetização contínua '
+                                      'no seu léxico filosófico. Na dádiva, o rico não é excluído '
+                                      'a priori; o pobre que dá tudo não é santificado sem o teste '
+                                      'da incondicionalidade; receber é tão ético quanto doar. A '
+                                      'vida passa por nós como generosidade; nós testemunhamos. '
+                                      'Filosofia aplicada: refletir a própria existência com as '
+                                      'ferramentas que a rotina materialista não ensina — visão '
+                                      'simbólica e profundidade. O Profeta herda-nos isso se nos '
+                                      'dispusermos a pensar. Quem só acumula quantidade de '
+                                      'leituras sem densificar permanece no mesmo plano do cão que '
+                                      'segue a procissão com a mente nos ossos enterrados na areia '
+                                      'movediça.'}],
+                'keys': ['Pouco dais das posses; dais de verdade quando dais de vós próprios.',
+                         'O cão prudente enterra ossos na areia movediça: nada disso é realmente '
+                         'vosso.',
+                         'Generosidade pura dá como o mirto e o tomateiro — sem pena, sem elogio, '
+                         'sem cálculo.',
+                         'A vela que não se acende morre sem nunca ter sido vela; o humano que não '
+                         'dá luz, idem.',
+                         'Receber com coragem é caridade; gratidão-julgo escraviza doador e '
+                         'donatário.',
+                         'Vós sois testemunhas: é a vida que dá a vida através de vocês.'],
+                'reflections': ['Quando dou, o que secretamente espero — elogio, sorriso, '
+                                'segurança, mérito?',
+                                'Em que plano (físico, emocional, mental) a vida está pedindo que '
+                                'eu entregue agora?',
+                                'Sei receber sem humilhar-me e sem escravizar quem deu?',
+                                'Hoje pratiquei ao menos um ato em que saí da prisão do pequeno '
+                                'eu?']},
+ 'o-comer-e-o-beber': {'summary': 'Comer e beber, em Gibran, não se reduzem ao estômago: o homem '
+                                  'tem fomes e sedes em todos os planos — terra, água, ar e fogo; '
+                                  'corpo, emoção e mente. A mesa deve ser altar onde a vida que se '
+                                  'sacrifica em nós se converta em mais vida e melhor vida. Quem '
+                                  'só alimenta o corpo deixa a alma morrer de inanição e sai da '
+                                  'existência tão sedento quanto entrou.',
+                       'sections': [{'heading': 'Poesia já é filosofia; tempo vertical',
+                                     'body': 'Não é Gibran quem “casa” poesia e filosofia: a '
+                                             'grande poesia já traz filosofia no conteúdo, pois '
+                                             'precisa ter algo a dizer e dizê-lo com beleza. Nasce '
+                                             'em Bsharri (1883), morre em Nova York aos quarenta e '
+                                             'sete; o tempo mede-se mais por intensidade que por '
+                                             'extensão. As cartas com Mary Haskell mostram O '
+                                             'Profeta nascendo a dois — almas gêmeas no sentido '
+                                             'platônico — e muitas interpretações da palestra vêm '
+                                             'do próprio Gibran ali. Orphalese evoca os mistérios '
+                                             'órficos; o mito é diálogo interno ao fim do ciclo de '
+                                             'doze; ao embarcar, despede-se como quem morre e '
+                                             'promete voltar (“outra mulher me dará à luz”). '
+                                             'Platão: o indivíduo é quem harmoniza tudo em torno '
+                                             'de um centro. Nesse quadro, falar filosoficamente de '
+                                             'comer e beber não é prosaico: é urgente, porque '
+                                             'revela de que fome realmente padecemos.'},
+                                    {'heading': 'O estalajadeiro e as muitas fomes',
+                                     'body': 'Quem pergunta é um velho estalajadeiro: passou a '
+                                             'vida alimentando fome e sede físicas; perto do '
+                                             'desenlace, por contraste, pergunta se poderia ter '
+                                             'dado mais — que outras sedes padece o homem? “Você '
+                                             'tem fome de quê? Sede de quê?” — a canção jovem ecoa '
+                                             'a falta de autoconhecimento que nos faz correr atrás '
+                                             'do periférico. Dizemos “eu tenho uma alma” como se o '
+                                             'eu fosse o corpo; se a identidade estivesse no '
+                                             'sutil, diríamos “eu tenho um corpo”. Identidade '
+                                             'materialista estreita comida e bebida à '
+                                             'natureza-morta. Gibran jamais pensa só no físico. A '
+                                             'resposta abre: “Pudésseis viver do perfume da terra '
+                                             'e, como planta, nutrir-vos da luz.” '
+                                             'Perfume-olfato-ar; luz-visão-fogo: não é ornamento '
+                                             'literário — aponta outros portais pelos quais o '
+                                             'humano também se alimenta, saiba ou não.'},
+                                    {'heading': 'Quatro elementos e indigestão sutil',
+                                     'body': 'Alquimistas (caros a Jung) associavam corpo à terra; '
+                                             'energético à água; emocional ao ar (brisa suave ou '
+                                             'torvelinho de cólera); mental ao fogo e à luz. '
+                                             'Poderíamos — e deveríamos — alimentar-nos de '
+                                             'sentimentos elevados e pensamentos luminosos. A '
+                                             'aromaterapia e a confusão entre “mau astral” e mau '
+                                             'odor mostram o parentesco entre emoção e olfato. '
+                                             'Planos são matéria em graus de sutileza; quem não '
+                                             'seleciona emoções e ideias sofre indigestão mental e '
+                                             'emocional como o estômago com alimento contaminado. '
+                                             'Doenças psicossomáticas e a medicina chinesa '
+                                             '(coração ferido por ódio e revolta; a célula que se '
+                                             'comporta de modo egoísta e o câncer) concretizam o '
+                                             'paralelo. Priorizar o sutil não é negar o corpo: é '
+                                             'inverter a ordem que, no materialismo cotidiano, '
+                                             'começa sempre de baixo e nunca sobe.'},
+                                    {'heading': 'Matar para viver: mesa como altar',
+                                     'body': 'Já que é preciso matar para comer e “roubar” o leite '
+                                             '— vida alimenta-se de vida, vegetais incluídos; até '
+                                             'respirar mata microrganismos — fazei disso ato de '
+                                             'adoração. A seita indiana do véu no nariz radicaliza '
+                                             'o impossível: a cada instante células nossas morrem. '
+                                             'O critério ético: a vida sacrificada não morra em '
+                                             'vão; a nossa deve aportar mais à terra do que a '
+                                             'outra aportaria. “Que vossa mesa seja um altar onde '
+                                             'os puros e inocentes da floresta e da planície são '
+                                             'sacrificados àquilo que ainda é mais puro e inocente '
+                                             'no homem.” Se não sacrificamos inocência em nome de '
+                                             'inocência, melhor vivera o animal. Bom senso: '
+                                             'objetos inúteis vão ao lixo; o homem que só quer ser '
+                                             'servido arrisca o “lixão cósmico”. Dívida de vida '
+                                             'investida em nós: gerar mais vida e de melhor '
+                                             'qualidade.'},
+                                    {'heading': 'Imolação recíproca e a árvore do céu',
+                                     'body': 'Ao matar o animal, dizei no coração: pelo mesmo '
+                                             'poder que te imola, serei imolado e servirei de '
+                                             'alimento. Compromisso de não viver em vão para '
+                                             'justificar o sacrifício recebido. “Teu sangue e meu '
+                                             'sangue não serão senão seiva que nutre a árvore do '
+                                             'céu.” A árvore invertida das tradições tem raízes no '
+                                             'céu e ramos no mundo: a seiva da verdadeira vida '
+                                             'humana vem do alto; sem vínculo espiritual, as '
+                                             'formas se decompõem. Irrigar essa terra celeste é '
+                                             'gerar mais frutos no mundo — virtudes, valores, '
+                                             'sabedoria. Sacro-ofício, não sacrifício no sentido '
+                                             'decadente de religiões em ciclo baixo: tributo aos '
+                                             'interesses da natureza, não só aos egoístas. Eu me '
+                                             'alimento e alimento: não vim à terra apenas para '
+                                             'consumir. Quem interioriza isso enfrenta a morte com '
+                                             'outra tranquilidade — ofereceu, cumpriu, somou.'},
+                                    {'heading': 'A maçã, a uva e o vinho da vida interior',
+                                     'body': 'Ao morder a maçã: tuas sementes viverão em mim; '
+                                             'brotos de teus amanhãs no meu coração; teu perfume '
+                                             'será meu hálito. Privamos o fruto de frutificar, mas '
+                                             'nossos frutos embutirão suas sementes — como '
+                                             'embutimos Platão, alquimistas, Gibran nos frutos de '
+                                             'agora. No outono, ao colher a uva: eu também sou '
+                                             'vinhedo; serei vinho novo em vasos eternos. '
+                                             'Al-Mustafá está exatamente espremendo as uvas da '
+                                             'própria vida. Gladiador: “o que fazemos em vida ecoa '
+                                             'na eternidade.” Responsabilidade pelo futuro como '
+                                             'filho; egoísmo que deixa terra arrasada quebra o '
+                                             'dharma. No inverno, ao beber o vinho: canção para '
+                                             'cada taça e memória do outono — obra em amarelo dos '
+                                             'alquimistas (maturidade) e recolhimento interior. '
+                                             'Quem não plantou nem colheu sai tão sedento de alma '
+                                             'quanto chegou. “Todos os homens morrem, mas nem '
+                                             'todos vivem.”'},
+                                    {'heading': 'Solidão, filosofia e a árvore de Natal invertida',
+                                     'body': 'Solidão é estar desacompanhado de si — medo de achar '
+                                             'a alma faminta e não saber alimentá-la; daí a fuga '
+                                             'no entretenimento. Platão: chega o momento em que os '
+                                             'apelos da alma superam os do corpo e nasce a '
+                                             'necessidade de sabedoria — o filósofo. A caminhada '
+                                             'humana é da ignorância à sabedoria; ensinar é pelo '
+                                             'exemplo. A vida espera que a videira dê uva e o '
+                                             'homem dê sabedoria. Jung de novo: quem fala tanto de '
+                                             'economia esbanja a alma. A árvore de Natal, na chave '
+                                             'simbólica apresentada na palestra, tem raízes no céu '
+                                             'e ramificações na terra — as bolas como planetas. Os '
+                                             'momentos mais vivos da biografia pessoal — amor, '
+                                             'justiça, fraternidade — vieram dessa seiva celeste. '
+                                             'Por que não nos tornarmos também agricultores desse '
+                                             'alimento, em vez de apenas consumidores da mesa '
+                                             'física?'},
+                                    {'heading': 'Protocolo da vida: servir em vez de usar',
+                                     'body': 'Antigos pediam licença à natureza para alterar o '
+                                             'terreno ao construir casa: sabiam que aquilo tem '
+                                             'dono. A terra ri do humano de oitenta anos que cerca '
+                                             'um pedaço e diz “é meu” — logo estará debaixo dela. '
+                                             'O limiar platônico do amor humano: de “para que me '
+                                             'serve?” a “como posso servir?”. Cânone apolíneo: '
+                                             'vida gera vida em qualidade crescente. Comer e '
+                                             'beber, sacralizados, inserem o homem nesse '
+                                             'protocolo. A palestra não critica a alimentação '
+                                             'física por moralismo estreito: critica o homem '
+                                             'estranho a si que só nutre uma fatia de si e ignora '
+                                             'as outras fomes. Mastigar o capítulo curto é '
+                                             'lembrar, a cada refeição, a dívida e a oferenda — e '
+                                             'perguntar se a vida que entra em nós sai como mais '
+                                             'vida para o mundo.'}],
+                       'keys': ['O homem tem fomes e sedes em todos os planos — não só no corpo.',
+                                'Pudésseis nutrir-vos de perfume e de luz: sentimentos elevados e '
+                                'ideias luminosas.',
+                                'Que a mesa seja altar: vida sacrificada em nós deve virar mais '
+                                'vida e melhor vida.',
+                                'Teu sangue e o meu nutrem a árvore do céu — raízes no alto, '
+                                'frutos no mundo.',
+                                'Eu também sou vinhedo: a essência da vida deve ser vinho em vasos '
+                                'eternos.',
+                                'Quem só alimenta o corpo sai da vida tão sedento de alma quanto '
+                                'entrou.'],
+                       'reflections': ['De que tenho fome e sede de verdade — e o que tenho usado '
+                                       'como substituto?',
+                                       'A vida que se sacrifica por mim está justificando-se na '
+                                       'qualidade da minha existência?',
+                                       'Que “vinho” estou espremendo da minha biografia para vasos '
+                                       'que me sobrevivam?',
+                                       'Alimento emoções e pensamentos com o mesmo critério com '
+                                       'que escolho o que ponho no prato?']},
+ 'o-trabalho': {'summary': 'Trabalho, em Gibran, não é tripallium nem antecâmara da aposentadoria: '
+                           'é amar a vida acompanhando o ritmo da terra, ser flauta que transforma '
+                           'o murmúrio das horas em melodia, realizar o sonho longínquo da '
+                           'criação. Todo impulso precisa de saber; todo saber, de trabalho; todo '
+                           'trabalho, de amor — senão é mecanicidade que coze pão amargo e tapa os '
+                           'ouvidos do mundo.',
+                'sections': [{'heading': 'Síntese, mito e o lavrador que pergunta',
+                              'body': 'O capítulo do trabalho é o mais longo do livro — e ainda '
+                                      'assim só cerca de três páginas: nenhuma palavra '
+                                      'desperdiçada. Platão define o bem em poucas palavras; '
+                                      'Parmênides, o ser em três (“o ser é”). Gibran, século XX, '
+                                      'bebe dessa sobriedade antiga. Biografia: Bsharri, Mary '
+                                      'Haskell, pintura à maneira de Blake, primeira edição de mil '
+                                      'exemplares que o editor achava invendável. Almustafa, “o '
+                                      'eleito”; Orphalese; contraste; paralelo com Lao-Tsé detido '
+                                      'na fronteira até escrever o Tao Te Ching. Mito: um só '
+                                      'personagem; Timeu e a circunferência do sábio cujo centro '
+                                      'ilumina igualmente cada periferia. Quem pergunta é o '
+                                      'lavrador — quem trabalha a terra quer o espírito do '
+                                      'trabalho. A era da dispersão perde muito em trinta segundos '
+                                      'de desatenção; é preciso mastigar palavra por palavra.'},
+                             {'heading': 'Tripallium, aposentadoria e a pedra',
+                              'body': 'Trabalho vem de tripallium, instrumento de tortura: '
+                                      'associação latina com coerção. Cultura do carpe diem e do '
+                                      'dolce far niente: patrões e empregados coincidem em querer '
+                                      'trabalhar menos e ganhar mais; o paraíso imaginado é a '
+                                      'aposentadoria. Médico citado na palestra: muitos morrem em '
+                                      'até dois anos após aposentar-se — programação mental do '
+                                      '“não fazer nada” (só o morto não faz). O “circuito dos '
+                                      'aposentados” — dança, viagem, artesanato, retorno ao antigo '
+                                      'local de trabalho — revela que tudo é dual; idealizamos o '
+                                      'lado agradável. No reino mineral, inércia; no vegetal, '
+                                      'fotossíntese; no animal, emoção; no homem, mente. Tomar a '
+                                      'inércia por felicidade é rebaixar-se a pedra: no diamante, '
+                                      'dureza útil; no homem, preguiça. Realizar-se é trazer à '
+                                      'realidade a ideia em função da qual fomos criados.'},
+                             {'heading': 'Ritmo da terra e orquestra do universo',
+                              'body': '“Trabalhais para acompanhar o ritmo da terra e da alma da '
+                                      'terra; ser indolente é tornar-se estranho às estações.” '
+                                      'Hermes Trismegisto e Heráclito: tudo vibra. Corpo vive de '
+                                      'ritmos — coração, respiração, peristalse — que não tiram '
+                                      'férias. Identidade egípcia: nome interno, ritmo que a '
+                                      'natureza sonhou. Homem deveria vibrar valores e sabedoria; '
+                                      'se potencializa só instintos com a mente, torna-se predador '
+                                      'pior que o leão. Orquestra desafinada: pedras e plantas '
+                                      'cumprem; falta o homem. Júlio César lia a harmonia das '
+                                      'circunstâncias como sinal de direção certa; portas que só '
+                                      'se arrombam denunciam propósito egoísta. Jung: '
+                                      'sincronicidade — o bem do indivíduo alinhado ao todo atrai '
+                                      'ferramentas; contos de fada armam o príncipe no caminho '
+                                      'justo. Natureza: “para subir, conte comigo; para descer, '
+                                      'desça sozinho.”'},
+                             {'heading': 'Flauta, posto de enriquecimento e o sonho da terra',
+                              'body': '“Quando trabalhais, sois uma flauta através da qual o '
+                                      'murmúrio das horas se transforma em melodia.” Quem '
+                                      'aceitaria ser caniço mudo? Sri Ram: posto de enriquecimento '
+                                      'dos dons da vida — o que vem não é para reter, mas para '
+                                      'requintar e passar. Beethoven surdo: não se suicida porque '
+                                      'ainda tem recado musical a entregar. Lao-Tsé: caniço — '
+                                      'sopro entra e deve sair ar puro; opacidade gera sombra. '
+                                      '“Sempre vos disseram que o trabalho é maldição; eu vos digo '
+                                      'que realizais parte do sonho mais longínquo da terra.” '
+                                      'Natureza idealista: pedras para diamantes, homens para a '
+                                      'virtude. Apegar-se ao trabalho é amar a vida e partilhar '
+                                      'seu segredo íntimo. Construção de si é a grande tarefa; '
+                                      'Blavatsky: em todo o cosmos fala-se de voltar à unidade. '
+                                      'Antigo Testamento: voltar à casa do Pai com os braços '
+                                      'repletos de frutos.'},
+                             {'heading': 'Suor, lágrimas e o som ideal',
+                              'body': 'Se chamais o nascimento aflição e a carne maldição, só o '
+                                      'suor da fronte lavará o estigma: ou se irriga a terra com '
+                                      'trabalho que suaviza a dor de quem vem, ou com lágrimas de '
+                                      'rebeldia. Livro dos Mortos: “Ó discípulo, quando '
+                                      'despertares, levanta e corre!” — ganhar tempo assim que se '
+                                      'compreende o sentido. Problemas da Terra nascem de '
+                                      'ignorância e egoísmo. Medo de dogmas muitas vezes mascara '
+                                      'dogmatismo do conforto (Papageno na Flauta Mágica). Platão: '
+                                      'quem fala muito de liberdade está preso; trocar um livro '
+                                      'decorado por outro não é pensar. O garoto de dezessete anos '
+                                      '“satisfeito como é” aceita em si o que nunca aceitaria num '
+                                      'som defeituoso: de tudo pede o ideal, de si contenta-se com '
+                                      'qualquer coisa — e a natureza pode ter seu lixão cósmico '
+                                      'para o que não serve.'},
+                             {'heading': 'Impulso, saber, trabalho, amor',
+                              'body': 'A vida é escuridão exceto quando há impulso; impulso é cego '
+                                      'exceto quando há saber; saber é vão exceto quando há '
+                                      'trabalho; trabalho é vazio exceto quando há amor. Como a '
+                                      'barragem: água, sabedoria que retém e libera, trabalho, '
+                                      'luz. Trabalho sem luz para si nem para ninguém é o '
+                                      'apertador de parafusos de Chaplin. Objetos passam; o amor '
+                                      'impregnado pode permanecer. Dois construtores de Chartres: '
+                                      'um faz muro por moedas; outro constrói um templo — a pedra '
+                                      'não é a mesma. Romanos limpavam casas antes de habitar: '
+                                      'emoções impregnam. Trabalhar com amor: tecer como se o '
+                                      'bem-amado fosse usar o tecido; construir casa, semear, '
+                                      'colher, pôr sopro da alma em tudo — pois quem recolher será '
+                                      'vosso bem-amado. Sri Ram: perder o coração todos os dias e '
+                                      'achá-lo no coração de todas as coisas. Amor não é só beijo: '
+                                      'é bom-dia, porta segurada, elevador, respeito às coisas.'},
+                             {'heading': 'Grande e pequeno, pão amargo, canto sem coração',
+                              'body': 'Não há nobreza maior no mármore ou no arco-íris da tela do '
+                                      'que no lavrador ou no sapateiro se a lei da necessidade — '
+                                      'justiça, beleza, saúde — for cumprida. O vento não fala '
+                                      'mais doce ao carvalho do que à haste de relva; grande é '
+                                      'quem torna o ulular canção pela ternura. Natureza não traça '
+                                      'alfândega entre átomo e galáxia: vale o que soma. Livraga: '
+                                      'sempre houve construtores e destruidores de pirâmides — '
+                                      'escolha o grupo. “O trabalho é o amor feito visível”; se '
+                                      'não podeis trabalhar com amor, melhor pedir esmola à porta '
+                                      'do templo. Pão com indiferença alimenta só metade da fome; '
+                                      'vinho com má vontade destila veneno. Espada de Dâmocles: '
+                                      'todo lugar é dual; achar que escolheríamos melhor que a '
+                                      'natureza é soberba. Canto angelical sem amor tapa os '
+                                      'ouvidos: técnica sem coração (Piazzolla: “poucas vezes '
+                                      'realmente fiz música”). Despertar é de coração a coração.'},
+                             {'heading': 'Tempo livre é todo o tempo',
+                              'body': 'Cursos que partem o dia em oito horas de sono, oito de '
+                                      '“piloto automático” laboral e duas ou três de “realização” '
+                                      'escravizam o trabalho e empobrecem o fruto. Até dormir pode '
+                                      'ser humano; sonhos ensinam. Livres sempre, se quisermos: '
+                                      'quem escraviza é o modo de fazer. A história é escrita por '
+                                      'quem trabalhou com amor; outros às vezes nem a leem. “Pelas '
+                                      'vossas obras vos conhecerei.” Voluntariado que entrega um '
+                                      'folheto sabendo o que entrega vale mais que mil pagos sem '
+                                      'alma. Como água para chocolate: o estado de espírito '
+                                      'tempera o mundo. Recuperar o trabalho como construção de si '
+                                      'e rastro de transformação é recuperar a identidade humana '
+                                      'na orquestra do universo — e deixar de tratar oito horas '
+                                      'diárias como tempo morto entre o despertar e o pequeno '
+                                      'intervalo em que “finalmente se vive”.'}],
+                'keys': ['Trabalhar é acompanhar o ritmo da terra: indolência é tornar-se estranho '
+                         'às estações.',
+                         'Sois flauta: o murmúrio das horas deve sair como melodia — não como pó.',
+                         'Todo trabalho é vazio exceto quando há amor: o trabalho é o amor feito '
+                         'visível.',
+                         'Apegar-vos ao trabalho é amar a vida e partilhar o segredo mais íntimo '
+                         'da vida.',
+                         'Não há grande nem pequeno no ofício: há quem constrói e quem destrói.',
+                         'Se não podeis trabalhar com amor, melhor solicitar esmolas à porta do '
+                         'templo.'],
+                'reflections': ['Trato o trabalho como tortura a suportar até a aposentadoria ou '
+                                'como ritmo da minha identidade?',
+                                'O que passa por mim sai enriquecido — melodia — ou sai sombra e '
+                                'pó?',
+                                'Imprego amor suficiente no que faço para impregnar o mundo de '
+                                'humanidade?',
+                                'Onde estou sendo construtor de pirâmides e onde, sem perceber, '
+                                'destruídor?']},
+ 'alegria-e-tristeza': {'summary': 'Alegria e tristeza, no plano em que costumamos vivê-las, não '
+                                   'são degraus distintos: são o mesmo poço, a mesma taça, o mesmo '
+                                   'pêndulo de euforia e depressão. Gibran convida a subir para um '
+                                   'patamar em que a realização humana — dever cumprido, '
+                                   'fraternidade, ouro interior — não oscile ao sabor das '
+                                   'circunstâncias. Só o “vazio” das coisas que o mundo valoriza '
+                                   'equilibra a balança; e só o guarda do Tesouro, ao pesar ouro e '
+                                   'prata verdadeiros, justifica a legítima alegria ou a legítima '
+                                   'tristeza.',
+                        'sections': [{'heading': 'Pêndulo denso e alegria humana',
+                                      'body': 'Oscilamos quase sem serenidade entre dois polos que '
+                                              'a palestra situa no mesmo nível vibratório: '
+                                              'excitação e abatimento, posse e expectativa de '
+                                              'posse. Essa “alegria” superficial está no mesmo '
+                                              'degrau da tristeza; ambas são densas, compensam-se '
+                                              'por oposição e preenchem o vácuo uma da outra. A '
+                                              'paz de que tanto se fala e tão pouco se conhece '
+                                              'nasce de dentro para fora e exigiria uma alegria '
+                                              'menos à mercê das circunstâncias. Como triângulo, '
+                                              'as duas pontas do pêndulo ficam embaixo; acima, '
+                                              'noutro patamar, estaria a alegria humana — sóbria, '
+                                              'contínua, sem adrenalina viciosa. Os egípcios e os '
+                                              'gregos já comparavam a evolução a uma escala '
+                                              'vibratória: matéria, energia, emoção, mente, '
+                                              'intuição, espírito. Alegria e tristeza vulgares '
+                                              'vibram baixo; realizar-se como ser humano é subir '
+                                              'de degrau, não trocar o lado do balanço.'},
+                                     {'heading': 'Pergunta do feminino e gangorra emocional',
+                                      'body': 'Não é casual que uma mulher peça falar da alegria e '
+                                              'da tristeza. Na leitura yin-yang da palestra, o '
+                                              'emocional feminino tende ao idealizado — o '
+                                              'príncipe, a cortesia, o sonho de ser amada — '
+                                              'enquanto o mundo materialista oferece mentalidade '
+                                              'utilitária. A superfície de contato fica atritiva: '
+                                              'expectativa alta, frustração, carência, '
+                                              'instabilidade. A mulher suporta dor e adversidade; '
+                                              'o que a esmaga é não ser amada. Sem consciência, o '
+                                              'astral vira gangorra: alegria e tristeza '
+                                              'dependentes de correspondência. A cena de Portões '
+                                              'de Fogo ilustra a outra face do feminino: Leônidas '
+                                              'escolhe os trezentos pela fortaleza das mulheres, '
+                                              'capazes de entregar o que amam — sacrifício maior '
+                                              'que entregar a própria vida. Expansão e necessidade '
+                                              'de amor convivem; a pergunta toca o ponto frágil '
+                                              'sem reduzir a mulher a estereótipo, e sim a um '
+                                              'espelho da fragilidade emocional humana em geral.'},
+                                     {'heading': 'O mesmo poço, a mesma taça, a mesma lira',
+                                      'body': '“Vossa alegria é vossa tristeza desmascarada”: o '
+                                              'poço do riso foi muitas vezes preenchido de '
+                                              'lágrimas. O copo tem o mesmo tamanho para euforia e '
+                                              'depressão; quem vai longe na paixão costuma ir '
+                                              'longe na agressão. O amor verdadeiro — sóbrio, '
+                                              'sereno, contínuo — não joga folhetos de '
+                                              'helicóptero; o barulho costuma ser paixão. “Dia de '
+                                              'muito riso, véspera de pouco siso”: a euforia pede '
+                                              'compensação. A taça do vinho é a mesma queimada no '
+                                              'forno; a lira que acaricia a alma é madeira talhada '
+                                              'à faca. Extremes do mundo dual. Nas férias já mora '
+                                              'a dor do retorno; no elogio já dorme a crítica de '
+                                              'amanhã. Quando alegres, achamos no coração o que '
+                                              'antes entristecia; quando tristes, choramos o mesmo '
+                                              'que foi deleite. Otimistas e pessimistas disputam '
+                                              'qual é maior; Gibran responde: inseparáveis, do '
+                                              'mesmo tamanho — uma à mesa, a outra na cama.'},
+                                     {'heading': 'Poço cavado, esperança-armadilha e vício '
+                                                 'emocional',
+                                      'body': 'Quanto mais a tristeza crava garras, mais alegria o '
+                                              'poço poderá conter — e mais dependência das '
+                                              'circunstâncias se cria. A caixa de Pandora guarda a '
+                                              'esperança como mal: expectativa do prazer futuro '
+                                              'que impede a dor de convidar à consciência e de '
+                                              'fazer subir de patamar. O ratinho que já foi salvo '
+                                              'debate-se mais tempo na água porque espera novo '
+                                              'resgate; assim o homem sofre sem crescer, simulando '
+                                              'na imaginação o prazer que virá. Emoções extremas — '
+                                              'vitimização, velocidade, embriaguez — estimulam a '
+                                              'célula como droga; a serenidade gera síndrome de '
+                                              'abstinência. Quem só vive adrenalina teme o '
+                                              'silêncio e não se reconhece nele. Depurar o '
+                                              'emocional é torná-lo sóbrio e contínuo, sem a '
+                                              'extrapolação que vicia e impede o equilíbrio. A dor '
+                                              'é convite, nunca obrigação automática: se bastasse '
+                                              'sofrer, todo sofredor seria sábio — e não o é.'},
+                                     {'heading': 'Vazio da balança e princípio da neutralização',
+                                      'body': 'Suspensos como pratos entre tristeza e alegria, só '
+                                              'estamos em equilíbrio quando vazios — vazio, para o '
+                                              'materialismo; cheio, para o espírito: dever '
+                                              'cumprido, ato fraterno, realização que ninguém '
+                                              'retira. O Caibalion ensina: para fugir dos '
+                                              'conflitos de um degrau, passe ao próximo. Duas '
+                                              'crianças brigam pelo ursinho; quem ainda o deseja '
+                                              'entra na briga; quem já não o deseja vê com olhos '
+                                              'de justiça e pode harmonizar. Nada que é realmente '
+                                              'seu pode ser tirado: justiça, nobreza, capacidade '
+                                              'de amar. Voltaire: o problema não é ter as coisas, '
+                                              'mas as coisas terem você. Embaixo, quem tem ou não '
+                                              'tem o ursinho parece “cheio” ou “vazio”; de cima, '
+                                              'sabe-se que ninguém é dono do ursinho. Dois '
+                                              'patamares raramente se reconhecem. Quem realiza só '
+                                              'no material continua joguete; quem sobe equilibra o '
+                                              'que resta embaixo.'},
+                                     {'heading': 'Geografia terrestre e identidade solar',
+                                      'body': 'Michel Echenique falava de cumes e vales na '
+                                              'geografia terrestre e de algo solar em nós que '
+                                              'permanece estável. Identificar-se com a terra é '
+                                              'oscilar; identificar-se com o solar é suavizar o '
+                                              'relevo. A criança faz birra quando tem plateia; a '
+                                              'criança interior também. “Hoje a personalidade está '
+                                              'birrenta, mas eu estou bem” retira energia da '
+                                              'oscilação. Maturidade é grau de identidade mais '
+                                              'interno. O guarda do Tesouro — o divino que guarda '
+                                              'a criação — suspende-nos na morte e pesa ouro e '
+                                              'prata reais: quanto crescemos e quanto permitimos '
+                                              'aos outros crescer. Alegria legítima: a vida fez '
+                                              'diferença. Tristeza legítima: saímos do mesmo '
+                                              'tamanho, ou pior — cortamos asas alheias. O '
+                                              'episódio passageiro só ganha perpetuidade se servir '
+                                              'ao ser eterno; do contrário, desperdiça-se como '
+                                              'personalidade apegada ao superficial.'},
+                                     {'heading': 'Dever cumprido, chocolate e “só sentimentos”',
+                                      'body': 'Joana d’Arc em glória na fogueira mostra felicidade '
+                                              'independente do corpo: missão cumprida. Nós, '
+                                              'aspirantes, já conhecemos o sono dos justos após um '
+                                              'dia digno — ouro que ninguém tira. Dias são poucos; '
+                                              'cada um deveria somar aprendizagem ou generosidade. '
+                                              'O resto são chocolates cujo gosto se esquece; '
+                                              'álbuns na lixeira lembram realizações fugazes. A '
+                                              'alegria do sábio parece apatia: Sêneca responde “eu '
+                                              'só tenho sentimentos” — sentimentos no plano alto, '
+                                              'não paixão e depressão embaixo. Sri Ram: brisa ou '
+                                              'calor causticante não tiram do caminho; o chocolate '
+                                              'pode acompanhar a trilha, mas não ser o destino. '
+                                              'Sem caminho maior, o homem só corre atrás do '
+                                              'agradável e foge do doloroso — caos sem destino. '
+                                              'Densificar a vida agora é inverter a conta antes '
+                                              'que o guarda pese o que realmente acumulamos.'}],
+                        'keys': ['Alegria e tristeza vulgares vibram no mesmo degrau; a alegria '
+                                 'humana está acima do pêndulo.',
+                                 'O mesmo poço, a mesma taça, a mesma lira: presença e ausência do '
+                                 'superficial.',
+                                 'Equilíbrio exige “vazio” das coisas do mundo e cheio do '
+                                 'espírito.',
+                                 'Verdadeira alegria ou tristeza: a vida somou — ou não — para si '
+                                 'e para os outros.',
+                                 'Sentimento maduro é sóbrio e contínuo; euforia e depressão são '
+                                 'irmãs densas.'],
+                        'reflections': ['Em que medida a minha alegria ainda depende de elogio, '
+                                        'posse ou expectativa?',
+                                        'Quando a dor chega, uso-a para subir de patamar — ou fico '
+                                        'na esperança do prazer futuro?',
+                                        'Se o guarda do Tesouro pesasse hoje o meu ouro e a minha '
+                                        'prata, o que justificaria legítima alegria?',
+                                        'Consigo deliciar-me com o “chocolate” sem sair do caminho '
+                                        'que escolhi como sentido?']},
+ 'as-casas': {'summary': 'A casa, em Gibran, não é metáfora frouxa: é quatro paredes que funcionam '
+                         'como segunda vestimenta e reforço cotidiano da consciência. Habitar bem '
+                         'é criar câmara de purificação e diálogo interior, não tumba de conforto. '
+                         'O que trancamos atrás das portas — paz, recordações de ouro, beleza '
+                         'vertical — revela se a morada é mastro ou âncora, pálpebra que protege o '
+                         'olho ou fita que esconde a ferida.',
+              'sections': [{'heading': 'Casa como segunda pele e simbólica do cotidiano',
+                            'body': 'O capítulo parece tratado de engenharia; é filosofia do '
+                                    'hábitat concreto. Tudo que cerca o homem é simbólico e '
+                                    'influencia a vida: gestos, olhar, disposição dos objetos, '
+                                    'cores do quarto. Roma antiga pensava pontos cardiais, '
+                                    'floresta e interação com a natureza para que a casa '
+                                    'convidasse à elevação. Feng shui e psicologia ambiental '
+                                    'redescobrem o óbvio: laranja vivo no dormitório estimula '
+                                    'quando se precisa de recolhimento. Início e fim do dia — '
+                                    'último pensamento ao deitar, primeira forma mental ao acordar '
+                                    '— marcam a trajetória onírica e a tônica diurna. Na escola '
+                                    'tradicional, o umbral, a música, os murais eram convites à '
+                                    'consciência; na rua moderna, cada olhar é convite ao consumo, '
+                                    'ao medo e ao desejo. Somos influenciados mesmo sem notar: a '
+                                    'música no sinal ocupa a mente por horas. Responsabilidade '
+                                    'humana inclui saber o que nos vibra.'},
+                           {'heading': 'Abrigo no deserto e solidão fecunda',
+                            'body': 'O pedreiro pergunta pelas habitações porque dedicou a vida a '
+                                    'construí-las e quer saber se somou. Almustafa começa pelo '
+                                    'abrigo no deserto antes da moradia na cidade: a natureza '
+                                    'humana precisa de distância, vida interior, entremear-se com '
+                                    'a natureza externa. O Sol ama os planetas dando luz sem '
+                                    'grudá-los — convivência é ritmo e órbita. Emoções e '
+                                    'pensamentos “exalam”; sentimos o astral de um ambiente antes '
+                                    'de ver a primeira pessoa. Prédios de caixotinhos amontoam '
+                                    'invasões mútuas. Experimentos com cobaias mostram queda de '
+                                    'imunidade e longevidade sob saturação; o humano é ainda mais '
+                                    'invasivo no plano mental e emocional. Nascer, morrer e '
+                                    'assimilar conhecimento são processos solitários: não se vive '
+                                    'só do que se come, mas do que se assimila. O viajante '
+                                    'interior — sempre distante e solitário — também precisa ser '
+                                    'bem-vindo ao crepúsculo. Olhos de sábio, na imagem taoísta, '
+                                    'são corredor onde homem e Deus dialogam.'},
+                           {'heading': 'Corpo mais amplo e o sonho da casa',
+                            'body': '“Vossa casa é vosso corpo mais amplo”: cresce ao sol, dorme '
+                                    'no silêncio, também tem sonhos — e, sonhando, anseia por '
+                                    'colina e floresta. O ideal da casa humana não é luxo: é '
+                                    'privacidade para reciclar a consciência, conforto espiritual, '
+                                    'acertar contas consigo. Quando a casa falha nesse papel, fica '
+                                    'incompleta e frustrante; construímos então moradias cada vez '
+                                    'mais alienadas. Obras impregnam emoção: um quadro nascido de '
+                                    'agressividade pode induzir o estado que carrega. Nada é '
+                                    'impune; vibração gera sintonia, sobretudo na inconsciência. '
+                                    'Exercício: imaginar o local onde se dialogaria em paz consigo '
+                                    'e compará-lo ao lugar real. Modismos e luxo inadequado '
+                                    'afastam do que a casa humana serviria. Espalhar casas '
+                                    'modestas em campinas, chegar com fragrância de terra, ouvir o '
+                                    'sabiá, pisar o chão: o impulso moderno é cimentar e isolar-se '
+                                    'do que cura.'},
+                           {'heading': 'Medo, amontoamento e o que se guarda trancado',
+                            'body': 'Os antepassados juntaram-nos por temor; o medo sobrevive e as '
+                                    'muralhas separam campos e lares. Amontoados, isolamo-nos da '
+                                    'natureza e ficamos lado a lado com o maior risco: o próprio '
+                                    'homem. Rousseau ecoa: o homem, lobo do homem. Assalto na '
+                                    'multidão indiferente mostra que a proximidade egoísta não '
+                                    'protege — às vezes oculta o crime. Então Gibran pergunta: o '
+                                    'que possuís atrás das portas? A paz — impulso tranquilo que '
+                                    'revela potência, raiz que o vento não abala? As recordações — '
+                                    'não álbuns da Estátua da Liberdade, mas cofre de ouro: '
+                                    'momentos em que se foi verdadeiramente humano, caixa de '
+                                    'primeiros socorros espiritual? A beleza que leva madeira e '
+                                    'pedra à montanha sagrada — símbolo vertical do físico ao '
+                                    'metafísico, não logo material no mesmo plano? Sem isso, resta '
+                                    'conforto e cobiça do conforto.'},
+                           {'heading': 'Conforto que visita, hospeda e domina',
+                            'body': 'O conforto entra como visita, torna-se hóspede e depois dono '
+                                    'e domador: com gancho e açoite reduz desejos vastos a colchão '
+                                    'e polegadas de tela. Felicidade como lei do menor esforço é '
+                                    'ideal de pedra — inércia, não potência da vida que se expande '
+                                    'da planta ao homem ético e estético. A parábola dos talentos '
+                                    'critica quem enterrou e nada registrou; a preguiça não ensina '
+                                    'nem no acerto nem no erro. Cadeira dura demais impede o '
+                                    'descanso; cadeira mole demais impede a partida. O conforto '
+                                    'embala para dormir e zomba da dignidade do corpo — postura '
+                                    'caída, sentidos na penugem, paixão pelo conforto assassinando '
+                                    'paixões nobres e acompanhando o enterro. Preferir não ter '
+                                    'consciência para não mudar é vício de comodismo; heróis que '
+                                    'cavam no Nepal mostram dignidade que a inércia sempre '
+                                    'encontra desculpa para adiar.'},
+                           {'heading': 'Filhos do espaço: mastro, pálpebra e asas',
+                            'body': 'Filhos do espaço, inquietos no repouso — a inquietude que '
+                                    'nasce a filosofia, como o prisioneiro da caverna que se '
+                                    'remexe nas sombras — não caem na armadilha. A casa não será '
+                                    'âncora, mas mastro: incentivo, não freio; recordação e '
+                                    'identidade, não sono e esquecimento. Não fita reluzente sobre '
+                                    'ferida, mas pálpebra que protege o olho: breve descanso para '
+                                    'retomar o alto-mar. Não se dobram asas à porta, não se curva '
+                                    'a cabeça ao teto, não se retém a respiração temendo abalar '
+                                    'paredes — a casa expande. Não se mora em tumbas feitas pelos '
+                                    'mortos para os vivos, magnificentes e vazias de segredo e '
+                                    'nostalgia. O ilimitado mora no castelo do firmamento: porta '
+                                    'na bruma da aurora, janelas nos cânticos e silêncios da '
+                                    'noite.'},
+                           {'heading': 'Nostalgia da casa verdadeira',
+                            'body': 'Como em Platão e no capítulo da beleza, o objeto belo não '
+                                    'gera posse: vê-se através dele e nasce nostalgia de um mundo '
+                                    'harmonioso já conhecido — saudade de casa. A morada terrestre '
+                                    'deve lembrar a mansão celeste, cujo umbral é a aurora e cujas '
+                                    'janelas são cânticos e silêncios, não sufocar o anelo. '
+                                    'Selecionar o que se guarda é pedagogia: lembretes que elevam '
+                                    'versus esquecimento da moda e do inconsciente coletivo. A '
+                                    'casa é extensão do coração; admitir padrões inconscientes é '
+                                    'deixar que influenciem o íntimo. Nada é impune: mil olhos e '
+                                    'mil ouvidos captam o ambiente. Bom senso — virtude rara — '
+                                    'vale mais que modismo oriental ocidentalizado: saber quem se '
+                                    'é, aonde se quer chegar, e o que se afiniza com isso. Assim a '
+                                    'morada deixa de ser prosaica e torna-se fator de soma na '
+                                    'construção de si.'}],
+              'keys': ['A casa é segunda vestimenta e reforço simbólico da consciência.',
+                       'Antes da cidade, o abrigo interior e a solidão que permite assimilar.',
+                       'Paz, recordações de ouro e beleza vertical: tesouros reais atrás da porta.',
+                       'Conforto que vira dono assassina as paixões nobres da alma.',
+                       'Casa digna: mastro, não âncora; pálpebra, não tumba; lembrete do '
+                       'firmamento.'],
+              'reflections': ['O que a minha casa puxa em mim ao entrar — elevação ou inércia?',
+                              'Tenho cofre de ouro de recordações humanas, ou só álbuns que a '
+                              'posteridade descartaria?',
+                              'A minha morada é mastro que me empurra ao mar, ou âncora que me '
+                              'domestica?',
+                              'Que objetos em casa são símbolos verticais — e quais são só moda no '
+                              'mesmo plano?']},
+ 'as-roupas': {'summary': 'As vestes ocultam muita beleza e não escondem o que não é belo: '
+                          'hipocrisia, debilidade e vulgaridade seguem expostas e socialmente '
+                          'aceitas. Vestimo-nos mais por medo da desonra do que pela lei da '
+                          'necessidade; trancamos as riquezas e soltamos o eu animal. Gibran pede '
+                          'epiderme ao sol e ao vento, pudor como escudo provisório — e, '
+                          'sobretudo, atuar sobre as causas que tornam o escudo crônico.',
+               'sections': [{'heading': 'Simbolismo que exalamos e incoerência que fecha portas',
+                             'body': 'Como a casa, a roupa é detalhe que a consciência humana lê '
+                                     'com radar fino. Ninguém sofre o impacto da nossa imagem mais '
+                                     'do que nós mesmos, diante do espelho tantas vezes ao dia. '
+                                     'Gestos, postura e traje podem contradizer a palavra: onde há '
+                                     'incoerência, a porta da confiança se fecha e o processo '
+                                     'pedagógico empobrece. Roma cuidava do despertar, do umbral '
+                                     'entre vigília e sonho, da purificação de ambientes — '
+                                     'tecnologia moral do cotidiano que hoje desprezamos. A '
+                                     'sociedade materialista gera produtos, não seres humanos; '
+                                     'métodos empresariais buscam eficiência, não felicidade — e '
+                                     'se o infeliz produzisse mais, trocar-se-ia o bem-estar pelo '
+                                     'chicote. Por isso o homem moderno elenca mil causas de '
+                                     'estresse e raramente nomeia a casa ou a roupa: deixou de '
+                                     'conhecer o que fere a natureza humana.'},
+                            {'heading': 'O tecelão e o acerto de contas',
+                             'body': 'No mito, quem pergunta liga-se ao perguntado: o tecelão '
+                                     'interroga as vestes que fiou — foram adequadas? Almustafa, '
+                                     'ao partir, fala em voltar do silêncio maior e em outra '
+                                     'mulher que o dará à luz: ciclo de existência e balanço '
+                                     'interior. A resposta corta: os trajes ocultam beleza '
+                                     'corporal, porém não escondem o que não é belo. Virtudes, no '
+                                     'círculo convencional, soam exibicionismo; fofoca e grosseria '
+                                     'entram na ordem do dia. Acordo tácito em prol da '
+                                     'mediocridade: a virtude é imperdoável porque expõe a inércia '
+                                     'alheia. Colocamos o lixo na vitrine e o vaso de flores no '
+                                     'porão. Platão distingue vergonha e pudor: vergonha é recusar '
+                                     'o bem por covardia; pudor é oferecer o melhor por cortesia, '
+                                     'sem negar o lixo, mas sem ostentá-lo. As vestes sociais '
+                                     'invertem essa ética.'},
+                            {'heading': 'Arreios, cadeias e a inversão prisão-riqueza',
+                             'body': 'Buscamos nas vestes proteção da intimidade e podemos achar '
+                                     'arreios. Cobrir o corpo porque o outro “não resistiria” é '
+                                     'desistir de educar o eu animal — como andar com pau no '
+                                     'condomínio porque os cães ficam soltos, em vez de pedir que '
+                                     'os prendam. Trancamos riquezas e soltamos delinquentes; '
+                                     'encarceramos vítimas e deixamos bandidos à solta; enchemos a '
+                                     'casa de remédios em vez de alimentar-nos bem. É patologia '
+                                     'civilizatória: o desejável vai para a prisão, o grosseiro '
+                                     'ocupa a rua. “Pudesses enfrentar o sol e o vento com mais '
+                                     'epiderme e menos roupas”: o sopro da vida está na luz, a mão '
+                                     'da vida no vento. Medicina oriental e Kant — amar a natureza '
+                                     'como indicativo de natureza moral sadia — reafirmam o '
+                                     'intercâmbio energético com terra, ar, fogo e água. '
+                                     'Entrenchados uns contra os outros, quebramos o fluxo.'},
+                            {'heading': 'Vento do norte, tear da desonra',
+                             'body': 'Alguns dizem: foi o vento do norte — o boreal, o frio — quem '
+                                     'teceu as vestes: lei da necessidade. Gibran concede o vento, '
+                                     'mas acrescenta: a desonra foi o tear, o enfraquecimento dos '
+                                     'nervos o fio; e o vento riu na floresta. Cubrimo-nos por '
+                                     'debilidade de caráter e por medo do descontrole que '
+                                     'projetamos no outro: quem mente desconfia de todos; quem '
+                                     'cobiçaria a intimidade alheia teme a desonra. A natureza ri '
+                                     'de quem empurra sobre ela responsabilidades humanas. Culpar '
+                                     'o outro é prático e esteriliza o crescimento: se só ele '
+                                     'muda, só ele cresce. A civilização da forma como a '
+                                     'conhecemos nasce menos de necessidades naturais — poucas, no '
+                                     'fundo — do que da incapacidade de viver como humanos. O frio '
+                                     'existe; o critério que vestiu o corpo, porém, foi muitas '
+                                     'vezes o medo moral, não o clima.'},
+                            {'heading': 'Escudo, causas e fraternidade',
+                             'body': 'O pudor é escudo contra o olhar impuro — útil no imediato, '
+                                     'patológico se eterno, como analgésico sem investigar a dor '
+                                     'de cabeça. Quando o impuro desaparecer, o escudo vira '
+                                     'obstáculo e mancha na alma; quando a violência sumir, as '
+                                     'muralhas cairão. A evolução, em todo O Profeta, caminha para '
+                                     'a fraternidade: unidade, integração, derrubada de muralhas '
+                                     'nascidas da desconfiança — primeiro de si. Atuar só sobre '
+                                     'efeitos — leis mais duras, mais cadeados, mais tecido — '
+                                     'cronifica o mal e exige remédios cada vez mais fortes. '
+                                     'Filosofia busca causas: a miséria física radica na miséria '
+                                     'psicológica, moral e espiritual; fome é falta de '
+                                     'fraternidade; miséria é falta de honestidade. Não somos '
+                                     'políticos de mandato curto: temos a vida inteira e somos '
+                                     'responsáveis pelos que virão. Corrigir o eu animal em si é o '
+                                     'primeiro exemplo.'},
+                            {'heading': 'Terra que se rejubila e fluxo do cosmos',
+                             'body': 'A terra se alegra com pés desnudos; os ventos anseiam '
+                                     'brincar com o cabelo. Na tradição oriental antiga, grande e '
+                                     'pequeno não se medem à régua quantitativa: o homem '
+                                     'influencia os astros tanto quanto é influenciado. Se a '
+                                     'energia da natureza não circula pelo homem, é como vaso sem '
+                                     'sangue no corpo do cosmos — patologia. Ética por coerção '
+                                     '(medo da punição) é adestramento; ética por convicção '
+                                     'realiza o humano como a planta faz fotossíntese por ser '
+                                     'planta. Sagrado é cada coisa no seu lugar — justiça '
+                                     'platônica. Livre-arbítrio torna glorioso o ser homem quando '
+                                     'escolhido, não tutelado. Vestimentas devem responder à '
+                                     'necessidade sazonal, não paliar o animal sem coleira. Quem '
+                                     'cobre demais e quem descobre demais erram o mesmo eixo: '
+                                     'perda das rédeas. Conhece-te e domina-te a ti mesmo.'}],
+               'keys': ['As roupas escondem o belo e expõem o feio que a mediocridade celebra.',
+                        'Vestir-se por desonra, não só pelo frio: tear da debilidade.',
+                        'Trancar riquezas e soltar o eu animal é inverter a civilização.',
+                        'Pudor é escudo provisório; sem corrigir causas, vira mancha.',
+                        'Natureza e homem necessitam um do outro: fluxo, não trincheira.'],
+               'reflections': ['O que as minhas vestes e a minha imagem social realmente protegem '
+                               '— e o que ostentam?',
+                               'Estou educando o eu animal ou apenas cobrindo o que ele cobiça?',
+                               'Que paliativos (roupas, muros, leis) uso para não enfrentar a '
+                               'causa moral?',
+                               'Quando foi a última vez que deixei sol, vento e terra circularem '
+                               'em mim sem medo?']},
+ 'comprar-e-vender': {'summary': 'Comprar e vender nascem da divisão inteligente do trabalho e da '
+                                 'generosidade da terra; tornam-se avidez e fome quando a troca '
+                                 'abandona amor e justiça. Valor agregado e necessidade digna não '
+                                 'se confundem com lucro como logro. No mercado, invoca-se o '
+                                 'espírito mestre da terra, honra-se o suor do lavrador e do '
+                                 'artista, e ninguém deve sair de mãos vazias — porque a '
+                                 'humanidade é um só corpo e a heresia da separatividade é o pior '
+                                 'dos males.',
+                      'sections': [{'heading': 'Dádivas da terra e nascimento do escambo',
+                                    'body': 'A terra oferece frutos e nada falta a quem souber '
+                                            'encher as mãos. Filhos da natureza, deveríamos imitar '
+                                            'sua generosidade sem currículo. Platão, na República, '
+                                            'mostra clãs autárquicos que, após gerações, '
+                                            'descobrem: cada um tem natureza para um ofício — '
+                                            'linha de menor resistência à evolução. Quem planta '
+                                            'bem e constrói mal; quem edifica bem e não faz '
+                                            'germinar um feijão: a divisão do trabalho nasce da '
+                                            'vocação, não do status. Daí o escambo — valor por '
+                                            'valor, segundo necessidade. Circunstâncias (época, '
+                                            'família, lugar) não são caos a corrigir, mas escada '
+                                            'destinada; fugir delas por conforto é lutar contra a '
+                                            'natureza. Trocar dádivas com mentalidade da terra '
+                                            'gera abundância; deixar entrar ambição e exploração '
+                                            'distorce preço e valor e mancha a imagem do '
+                                            'comércio.'},
+                                   {'heading': 'Amor, justiça e heresia da separatividade',
+                                    'body': 'Sem troca no amor e na justiça, uns vão à avidez, '
+                                            'outros à fome — e todos à infelicidade. Blavatsky, na '
+                                            'Voz do Silêncio: não seque a própria lágrima enquanto '
+                                            'houver lágrima alheia. Aproveitar a ingenuidade do '
+                                            'outro no cálculo trigo-maçã só nasce quando a dor '
+                                            'alheia deixa de ser problema nosso. No Tibete, o pior '
+                                            'mal é a heresia da separatividade: achar que o '
+                                            'prejuízo do outro pode ser lucro meu. Se somos um, '
+                                            'ambos ganhamos ou ambos perdemos; a violência parte '
+                                            'dessa ilusão. Hierarquia de valores que aceita a dor '
+                                            'do outro por benefício material é vertigem sem fim. '
+                                            'Nada realmente nosso pode ser tirado: ganhamos '
+                                            'fraternidade, justiça, consciência; o resto é ilusão '
+                                            'comprada a preço de humanidade perdida. Rompido o fio '
+                                            'da justiça, entram paixão e ódio — pêndulo histórico '
+                                            'de exploradores e explorados.'},
+                                   {'heading': 'Espírito mestre da terra e valor agregado',
+                                    'body': 'No mercado, lavradores, pescadores, tecelões e '
+                                            'oleiros devem invocar o espírito mestre da terra — '
+                                            'dharma, justiça — para santificar balanças que '
+                                            'comparam valor com valor. Produtos elaborados '
+                                            'afastam-se da evidência do trigo e facilitam a '
+                                            'profanação. Ao oleiro que encarece o vaso, lembrar o '
+                                            'suor sob o sol, o mar bravio, a generosidade que '
+                                            'semeou peixe e grão. “Vinde aos campos ou ao mar”: '
+                                            'conhecer a história por trás do produto. A cultura do '
+                                            'descartável nasce da ignorância do valor agregado — '
+                                            'terra, trabalho, vida. Quem cultivou do sementeiro '
+                                            'sente dor ao jogar fora; o consumidor urbano trata o '
+                                            'tomate como barra de chocolate. Lucro, do latim '
+                                            'ligado a logro, é plus além do valor e da necessidade '
+                                            'digna, obtido pela ingenuidade alheia. Trabalhar '
+                                            'menos e ganhar mais — pirâmides — exige que alguém '
+                                            'trabalhe mais e ganhe menos: matemática ética '
+                                            'simples.'},
+                                   {'heading': 'Cidade dos porcos, excesso e vitória da honra',
+                                    'body': 'Na República, quando se pedem supérfluos, Sócrates '
+                                            'admite a “cidade dos porcos” expandida — e nascem '
+                                            'junto os vícios. Valor agregado justo atende à '
+                                            'necessidade de viver com dignidade; o logro alimenta '
+                                            'vício de excesso e exploração. Oferecer sistemas em '
+                                            'que se sobe para trabalhar menos ofende quem não '
+                                            'deseja mais do que merece. Em Nova Acrópole, a '
+                                            'criança aprende: se falta suco, honra é mais gostosa '
+                                            'que suco — preferir a falta a si. A sociedade '
+                                            'invertida prefere suco à honra e celebra o espertinho '
+                                            'que carregou zero cadeiras. Jung: tempo que fala '
+                                            'tanto em economia esbanja o espírito. Mandela quebra '
+                                            'o ciclo: explorado, recusa revanche e exige justiça — '
+                                            'interrompe paixão e ódio. Sem essa grandeza, a novela '
+                                            'social só alterna papéis de algoz e vítima, geração '
+                                            'após geração.'},
+                                   {'heading': 'Artistas no mercado e fome da alma',
+                                    'body': 'Cantores, bailarinos e flautistas também colhem '
+                                            'frutos e incenso: feitos de sonhos, alimentam e '
+                                            'vestem a alma. Há fome estética como há fome ética e '
+                                            'material; a beleza eleva a consciência e dá sentido à '
+                                            'vida. A arte redime a arbitrariedade da condição '
+                                            'humana — uma crucificação terrível torna-se, na mão '
+                                            'do renascentista, nobreza e sentido; uma batalha, sob '
+                                            'o pincel certo, deixa de ser só barbárie. Em crises, '
+                                            'tratamos isso como supérfluo e caímos na lei da '
+                                            'selva; valores nunca são luxo. O esforço de gerar '
+                                            'beleza empenha imaginação e energia tanto quanto o '
+                                            'sulco na terra. O mercado humano inclui essa troca; '
+                                            'ignorá-la empobrece a cidade, bestializa o trato e '
+                                            'deixa a alma faminta ao lado do corpo saciado ou, '
+                                            'pior, de ambos famintos.'},
+                                   {'heading': 'Ninguém de mãos vazias e Ulisses da sabedoria',
+                                    'body': 'Antes de deixar o mercado, cuidar para que ninguém '
+                                            'saia de mãos vazias: o espírito mestre da terra não '
+                                            'descansa enquanto a necessidade do mais humilde não '
+                                            'for satisfeita. Humanidade como família e corpo '
+                                            'único: quando um cai, algo da nossa dignidade desce. '
+                                            'A consciência filosófica nasce da certeza de que, sob '
+                                            'a chuva, alguém se molha — e isso nos diz respeito. '
+                                            'Amar toda a humanidade é obrigação moral, ainda que '
+                                            'seja horizonte. Sem essa justiça interior, leis '
+                                            'externas são saco eleitoral de Machado na Sereníssima '
+                                            'República: muda-se o formato, a corrupção se adapta, '
+                                            'Penélopes tecem até Ulisses — a sabedoria — voltar. '
+                                            'Justiça emana de dentro ou não emana. Quem pensa '
+                                            'assim quase não precisa de tantas leis; quem só tem '
+                                            'leis sempre achará jeito de driblá-las.'}],
+                      'keys': ['Troca justa imita a generosidade da terra e a vocação de cada '
+                               'ofício.',
+                               'Sem amor e justiça, o mercado gera avidez, fome e o pêndulo '
+                               'paixão-ódio.',
+                               'Valor agregado e necessidade digna ≠ lucro como logro.',
+                               'Artistas também alimentam: a alma tem fome de beleza.',
+                               'Ninguém deve sair de mãos vazias: a dor alheia é problema nosso.'],
+                      'reflections': ['Nas minhas trocas, peso valor com valor — ou exploro a '
+                                      'ingenuidade?',
+                                      'Consigo sentir a história (terra, suor, vida) por trás do '
+                                      'que consumo ou desperdício?',
+                                      'Prefiro honra a “suco” quando a conta da justiça não fecha '
+                                      'para todos?',
+                                      'Que Ulisses — que sabedoria interior — ainda falta para eu '
+                                      'não precisar de leis cada vez mais engenhosas?']},
+ 'crime-e-castigo': {'summary': 'Crime e castigo, em Gibran, exigem filosofia: o delito nasce '
+                                'quando o espírito vagueia sobre o vento das emoções desordenadas '
+                                'e a consciência se trai. O eu divino permanece imaculado; o '
+                                'pigmeu é animal; quem escolhe — e portanto conhece crime e '
+                                'castigo — é o homem no meio. Santo e perverso habitam o mesmo '
+                                'espectro; a folha amarela cai com a árvore inteira; juízes sem '
+                                'luz e sem amor aplicam fórmulas cegas a almas que pedem educação, '
+                                'não vingança.',
+                     'sections': [{'heading': 'Vento emocional e traição de si',
+                                   'body': 'O juiz pergunta; a resposta abre com o espírito '
+                                           'vagueando sobre o vento: sozinhos e desprevenidos, '
+                                           'cometemos delitos contra os outros e, portanto, contra '
+                                           'nós mesmos. A dor maior em quem fere já denuncia '
+                                           'unidade inconsciente. Quatro elementos da '
+                                           'personalidade: terra-corpo, água-energia, ar-emoção, '
+                                           'fogo-mente. Vento demais — tormenta astral — distancia '
+                                           'do espírito. Platão chamava coragem a lucidez no '
+                                           'limite, rédeas de si. Pânico mata mais que o fogo no '
+                                           'espetáculo. Identidade, para os egípcios, é o nome '
+                                           'interno no horizonte: o ideal de justiça e '
+                                           'fraternidade no fim da vida. Ação cujo prolongamento '
+                                           'não leva até lá é estar fora de si — “dei um after”. '
+                                           'Bater à porta dos eleitos — mestres e amigos que amam '
+                                           'o melhor em nós e denunciam a traição — é redirecionar '
+                                           'antes da insensatez. Adulador é carrapato na orelha de '
+                                           'quem ama glória; sentimento fino, como em Adélia '
+                                           'Prado, prepara a casa ao outro sem luxo verbal.'},
+                                  {'heading': 'Eu divino, pigmeu e a corda sobre o abismo',
+                                   'body': 'O eu divino é oceano imaculado e éter que só sustenta '
+                                           'os alados: cada fato deve alimentar asas da '
+                                           'consciência — extrair a gota sagrada do banal e do '
+                                           'doloroso —, senão a vida se perde. É sol que '
+                                           'desconhece tocas e covis: na sombra das paixões, dos '
+                                           'rancores e das manipulações não nos encontramos. Mas o '
+                                           'eu divino não habita só: há ainda o homem e o pigmeu '
+                                           'disforme que vagueia nas brumas à procura do '
+                                           'despertar. Caduceu de Mercúrio: animal embaixo, divino '
+                                           'em cima, consciência-elevador no meio. O pigmeu não '
+                                           'escolhe — tende ao instinto; o divino já escolheu '
+                                           'virtudes; o humano erra, acerta, hesita. Nietzsche: o '
+                                           'homem é corda estendida entre animal e super-homem. '
+                                           'Sobre crime e castigo fala-se ao homem. Alinhar os '
+                                           'três mundos é tornar-se ferramenta na mão do deus '
+                                           'interior.'},
+                                  {'heading': 'Espectro humano e responsabilidade sistêmica',
+                                   'body': 'O santo não sobe acima do mais elevado em vós; o '
+                                           'perverso não desce abaixo do mais baixo: microcosmo, '
+                                           'homem vitruviano. Conhecer é dominar; desconhecer é '
+                                           'ser dominado. Negar a preguiça em si é risco de queda; '
+                                           'vê-la e lutá-la gera confiança. Karma da crueldade: '
+                                           '“dessa água não beberei” — circunstâncias '
+                                           'privilegiaram-nos; outros prevaleceram onde não '
+                                           'apostaríamos em nós. Nenhuma folha amarelece sem '
+                                           'assentimento da árvore; o malfeitor não delinque sem '
+                                           'concordância secreta de todos. Como no mercado: a '
+                                           'seiva interrompida é problema de todos. Oriente: quem '
+                                           'erra inspirado no teu exemplo pesa sobre ti. Karma '
+                                           'futuro: alguém cruzará contigo como última esperança; '
+                                           'futilidades no caminho tornam tua a queda dele. A '
+                                           'natureza não exige velocidade sobre-humana, mas ritmo '
+                                           'responsável — coração que bate sempre. Provas são do '
+                                           'nosso tamanho.'},
+                                  {'heading': 'Procissão, pedra traiçoeira e a palavra rude',
+                                   'body': 'Avançamos juntos ao eu divino: somos o caminho e os '
+                                           'que caminham. Quem tropeça alerta os de trás e cai '
+                                           'também pelos da frente, que não removeram a pedra. '
+                                           'Júlio César via nos celtas coragem genial e derrota '
+                                           'certa: cada um por si; as legiões venciam como um só '
+                                           'homem. Depois a palavra que pesa: o assassinado é '
+                                           'censurável por seu assassino; o roubado não está '
+                                           'isento; o justo não é inocente das ações do iníquo; o '
+                                           'agressor muitas vezes é vítima do agredido. Dualidade '
+                                           'luz-sombra em todos: odiamos fora o que não aceitamos '
+                                           'dentro (Jung). Aprende-se por reflexão e compaixão ou '
+                                           'a experiência torna-se inexorável. Tao: o invejado tem '
+                                           'culpa pela inveja que provoca quando ostenta; o sábio '
+                                           'vence como pluma. Sutra: ide juntos além do mais além '
+                                           '— a libertação egoísta não basta.'},
+                                  {'heading': 'Tear, raízes e quem empurra ao abismo',
+                                   'body': 'Justo e injusto caminham diante do sol como fios '
+                                           'branco e negro; rompido o negro, o tecelão examina '
+                                           'todo o tecido e o tear. Platão: antes de julgar o '
+                                           'cidadão, julgue o governo que deveria tutelá-lo. Ao '
+                                           'julgar a esposa infiel, pese o coração do marido; ao '
+                                           'fustigar o ofensor, examine o ofendido; ao derrubar a '
+                                           'árvore do mal, veja raízes de bem e mal entrelaçadas '
+                                           'na terra. Egoísmo leva à beira do abismo e depois '
+                                           'condena quem cai. Erotização precoce e mídia '
+                                           'instintiva empurram o frágil; depois gritamos '
+                                           '“psicopata”. Civilização e Pitágoras pedem o '
+                                           'contrário: trazer à tona o melhor de cada um, deixar '
+                                           'rastro de luz. A humanidade precisa de colo: adultos '
+                                           'morais para crianças morais que se carregam uns aos '
+                                           'outros sem saber.'},
+                                  {'heading': 'Juízes, remorso e a mesma pedra do templo',
+                                   'body': 'Como julgar o honesto na carne e ladrão no espírito? O '
+                                           'assassino do corpo já assassinado no espírito? O '
+                                           'opressor também ultrajado? Platão: o médico pode ter '
+                                           'padecido fisicamente; o juiz não pode padecer de '
+                                           'doenças morais — e nossa sociedade pede técnica, não '
+                                           'equilíbrio. Remorso maior que o delito já é a lei '
+                                           'servida pela consciência; não se impõe remorso ao '
+                                           'inocente nem se retira do culpado. Castigo é educação, '
+                                           'não vingança — Agostinho via na vingança ateísmo '
+                                           'inconsciente. Reclusão sem arrependimento não educa; '
+                                           'arrependimento sem reclusão talvez já bastasse. Sem '
+                                           'luz para ver a alma, o juiz aplica o livrinho no '
+                                           'escuro. Ereto e caído são o mesmo homem entre a noite '
+                                           'do pigmeu e o dia do divino. Pedra angular e pedra da '
+                                           'fundação são o mesmo granito: misericórdia torna uma '
+                                           'leve o bastante para ser arco. Justiça e amor — látego '
+                                           'e gancho de Osíris — juntos.'}],
+                     'keys': ['O delito começa quando a emoção afasta o espírito e a consciência '
+                              'se trai.',
+                              'Quem escolhe — e conhece crime e castigo — é o eu humano entre '
+                              'pigmeu e divino.',
+                              'Santo e perverso habitam o espectro de cada microcosmo.',
+                              'A folha que cai implica a árvore: responsabilidade sistêmica e '
+                              'fraternidade.',
+                              'Castigo é educação com amor e luz; vingança e fórmula cega falham.'],
+                     'reflections': ['Quando foi a última vez que bati à porta de um “eleito” '
+                                     'antes de agir fora de mim?',
+                                     'Odeio no outro algum defeito que ainda nego em mim?',
+                                     'Que pedras traiçoeiras eu, podendo, não removi do caminho de '
+                                     'quem vem atrás?',
+                                     'Nas minhas “sentenças” cotidianas, aplico educação com amor '
+                                     '— ou vingança e fórmula?']},
+ 'as-leis': {'summary': 'Deleitamo-nos em estabelecer leis e ainda mais em violá-las: ética de '
+                        'coerção, não de convicção. Há quem construa castelos de areia provisórios '
+                        'e ria com o oceano; há quem confunda seu montículo com lei universal e '
+                        'odeie os bailarinos. De costas para o sol, a sombra torna-se lei. Não se '
+                        'quebram correntes à porta de prisão pior, nem se joga a veste no caminho '
+                        'alheio. A calhandra — a lei viva da natureza — ninguém proíbe de cantar.',
+             'sections': [{'heading': 'Leis atemporais e o homem que se exclui do ideal',
+                           'body': 'Existem leis físicas inexoráveis; Gibran e Platão estendem a '
+                                   'pergunta ao moral: a condição humana preexiste como modelo '
+                                   'ideal, com estágios e leis, ainda que nenhum homem as percorra '
+                                   '— como um currículo antes do primeiro aluno. O universo é '
+                                   'cosmos, não caos; só o homem moderno se sente dispensado de '
+                                   'aperfeiçoamento enquanto exige o ideal do aparelho de som e do '
+                                   'automóvel. Jovem que “não quer ser melhor” e jovem que prevê a '
+                                   'extinção do amor pela seleção natural ilustram a perda de '
+                                   'senso: o amor é lei que une e sustenta a própria permanência. '
+                                   'Gibran parte da certeza de que leis regem também a evolução '
+                                   'moral, creiamos ou não — como a Terra geoide independente do '
+                                   'decreto medieval.'},
+                          {'heading': 'Anel de Giges e o deleite de violar',
+                           'body': 'O advogado pergunta; a resposta: deleitais em estabelecer '
+                                   'leis, mais ainda em violá-las. Mito de Giges: virtuoso à '
+                                   'vista, invisível e corruptível — ética de aparência e coerção, '
+                                   'não de convicção. Se Giges permanecesse virtuoso mesmo '
+                                   'invisível, o povo elogiaria por medo e pensaria em silêncio '
+                                   '“que estúpido perde oportunidade assim”. Respeitamos por temor '
+                                   'do castigo, não por amor à lei. Robinson Crusoé na ilha revela '
+                                   'o que cumpriríamos por convicção quando a última porta se '
+                                   'fecha. A fresta entre o que fazemos sob coerção social e o que '
+                                   'gostaríamos de fazer nenhuma legislação externa tapa — é a '
+                                   'fenda ética permanente. Crianças à beira do oceano edificam '
+                                   'torres de areia e as destroem rindo: imagem da lei provisória '
+                                   'consciente, sem a pretensão de eternizar o montículo.'},
+                          {'heading': 'Castelos de areia e donos da verdade',
+                           'body': 'Há a pureza de quem sabe: faço a melhor lei que vejo, sei que '
+                                   'o oceano trará mais areia, reconstruirei sem me achar dono da '
+                                   'verdade. O oceano ri com os inocentes — dolo versus culpa. O '
+                                   'verdadeiro legislador platônico é pontífice que capta o '
+                                   'universal e adapta; sem ele, cobrimos a realidade com o '
+                                   'cobertor que temos, ampliando-o sem rigidez dogmática. Outros '
+                                   'têm só um montículo e matam em nome dele: dogmatismo e '
+                                   'injustiças históricas. Sócrates: quem tem a verdade é sábio; '
+                                   'quem acha tê-la sem tê-la é ignorante absoluto; o filósofo '
+                                   'sabe que tem pouca areia e espera mais. Maior impedimento ao '
+                                   'conhecimento é achar que já se tem. “Só sei que nada sei” mede '
+                                   'o universo a conhecer.'},
+                          {'heading': 'Poça d’água, cinzel e ódio aos bailarinos',
+                           'body': 'Há quem a vida seja poça e a lei a cubra toda; ou pedra e a '
+                                   'lei cinzel à própria imagem. No Político, o médico pode '
+                                   'alterar a receita que escreveu; o escravo da prescrição força '
+                                   'a dose até no são. O imobilizado odeia o bailarino; o boi ama '
+                                   'o jugo e chama o gamo de vagabundo; a serpente que não muda de '
+                                   'pele chama as outras de impudicas; o saciado no banquete acusa '
+                                   'os festeiros. Pressfield: acordo tácito pela mediocridade; o '
+                                   'caranguejo que sobe ao balde é traidor. Em decadência, a maior '
+                                   'subversão é a virtude. Ódio ao virtuoso (Iago e Cássio; '
+                                   'Salieri e Mozart) é projeção: o que se odeia fora ainda não se '
+                                   'dominou; a compaixão sinaliza domínio. De costas ao sol, veem '
+                                   'a sombra e fazem dela lei; o sol vira “lançador de sombras”. '
+                                   'Tao: sombras nasceram porque os homens se tornaram opacos.'},
+                          {'heading': 'Rosto ao sol e correntes à porta certa',
+                           'body': 'Quem caminha encarando o sol não é detido por imagens '
+                                   'desenhadas na terra. Leonardo: elevar a vista ao celeste e '
+                                   'voltar flutuando, sabendo o destino. Filósofo é quem um dia '
+                                   'viu a luz e não aceita mais lei-sombra, ainda que depois só '
+                                   'conserve a fagulha. Que lei humana ata quem quebrou o jugo — '
+                                   'mas não à porta de prisão humana pior? Protestar sem '
+                                   'alternativa superior é cair na libertinagem, não na liberdade. '
+                                   'Quebrar costumes cerimoniosos dos avós sem colocar respeito '
+                                   'maior no lugar pode bestializar o vínculo conjugal e social. '
+                                   'Não se quebra o jarro sem ter outro melhor para beber. Quem '
+                                   'dança sem tropeçar em cadeias de ferro; quem rasga a '
+                                   'vestimenta sem atirá-la no caminho alheio — liberdade que não '
+                                   'custa a prisão do outro nem troca uma corrente por outra mais '
+                                   'apertada.'},
+                          {'heading': 'Separatividade e a calhandra indestrutível',
+                           'body': 'Heresia da separatividade: achar que o mal alheio pode '
+                                   'beneficiar-me. Liberdade que joga trapos no caminho do outro é '
+                                   'preço selvagem. Honra mais gostosa que suco; pirâmide de quem '
+                                   'trabalha menos e ganha mais denuncia a conta que outro paga. '
+                                   'Enquanto não há sábios-pontífices, construamos castelos torre '
+                                   'a torre sem roubar areia alheia. “Podeis abafar o tambor e '
+                                   'afrouxar a lira, mas quem proibirá a calhandra de cantar?” '
+                                   'Tirano pode queimar livros e filósofos; não extingue a '
+                                   'pergunta pelo sentido. Filosofia, moral e busca de luz '
+                                   'renascem com o homem. A lei é o que é; a opinião humana não '
+                                   'conforma a realidade. Duas possibilidades: fluir a favor das '
+                                   'leis da evolução ou na contramão — elas não deixam de '
+                                   'existir.'}],
+             'keys': ['Leis humanas nascem muitas vezes do medo; a ética verdadeira é de '
+                      'convicção.',
+                      'Castelo de areia provisório e inocente ≠ montículo erigido em dogma.',
+                      'De costas ao sol, a sombra vira lei; de frente, a lei é luz que liberta.',
+                      'Não quebre a corrente à porta de uma prisão pior.',
+                      'A calhandra — a natureza da lei viva — não se proíbe por decreto.'],
+             'reflections': ['Que leis cumpro só porque alguém pode me ver — e quais cumpriria em '
+                             'ilha deserta?',
+                             'Trato minhas regras como areia provisória ou como verdade absoluta?',
+                             'Ao “protestar”, estou subindo — ou reforçando a decadência que '
+                             'critico?',
+                             'Minha liberdade joga trapos no caminho de alguém?']},
+ 'a-liberdade': {'summary': 'A liberdade de que tanto se fala é tema de prisioneiros: mal '
+                            'entendida, vira corrente e algema. Não deve ser fim último — senão se '
+                            'busca a qualquer preço e degrada-se em irresponsabilidade — mas '
+                            'subproduto do compromisso com valores e dever. Livres de verdade '
+                            'elevamo-nos sobre dias e noites sem negar preocupações; destruímos o '
+                            'trono do tirano dentro de nós; trocamos o motor horizontal do medo e '
+                            'do desejo pelo caminho vertical dos princípios.',
+                 'sections': [{'heading': 'Prostrados diante da liberdade-tirana',
+                               'body': 'O orador — quem fala o que vai à alma — pergunta pela '
+                                       'liberdade. Almustafa viu, aos portões e à beira do fogo, '
+                                       'homens prostrados louvando a própria liberdade: como '
+                                       'escravos que exaltam o tirano apesar dos maus-tratos. Quem '
+                                       'fala demais de comida está faminto; quem fala demais de '
+                                       'liberdade pode estar preso. Nos templos e nas sombras da '
+                                       'cidadela, os que se têm por mais livres usam a liberdade '
+                                       'como corrente e algema. A vida é viagem: ou se vai no '
+                                       'banco da frente, olhos abertos, direção escolhida, ou no '
+                                       'banco de trás, vendado, a serviço de metas alheias. Nada '
+                                       'fica parado; energia sempre soma em alguma direção. '
+                                       'Escravidão inconsciente é a pior: acaricia-se a corrente e '
+                                       'combate-se quem tenta libertar — como os prisioneiros do '
+                                       'mito da caverna que atacam o libertador.'},
+                              {'heading': 'Dupla natureza e liberdade como fardo',
+                               'body': 'Há natureza humana e animal, ambas com leis; sem '
+                                       'consciência, obedece-se só ao animal. Criação, manutenção '
+                                       'e destruição — trimúrti da matéria — viram sexo, avareza e '
+                                       'violência quando falta o humano que as elevaria. Liberdade '
+                                       'inconsciente algema à animalidade. O coração sangra: só '
+                                       'sereis livres quando o desejo de buscar a liberdade se '
+                                       'tornar fardo e cessardes de falá-la como objetivo e meta '
+                                       'adquirida. Como a felicidade em Kant, a liberdade não pode '
+                                       'ser fim último sob pena de ser desejada a qualquer preço — '
+                                       'e então deixa-se o ferido na rua para não “estragar” o '
+                                       'dia. Compromete-se com o nobre e o justo; a liberdade vem '
+                                       'como consequência. Caso contrário, “não me comprometo para '
+                                       'não perder a liberdade” — e resta a libertinagem, sombra '
+                                       'obscura da liberdade verdadeira.'},
+                              {'heading': 'Sobre dias e noites, correntes da aurora',
+                               'body': 'Verdadeira liberdade não é ausência de preocupação e '
+                                       'necessidade, mas sujeitar-lhes a vida e ainda assim '
+                                       'elevar-se sem vestes nem amarras. Circunstâncias virão: '
+                                       'responder como humano — criar esperanças, possuir-se a si '
+                                       'e às virtudes, destruir egoísmo e cólera — para que a '
+                                       'trilha diga: passou um ser humano. Como elevar-se se não '
+                                       'se quebram as correntes amarradas na aurora do '
+                                       'conhecimento em torno do meio-dia? Na juventude da energia '
+                                       'adia-se o domínio de si por “ganhar a vida”; acumulam-se '
+                                       'máscaras. Quem vive oitenta anos não pode tratar um ano '
+                                       'como nada. O que se chama liberdade é muitas vezes a mais '
+                                       'forte dessas correntes, elos brilhando ao sol. Liberdade '
+                                       'não está nos atos, mas na consciência que os dirige: o '
+                                       '“jovem livre” entregue a vícios não marca encontro às dez '
+                                       '— folha ao vento, escravo da circunstância.'},
+                              {'heading': 'O que se descarta, leis na testa, trono interior',
+                               'body': 'Que fragmentos de vós mesmos descartareis para ser livres? '
+                                       'Em geral, o que puxa para cima — honestidade, compromisso, '
+                                       'as duas horas de filosofia — enquanto se preservam redes e '
+                                       'dispersão: lei do menor esforço. Lei injusta escrita com a '
+                                       'própria mão na própria testa não se apaga queimando livros '
+                                       'nem lavando a fronte dos juízes: nasceu de homens '
+                                       'injustos; sem justiça interior, trocar o espelho não limpa '
+                                       'as espinhas. Destronar o déspota fora exige destruir o '
+                                       'trono erigido dentro: tirania da própria “liberdade” e '
+                                       'vergonha do próprio orgulho. Exploram-nos pelas frestas '
+                                       'dos defeitos; a senhora honesta não cai no bilhete '
+                                       'premiado por esperteza, mas porque a fresta da ambição não '
+                                       'existia. Homens virtuosos conviveram com tiranos sem serem '
+                                       'tiranizados.'},
+                              {'heading': 'Preocupação, medo e a pedra de gelo',
+                               'body': 'A preocupação não foi imposta: escolheu-se a resposta '
+                                       'padrão da massa — torturar-se — em vez de perguntar o que '
+                                       'o problema ensina. Epicteto: problemas iguais, respostas '
+                                       'diferentes. Vitimização pode viciar a célula como droga. O '
+                                       'medo está no coração e na mão dos temidos: apego ao que '
+                                       'necessariamente se perde. Nada realmente nosso pode ser '
+                                       'tirado; apegar-se a pedra de gelo é viver ansiedade '
+                                       'crescente. Desejado e odiado, perseguido e fugido '
+                                       'abraçam-se no ser: equação animal de medo e desejo, dor e '
+                                       'prazer — motores externos manipuláveis. Epicteto escravo: '
+                                       'quem tem o que me interessa é meu amo; movo-me por '
+                                       'princípios, logo não tens nada que me interesse. Sócrates: '
+                                       'o bem-intencionado ainda escravo do medo e do desejo é '
+                                       'manipulado; o filósofo inclina a reta do horizontal ao '
+                                       'vertical.'},
+                              {'heading': 'Pares de luz e sombra e a liberdade que se realgema',
+                               'body': 'Medo e desejo movem-se em pares; libertar-se de um sem o '
+                                       'outro falha. Prazer a qualquer preço pode degenerar em '
+                                       'prazer com a dor alheia; prazer humano como fruto de '
+                                       'princípios permanece. A fábula do boi na sala: dor e '
+                                       'prazer compensam-se no mesmo plano. Subir exige esforço; '
+                                       'descer tem a lei da gravidade. Quando a liberdade perde as '
+                                       'algemas de um patamar, torna-se algema de liberdade maior: '
+                                       'amamos o conforto mais que o crescimento, e a vida ergue '
+                                       'paredes até olharmos para cima. Cumprimentos modernos '
+                                       'desejam “muito prazer” onde outrora se desejava o sagrado '
+                                       'ou a paz — sintoma de valor invertido. Cuidado: mudar o '
+                                       'padrão e amar o crescimento, ou a liberdade será só algema '
+                                       'transferida. Gibran realfabetiza: liberdade verdadeira é '
+                                       'consequência de ser humano, não fuga do que nos eleva.'}],
+                 'keys': ['Liberdade mal compreendida é corrente; tema predileto de quem ainda é '
+                          'prisioneiro.',
+                          'Liberdade como fim a qualquer preço vira irresponsabilidade; como fruto '
+                          'do dever, dignifica-se.',
+                          'Elevar-se sobre dias e noites: responder humanamente às circunstâncias '
+                          'inevitáveis.',
+                          'Destrua o trono do tirano dentro antes de clamar liberdade fora.',
+                          'Trocar medo-desejo por princípios: do horizontal animal ao vertical '
+                          'humano.'],
+                 'reflections': ['O que chamo de liberdade está me livrando do que me eleva ou do '
+                                 'que me escraviza?',
+                                 'Minhas “correntes da aurora” — máscaras adiadas — ainda comandam '
+                                 'o meio-dia?',
+                                 'Por quais frestas (ambição, medo, vaidade) ainda sou explorável?',
+                                 'Amo mais o conforto do próximo patamar ou o crescimento contínuo '
+                                 'rumo à estrela?']},
+ 'razao-e-paixao': {'summary': 'Almitra pergunta pela razão e pela paixão porque deseja sacralizar '
+                               'a vida interior: que cada potência humana receba sentido e sirva '
+                               'ao crescimento, em vez de ser reprimida ou idolatrada. Gibran '
+                               'responde com a metáfora náutica — leme e vela — e com a exigência '
+                               'de uma consciência acima das duas forças, capaz de pacificá-las '
+                               'sem negar nenhuma. Sem essa integração, o homem oscila entre '
+                               'racionalismo frio e explosão passional, e torna-se fácil presa da '
+                               'manipulação. O capítulo convida a amar todos os elementos da alma '
+                               'como hóspedes iguais e a reconhecer Deus tanto na ordem serena '
+                               'quanto na tempestade criadora.',
+                    'sections': [{'heading': 'Sacerdócio do sentido',
+                                  'body': 'Não é casual que a mesma sacerdotisa que perguntara '
+                                          'pelo amor volte a interrogar Almustafa. Almitra '
+                                          'representa a função de sacralizar — dar sentido — a '
+                                          'cada força que habita o humano. Mircea Eliade lembrava '
+                                          'que o sagrado não é apenas o culto formal: é a flor que '
+                                          'desabrocha no tempo certo, o sol que nasce, o homem que '
+                                          'desperta para virtudes. Quando razão e paixão são '
+                                          'tratadas como inimigas mutuamente excludentes, a '
+                                          'sociedade desumaniza-se: falta não só pão, mas homens '
+                                          'capazes de fraternidade e de lucidez. A pergunta de '
+                                          'Almitra é, portanto, política e metafísica ao mesmo '
+                                          'tempo: como impedir que metade de nós mesmos seja '
+                                          'castrada? Sem identidade acima das polaridades, quem se '
+                                          'identifica com a razão nega o fogo; quem se identifica '
+                                          'com a paixão nega o juízo. O resultado é um campo de '
+                                          'batalha onde, vença quem vencer, o ser inteiro perde um '
+                                          'potencial irrecuperável.'},
+                                 {'heading': 'Caixa de ferramentas, não identidade',
+                                  'body': 'A palestra insiste numa desidentificação libertadora. '
+                                          'Razão e paixão são instrumentos; a essência humana é o '
+                                          'observador que as emprega. Quem diz “eu sou passional” '
+                                          'ou “eu sou racional” confunde estado com ser e perde '
+                                          'autoridade sobre o próprio psiquismo — como o pai que '
+                                          'quer ser só amigo e deixa vazio o lugar da formação, ou '
+                                          'o dono que se iguala ao animal e deixa de educá-lo. O '
+                                          'princípio hermético da neutralização ecoa aqui: só '
+                                          'resolve o conflito quem já não disputa o ursinho, quem '
+                                          'elevou a consciência acima do desejo em disputa. Amor, '
+                                          'na raiz protoindo-europeia ligada ao chamado materno, '
+                                          'sugere proteção sem interesse; só assim se julga quando '
+                                          'é hora de pensar e quando é hora de arder. Sem esse '
+                                          'centro, a “síndrome de Gabriela” — nasci assim, sou '
+                                          'assim — transforma defeito em destino e impede o '
+                                          'funeral dos vícios que Epicteto pedia assistirmos antes '
+                                          'da própria morte.'},
+                                 {'heading': 'Leme e vela da alma navegante',
+                                  'body': '“Vossa razão e vossa paixão são o leme e as velas de '
+                                          'vossa alma navegante.” Sem vela, o mapa mais belo não '
+                                          'move o barco; sem leme, o vento mais generoso faz do '
+                                          'navegante um joguete. A razão sozinha restringe o '
+                                          'impulso até a esterilidade vaidosa do intelectual que '
+                                          'leu tudo sobre o medo e salta à cadeira diante do rato. '
+                                          'A paixão abandonada a si mesma é fogo que consome o '
+                                          'próprio objeto amado. Na nomenclatura indiana citada na '
+                                          'palestra, o racionalismo paralisante — kama-manas, '
+                                          'mente de desejos — fabrica cenários catastróficos e '
+                                          'confunde pensar com viver. Já a paixão bem canalizada '
+                                          'vira entusiasmo, garra, a energia que moveu Leonardo ou '
+                                          'Mozart. Elevadas, essas forças tornam-se inteligência e '
+                                          'amor; degradadas, viram impulso cego, sombra terrestre '
+                                          'da vontade. O mito da Odisséia sintetiza a trindade: '
+                                          'Ulisses (inteligência), Aquiles (vontade), Heitor '
+                                          '(amor). Sem as três, não há épica humana — só deriva ou '
+                                          'imobilidade no meio do mar.'},
+                                 {'heading': 'A fresta da manipulação',
+                                  'body': 'Quando a paixão sobe, a razão desce; quando a razão '
+                                          'sobe, a paixão esfria. Os sofistas gregos — e seus '
+                                          'herdeiros modernos — exploram exatamente essa '
+                                          'alternância: fundamentam com autoridades, conquistam '
+                                          'confiança, disparam um clímax emocional e desviam dois '
+                                          'ou três graus da lógica. No calor do sentimento, poucos '
+                                          'detectam o sofisma que, no papel, ainda custaria a '
+                                          'achar. “Cuida dos teus defeitos para não seres '
+                                          'explorado por eles”: o desequilíbrio abre a fresta. '
+                                          'Quem dera Almustafa fosse o pacificador — mas ninguém '
+                                          'transforma o homem de fora para dentro. A imagem '
+                                          'socrática da parteira vale aqui: não se dá à luz quem '
+                                          'não está grávido de sabedoria. É preciso ser '
+                                          'pacificador de si e, mais ainda, “enamorado de todos os '
+                                          'vossos elementos”. A racionalização — advogado do diabo '
+                                          'que justifica dureza como “sinceridade” — é inimiga '
+                                          'íntima dessa paz. Sem ela, a razão vira paixão '
+                                          'disfarçada; com ela, a paixão se autojustifica '
+                                          'eternamente.'},
+                                 {'heading': 'Fênix e as estações da alma',
+                                  'body': 'Que a alma eleve a razão à altura da paixão para que '
+                                          'cante, e dirija a paixão a par da razão para que '
+                                          'renasça como fênix. A palestra desloca o culto moderno '
+                                          'à juventude: infância, maturidade e velhice não são '
+                                          'desperdícios, mas continentes que se deixam para ocupar '
+                                          'ângulos novos. Algo morre para que algo nasça; dois '
+                                          'corpos não ocupam o mesmo espaço. Em Roma, proteger os '
+                                          'anciãos era proteger a memória viva da cidade — joias '
+                                          'de razão e paixão já integradas. Tratar juízo e apetite '
+                                          'como dois hóspedes amados na mesma casa exige dono '
+                                          'consciente: quem favorece um perde a confiança de '
+                                          'ambos. O homem maduro integra também o tempo: olha a '
+                                          'dor passada e reconhece que, perto do crescimento '
+                                          'obtido, o preço não foi caro. Sem essa fênix interior, '
+                                          'a sociedade permanece emocionalemente adolescente — e a '
+                                          'maturidade parece só desgaste.'},
+                                 {'heading': 'Deus repousa e Deus age',
+                                  'body': 'Na sombra dos álamos, o coração murmura: “Deus repousa '
+                                          'na razão” — ordem, horizonte, geometria serena da '
+                                          'paisagem. Quando a tempestade sacode a floresta, o '
+                                          'mesmo coração diz: “Deus age na paixão” — raio que '
+                                          'arranca folhas secas, vento que renova a fertilidade. '
+                                          'No uno divino, as polaridades não se excluem; no sopro '
+                                          'humano, espelho da esfera divina, também não deveriam. '
+                                          'Descansar na razão sem frieza; agir na paixão sem '
+                                          'descontrole: esse é o tempero da natureza humana. Datas '
+                                          'afetivas e agendas racionais podem ser meros jogos '
+                                          'comerciais — ou despertadores de consciência para não '
+                                          'esquecer de sentir nem de organizar. O egoísmo, raiz '
+                                          'quase universal dos dramas sociais, alimenta-se tanto '
+                                          'do excesso racional quanto do excesso passional. Cada '
+                                          'coisa no seu lugar: não há mal no universo, diz o eco '
+                                          'platônico da palestra — há mau uso. Rotular-se numa só '
+                                          'polaridade é amputar metade de si.'},
+                                 {'heading': 'Extremos que se tocam',
+                                  'body': 'Kant, no auge do racionalismo, desmontava a pretensão '
+                                          'do aluno: ser racional seria transformar conflito com o '
+                                          'vizinho em equação sem desejo e, ao fim, pedir '
+                                          'desculpas se a conta assim mostrasse. Quase ninguém faz '
+                                          'isso; pede-se à razão que prove o que o desejo já '
+                                          'decidiu. Assim paixão e razão se misturam no fundo. Os '
+                                          'extremos se tocam: violência e sensualidade, frieza '
+                                          'calculista e explosão emocional, frequentemente são '
+                                          'faces da mesma animalidade. Ciência extrapolar para '
+                                          'terreno moral — relatividade usada para negar '
+                                          'honestidade — denuncia imaturidade emocional armada de '
+                                          'informação. Ortega y Gasset apontava o especialista que '
+                                          'opina fora do seu campo; a palestra lembra o craque de '
+                                          'futebol falando de política. Virtudes pedem umas às '
+                                          'outras: não se sobe só num degrau. O exemplo coerente — '
+                                          'não o discurso — forma o jovem, que intui autoridade '
+                                          'verdadeira. Diário objetivo, sem melodrama, traz à luz '
+                                          'o “caixa dois mental” que sabota os princípios. A '
+                                          'pedagogia egípcia dos degraus miúdos: a natureza não dá '
+                                          'saltos.'},
+                                 {'heading': 'Suco da laranja, cascas deixadas',
+                                  'body': 'Quando se muda de patamar, a experiência anterior vai '
+                                          'como sumo, não como fardo de cascas. O Bardo Thödol '
+                                          'sugere: se soubéssemos aprender e esquecer o preço '
+                                          'pago, talvez não precisássemos da morte — manto que '
+                                          'corta o lastro de amarguras. Assim se fecha o arco do '
+                                          'capítulo: razão e paixão bem usadas elevam; mal usadas '
+                                          'aprisionam. Trauma é fato com etiqueta “não aceito '
+                                          'aprender”; centro periférico que administra a vida por '
+                                          'projeções. A obra em negro constata; a obra em branco '
+                                          'purifica. Crescer um pouco já justifica uma vida; não '
+                                          'crescer é viver em vão. E o melhor que se faz por quem '
+                                          'se ama, diz Platão pela boca da palestra, é crescer — '
+                                          'prova viva de que o humano pode integrar leme e vela, '
+                                          'ordem e tempestade, juízo e apetite, sem trair nenhuma '
+                                          'das faces do divino que repousa e age em nós.'}],
+                    'keys': ['Razão e paixão são leme e vela: sem uma, deriva; sem a outra, '
+                             'imobilidade.',
+                             'Sem identidade acima das polaridades, não há domínio de si.',
+                             'O desequilíbrio abre fresta à manipulação sofística.',
+                             'Sacralizar é dar sentido a todas as potências interiores.',
+                             'A fênix integra as estações; a sociedade adolescente idolatra só a '
+                             'juventude.',
+                             'Deus repousa na razão e age na paixão — o humano deve espelhar '
+                             'ambos.'],
+                    'reflections': ['Em que área da vida navego só com vela — ou só com leme?',
+                                    'Que rótulo ({Q}sou racional{R} / {Q}sou passional{R}) ainda '
+                                    'confundo com a minha essência?',
+                                    'Onde a racionalização me impede de admitir um erro e pedir '
+                                    'perdão?',
+                                    'Que hóspede interior — juízo ou apetite — tenho honrado em '
+                                    'demasia, perdendo a confiança do outro?']},
+ 'a-dor': {'summary': 'Gibran nega de saída a associação automática entre dor e mal: o sentido '
+                      'clássico da vida é o crescimento, não o prazer. A dor é o partir da casca '
+                      'que envolve a compreensão — alavanca que convida a subir de patamar, não '
+                      'morbidez a cultuar. Permanecer nela sem atravessá-la gera vitimização; '
+                      'atravessá-la com confiança na lei da vida transforma fel em remédio do '
+                      'médico interior. O capítulo pede aceitar as estações do coração como se '
+                      'aceitam as estações do campo.',
+           'sections': [{'heading': 'Crescimento contra o culto do prazer',
+                         'body': 'A sociedade que cumprimenta com “muito prazer” já anunciou a sua '
+                                 'teologia implícita: o bem é o agradável; a dor é o diabo. '
+                                 'Civilizações antigas reservavam ao encontro palavras de paz, de '
+                                 'sagrado, de disciplina moral. A avó da palestrante — “é a '
+                                 'necessidade que ensina o sapo a pular” — ainda sabia o que duas '
+                                 'gerações depois se perdeu: a dificuldade como pedagogia. '
+                                 'Terapias bem-intencionadas às vezes libertam da dor em vez de '
+                                 'acompanhar a travessia; achar um culpado externo limpa a parede '
+                                 'suja? Não: acomoda a mancha. Vontade de crescer olha mais para a '
+                                 'síntese futura do que para a análise nostálgica do passado. '
+                                 'Entra-se no problema por muitas vias; sai-se só por uma — '
+                                 'vontade. Sem ela, a natureza não arma o príncipe com capas e '
+                                 'espadas mágicas: as ferramentas afloram quando a determinação se '
+                                 'move.'},
+                        {'heading': 'Alavanca, não masoquismo',
+                         'body': 'Buda fala em superar a dor; isso não a torna negativa em si. A '
+                                 'equação matemática dada ao aluno não é má — é desafio; detê-se '
+                                 'nela eternamente é morbidez. Se sofrer bastasse para sabedoria, '
+                                 'todos os aflitos seriam sábios. A dor convida; não obriga. Há '
+                                 'quem saia maior; há quem saia revoltado, transferindo a Deus e '
+                                 'ao mundo a responsabilidade. A mulher pergunta pela dor: '
+                                 'arquétipo de energia de permanência, mater dolorosa, capacidade '
+                                 'de sustentar o tempo longo enquanto o masculino explode. Gibran '
+                                 'responde: “a vossa dor é o quebrar da concha que envolve a vossa '
+                                 'compreensão.” Sem obstáculo, a consciência permanece inercial no '
+                                 'mesmo degrau. O atrito do sapato no chão permite caminhar; a '
+                                 'imunologia precisa de desafios; a semente parte a casca para o '
+                                 'coração aparecer ao sol. A mesma força vital que fende o asfalto '
+                                 'e expandem galáxias opera em nós como sede de mais humanidade.'},
+                        {'heading': 'Problemas à altura do homem',
+                         'body': 'Admitir que a situação é só injustiça e nada ensina — diz Platão '
+                                 '— inaugura sofrimento estéril. Leis deveriam ter preâmbulos '
+                                 'educativos, não só punição. Cada um atrai, por afinidade de '
+                                 'necessidade, obstáculos do tamanho da própria estatura: o objeto '
+                                 'atinge quem está na altura do tiro; meteoros não caem sobre quem '
+                                 'não pode respondê-los. Não invejar a vida sem provas: talvez a '
+                                 'fragilidade não suporte o exame. Os problemas são do tamanho dos '
+                                 'homens. Identificar-se com defeitos — “eu sou a minha preguiça” '
+                                 '— faz da libertação uma mutilação imaginária; no Bhagavad Gita, '
+                                 'Arjuna chora pelos vícios que deve derrotar pela familiaridade '
+                                 'com eles. Não há essências defeituosas: há vernizes a remover. '
+                                 'Se o coração se mantivesse maravilhado com o milagre diário, a '
+                                 'dor não pareceria menos admirável que a alegria — preço justo '
+                                 'pelo crescimento e pelo serviço maior à humanidade.'},
+                        {'heading': 'Estações do coração',
+                         'body': '“Aceitareis as estações de vosso coração como aceitastes as '
+                                 'estações dos campos.” Brigar com o inverno é ignorar o '
+                                 'recolhimento em que monges redigiam textos e a metafísica '
+                                 'ganhava espaço enquanto a vida exterior se reduzia. Sem '
+                                 'semeadura interior, a primavera encontra mãos vazias. Ciclos do '
+                                 'dia, da semana, das idades: caminhar com a natureza é força; '
+                                 'contra ela, nada. A sociedade invade a infância com adolescência '
+                                 'precoce e estende a juventude até negar maturidade — como se só '
+                                 'uma estação valesse. Cosmos, não caos: propósito em cada fase. '
+                                 'Muitas dores, diz Gibran, nós mesmos escolhemos: remédio amargo '
+                                 'do médico interior contra o Eu doente. Karma pedagógico, não '
+                                 'vingativo: causa e efeito também na vida psíquica. Medicina '
+                                 'oriental associa órgãos a padrões — ódio ao coração, egoísmo à '
+                                 'célula que só pensa em si. No sutil, o futuro já precipita; a '
+                                 'dor avisa o dente antes da perda total.'},
+                        {'heading': 'Confiança no médico invisível',
+                         'body': '“Confiai no médico e bebei o remédio em silêncio”: a mão pesada '
+                                 'é guiada pela mão suave do invisível. A vida trama para a '
+                                 'evolução; provas são exames de acesso a patamar mais amplo, não '
+                                 'tortura sádica. Quem não quer crescer sente a tensão como mero '
+                                 'tormento; quem quer, chama as provas como o aluno que pede '
+                                 'promoção. Todo ser que traz luz ao mundo deixa rastros — imagem '
+                                 'dos raios vermelhos no poente como sangue na trajetória. '
+                                 'Distinguir dor mórbida (circular, mutilante) e dor construtiva '
+                                 '(que alivia lastro e permite voo) é lucidez espiritual. A taça '
+                                 'que queima os lábios foi feita do barro umedecido pelas lágrimas '
+                                 'do Oleiro: dharma, braço de sentido estendido sobre o cosmos. A '
+                                 'lagarta no casulo desesperaria se tivesse consciência humana; o '
+                                 'medo da transformação impede asas. Confiança na lei da vida é a '
+                                 'condição da metamorfose.'},
+                        {'heading': 'Vingança como ateísmo inconsciente',
+                         'body': 'Santo Agostinho via no espírito de vingança um ateísmo '
+                                 'disfarçado: a crença de que, se eu não atuar, nada acontecerá — '
+                                 'universo sem lei. Num cosmos caótico, a dor é em vão e a revolta '
+                                 'fecha a porta do aprendizado. Premissas culturais saudáveis — '
+                                 'raras hoje — permitiam aos clássicos e a Gibran tratar a dor '
+                                 'como dádiva e privilégio: a natureza confia que podes. O '
+                                 'professor não dá prova se julga o aluno incapaz. Assim a dor '
+                                 'torna-se ato de confiança, não castigo gratuito. Identidade '
+                                 'fundada no prazer treme diante de qualquer perda; identidade '
+                                 'fundada no ser sabe que o que realmente somos ninguém tira — e o '
+                                 'que se vai nos deixa mais puros. Cânones perdidos atrapalham a '
+                                 'avaliação da dor; reconstruí-los é tarefa filosófica urgente. '
+                                 'Sem eles, sofremos como vítimas de acaso; com eles, bebemos o '
+                                 'cálice como oportunidade de luz.'},
+                        {'heading': 'Renascimento exige morte parcial',
+                         'body': 'Na natureza, a semente morre sob a terra para a planta nascer; a '
+                                 'planta seca para outro ciclo. Chamamos primavera de renascimento '
+                                 'e esquecemos que, nas entrelinhas, algo cedeu espaço. O humano '
+                                 'resiste a ver-se como natureza cíclica. Perder hábitos e gostos '
+                                 'circunstanciais parece mutilação de identidade — quando muitas '
+                                 'vezes jamais escolhemos esses gostos: o meio os moldou. '
+                                 'Definir-se pelo ideal de virtudes (justiça, fraternidade) coloca '
+                                 'o nome interno no horizonte, mais próximo do verdadeiro eu do '
+                                 'que o rosto no espelho. Sem medo de que a dor mutile o que '
+                                 'somos, atravessa-se o túnel. A palestra fecha o círculo: dor bem '
+                                 'vivida é veículo de consciência; dor idolatrada ou negada é '
+                                 'prisão. O milagre diário da vida e o milagre da dor pertencem à '
+                                 'mesma ordem — a ordem que faz da aflição, quando atravessada, '
+                                 'caminho de sol.'}],
+           'keys': ['Bom é o que faz crescer, não necessariamente o que agrada.',
+                    'A dor é alavanca: convida a subir; não obriga nem justifica morbidez.',
+                    'Problemas vêm à altura de quem pode respondê-los.',
+                    'Aceitar as estações do coração é caminhar com o cosmos.',
+                    'Karma pedagógico: a taça amarga cura o Eu doente.',
+                    'Vingança é ateísmo inconsciente; confiança na lei libera o aprendizado.'],
+           'reflections': ['Que dor ainda recuso — e, com ela, que compreensão adio?',
+                           'Estou buscando culpados para acomodar a mancha, ou vontade para limpar '
+                           'a parede?',
+                           'Minha dor atual é circular (mórbida) ou está a aliviar um lastro '
+                           '(construtiva)?',
+                           'Confio que a prova veio porque posso — ou trato a vida como caos '
+                           'injusto?']},
+ 'o-autoconhecimento': {'summary': 'Em poucas linhas, Gibran concentra o mandato délfico: '
+                                   'conhecer-se é a pergunta que justifica a existência. O coração '
+                                   '— centro, essência — já sabe em silêncio o que ouvidos e olhos '
+                                   'anseiam ouvir e ver em palavras e atos. Não se mede a alma com '
+                                   'vara nem balança: o Eu é mar sem limites. Diz-se “encontrei '
+                                   'uma verdade”, não a Verdade; a alma desabrocha como lótus de '
+                                   'mil pétalas, unindo-se aos demais. Autoconhecimento maduro '
+                                   'gera fraternidade, não isolamento vaidoso.',
+                        'sections': [{'heading': 'O bonequinho alienado',
+                                      'body': 'Gaarder, em O Mundo de Sofia, imagina o criador '
+                                              'diante do boneco que, ao ganhar vida, pergunta por '
+                                              'casa, roupa e salário — nunca “quem sou?” ou “para '
+                                              'que me fizeste?”. Defeito de fabricação, diríamos. '
+                                              'Assim o homem moderno: faminto diante da vida com '
+                                              'recursos no bolso da essência, sem consciência '
+                                              'deles. Píndaro: “sê o que és, sabendo”. Evolução é '
+                                              'evolução de consciência — luz sobre trevas do que '
+                                              'já somos. Sem saber, existir é sobreviver ou imitar '
+                                              'o instinto. O capítulo do autoconhecimento, um dos '
+                                              'menores do Profeta, exige mastigação clássica: '
+                                              'profundidade em pouca extensão. Viemos ao mundo '
+                                              'para conhecer-nos, dominar-nos e caminhar; dizer '
+                                              'que “não deu tempo” é como ir à esquina comprar o '
+                                              'jornal e voltar sem ele. Jung chamava o século de '
+                                              'esbanjador do espírito. A parábola dos talentos '
+                                              'ecoa: vida apegada e, contudo, jogada fora.'},
+                                     {'heading': 'Coração como centro, não músculo',
+                                      'body': '“Vosso coração conhece, em silêncio, os segredos '
+                                              'dos dias e das noites.” Coração aqui é simbolismo '
+                                              'do centro imortal, não o músculo nem o ícone '
+                                              'romântico. Desse centro irradia intuição que '
+                                              'protesta contra o paradoxo da morte: tanta '
+                                              'imaginação, amor e inteligência não podem virar '
+                                              'nada como coelho na cartola. A razão prática '
+                                              'desmente; a tradição afirma essência. Ideia de '
+                                              'imortalidade sem ação coerente permanece status '
+                                              'intelectual. Os ouvidos anseiam ouvir o que o '
+                                              'coração sabe; os olhos anseiam ver. Unir esses '
+                                              'mundos — tocar com os dedos o corpo nu dos sonhos — '
+                                              'é bom e necessário. Marilyn Monroe, no diário, '
+                                              'confessava: amam a imagem, não a mim; e eu também '
+                                              'não me conheço. Até o estereótipo carrega sede '
+                                              'filosófica. Somos mecanizados até na diversão: '
+                                              'felicidade de protocolo. Fechar os olhos e lembrar '
+                                              'o instante mais feliz pode revelar que jamais '
+                                              'perguntamos o que de fato nos realiza.'},
+                                     {'heading': 'Alma prisioneira e o ato de eduzir',
+                                      'body': 'A fonte secreta precisa brotar até o mar; o tesouro '
+                                              'das profundezas, revelar-se. A teoria da alma '
+                                              'prisioneira — luva que aprisiona a mão — descreve a '
+                                              'ansiedade de expressar-se no mundo. Platão: educar '
+                                              'é abrir grades, deixar entrar ar; eduzir é trazer à '
+                                              'tona o real. Inteligência (interlegere) é escolher, '
+                                              'dentre o que não somos, quem somos. Beethoven '
+                                              'surdo, no Testamento de Heiligenstadt, não se '
+                                              'matava porque tinha um recado musical a entregar. '
+                                              'Também nós temos palavra a pronunciar — e muitas '
+                                              'vezes não a ouvimos. O Louco de Gibran celebra o '
+                                              'dia em que roubaram os sete véus e o sol tocou o '
+                                              'rosto pela primeira vez. Sem vida interior, quer-se '
+                                              'ajudar de mãos vazias; a semente que não mergulha '
+                                              'na terra não dá fruto. Solidão sadia diferencia-se '
+                                              'de isolamento: ambas as polias — recolher e '
+                                              'partilhar — devem ser maravilhosas. Solidão é falta '
+                                              'de si, não falta do outro — daí a solidão das '
+                                              'metrópoles densas.'},
+                                     {'heading': 'Sem vara nem balança',
+                                      'body': '“Não useis balanças para pesar vossos tesouros '
+                                              'desconhecidos” nem sonda para as profundezas. Dois '
+                                              'mundos, duas leis: a essência pertence à unidade; o '
+                                              'corpo, à multiplicidade. Adjetivar é limitar — '
+                                              'cilindro e não esfera — e a unidade, adjetivada, '
+                                              'deixa de ser una. Pseudo-ciência que mede Deus com '
+                                              'equações da matéria comete categoria errada. A '
+                                              'essência é gota do oceano, pérola no fio do colar '
+                                              'do universo, célula da anima mundi. Por isso o '
+                                              'altruísta tende a conhecer-se melhor: “o homem é do '
+                                              'tamanho da sua generosidade.” Separatividade — base '
+                                              'do egoísmo — impede ver o fio comum. “Eu é um mar '
+                                              'sem limites e sem medidas.” O desconhecido em nós é '
+                                              'maior que o conhecido — e ainda assim é água da '
+                                              'mesma água, gelo momentaneamente diferenciado.'},
+                                     {'heading': 'Uma verdade, não a Verdade',
+                                      'body': 'Sócrates ironizava quem dizia ter encontrado a '
+                                              'verdade: ou já é sábio demais para a filosofia, ou '
+                                              'ignora o que verdade significa. O filósofo '
+                                              'vislumbra — flash, ângulo do prisma, momento em que '
+                                              'a beleza revela eternidade. Jung pedia guardar '
+                                              'esses instantes numa caixinha de joias; inflação do '
+                                              'ego é confundi-los com a visão total. “Encontrei a '
+                                              'alma andando em meu caminho” — não o caminho '
+                                              'exclusivo da alma. Segurança nasce quando se '
+                                              'percebe que o que verdadeiramente somos ninguém '
+                                              'fere. O Livro dos Cantos Potentes egípcio manda o '
+                                              'barqueiro deter o remo e olhar quem vive no centro '
+                                              'da barca: passageiro divino. Respicere — olhar de '
+                                              'novo — gera respeito por si e, depois, pelos '
+                                              'outros. Sem isso, relacionamo-nos como cascas. '
+                                              'Seméle pediu ver Zeus em plenitude e morreu '
+                                              'fulminada: não suportamos o todo de uma vez; '
+                                              'juntamos pecinhas até a sabedoria.'},
+                                     {'heading': 'Lótus de mil pétalas',
+                                      'body': 'A alma não marcha em linha reta nem cresce como '
+                                              'caniço: desabrocha em mil pétalas — símbolo indiano '
+                                              'do infinito. Como o amor sagrado, não se '
+                                              'verticaliza num canal estreito: espalha-se em todas '
+                                              'as direções. Ver Deus em todas as coisas ou em '
+                                              'nenhuma. Fraternidade verdadeira é sintoma de '
+                                              'autoconhecimento: um pouco de mim cai quando a '
+                                              'humanidade cai; um pouco sobe quando ela se eleva. '
+                                              'Intelectualismo acumula títulos intransferíveis; '
+                                              'sabedoria cria laços e se reconhece nas obras. '
+                                              '“Dessa água não beberei” é soberba; o '
+                                              'autoconhecedor diz: cuidarei deste defeito em mim '
+                                              'para que outros não caiam por meu exemplo. '
+                                              'Microcosmo que contém o universo. Platão: o maior '
+                                              'ato de amor aos que amamos é crescer. Sem germinar '
+                                              'dentro, saímos ao mundo sem frutos — e a fome do '
+                                              'mundo, lembra a série, é falta de fraternidade '
+                                              'disfarçada de falta de comida.'},
+                                     {'heading': 'Ser e existir: raiz e fruto',
+                                      'body': 'O equinócio de outono, contexto da palestra, '
+                                              'convida ao recolhimento: a natureza prepara o berço '
+                                              'para a semente. Casa no campo e porta aberta aos '
+                                              'amigos — as duas alegrias. “Fala para que eu te '
+                                              'veja”, dizia Sócrates: reflexão sem ato é fantasia. '
+                                              'Raiz sem fruto e fruto sem raiz carecem de sentido; '
+                                              'ser e existir pedem um ao outro. O autoconhecimento '
+                                              'não é narcisismo de espelho: é condição de qualquer '
+                                              'doação real. Sem diálogo com a própria alma, de '
+                                              'onde virão respostas às angústias alheias? O '
+                                              'Profeta, lido como mito, é a consciência '
+                                              'sintetizando doze anos — um ciclo — em centro. '
+                                              'Conhecer-se é ocupar esse centro, deixar de '
+                                              'administrar a vida a partir de traumas periféricos, '
+                                              'e deixar a alma bailar — jovem e eterna — na '
+                                              'existência que finalmente lhe serve de veículo '
+                                              'fiel.'}],
+                        'keys': ['Sem a pergunta {Q}quem sou?{R}, a vida dispersa-se no '
+                                 'periférico.',
+                                 'Coração é centro essência; intuição protesta contra o nada da '
+                                 'morte.',
+                                 'A alma não se mede com vara: pertence à unidade.',
+                                 'Dizei {Q}uma verdade{R}, não {Q}a verdade{R}.',
+                                 'A alma desabrocha como lótus: autoconhecimento gera '
+                                 'fraternidade.',
+                                 'Educar é eduzir — trazer à tona a alma prisioneira.'],
+                        'reflections': ['Que perguntas periféricas uso para evitar {Q}quem sou?{R}',
+                                        'Onde ainda tento medir o espiritual com critérios '
+                                        'materiais?',
+                                        'Meus momentos de insight estão guardados como joias — ou '
+                                        'inflaram o ego?',
+                                        'Minha solidão é recolhimento fecundo ou isolamento '
+                                        'vazio?']},
+ 'o-ensino': {'summary': 'Quem pergunta é um professor — e professor, etimologicamente, é quem '
+                         'professa: vive e crê naquilo que declara. Gibran redefine o ensino: '
+                         'ninguém revela o que já não dormita na aurora do conhecimento do outro; '
+                         'o mestre dá fé e amor, não a sabedoria como mercadoria; conduz ao limiar '
+                         'do próprio espírito. Astrônomo, músico e matemático podem mostrar, nunca '
+                         'doar a visão. Cada um deve conquistar a sua compreensão de Deus e da '
+                         'terra — peça irrepetível do quebra-cabeça humano.',
+              'sections': [{'heading': 'Formar, não armar o inimigo interno',
+                            'body': 'Educação genuína eleva a consciência; do contrário, foi '
+                                    'adestramento ou informação a serviço do instinto. A palestra '
+                                    'alerta: dar filosofia a quem é dominado pelas paixões pode '
+                                    'armar o inimigo interno — citam-se filósofos para defender a '
+                                    'preguiça, e o formador gasta latim a rebater Nietzsche ou '
+                                    'Sartre só para convencer alguém a trabalhar. Quem nunca leu '
+                                    'às vezes aprende mais depressa, sem munição para racionalizar '
+                                    'o vício. Por isso ensino e formação caminham juntos: '
+                                    'conhece-te a ti mesmo antes que a informação fortaleça a '
+                                    'personalidade caprichosa. A verdadeira escola deixa o homem '
+                                    'maior; a falsa deixa-o bestial com verniz. Gibran, no mundo '
+                                    'clássico, não admite diploma sem humanização. A escada '
+                                    'espiralada da consciência — imagem escolhida na palestra — é '
+                                    'o critério: subiu-se de degrau ou apenas se decorou o '
+                                    'patamar? Sem essa verticalidade, o “ensino” multiplica '
+                                    'especialistas sem aumentar humanidade.'},
+                           {'heading': 'Professar: visão que antecipa o outro',
+                            'body': 'Professor vem de professar: declaração em que se empenha a '
+                                    'vida. Não é técnico de conteúdos; é tipo de visão. Vê no '
+                                    'aluno o que este pode ser daqui a dez anos e trata-o desde já '
+                                    'nessa altura, para que ele também se veja assim. Só reconhece '
+                                    'no outro a maturidade que trouxe — ou está trazendo — à tona '
+                                    'em si. O primeiro aluno é a própria personalidade. Sem esse '
+                                    'trabalho, não há mestria: há palestrante. Óculos da palestra '
+                                    'simbolizam essa ótica: olhar que eduz. A fé do mestre — '
+                                    '“você acha que não pode; eu sei que pode” — empresta olhos, '
+                                    'como no filme Uma Mente Brilhante o doente confia na visão da '
+                                    'esposa contra a alucinação. Amor e confiança sustentam o '
+                                    'tempo desigual de cada florescimento; desistir não faz parte '
+                                    'do ofício.'},
+                           {'heading': 'Parteiro de almas',
+                            'body': '“Ninguém vos poderá revelar nada que já não esteja meio '
+                                    'adormecido na aurora do vosso conhecimento.” Eco platônico '
+                                    'explícito: Sócrates, parteiro de almas como Fenarete o era de '
+                                    'corpos, não dá à luz quem não está grávido. Xenofonte '
+                                    'registra a recusa de transformar à força o amarrado à '
+                                    'cadeira. Educar tira alienações mais do que deposita dados. A '
+                                    'assinatura espiritual do humano — valores, virtudes, '
+                                    'sabedoria em germe — equivale à clorofila na planta. Quando '
+                                    'o instinto domina, iguala: as gatas no cio tornam-se '
+                                    'indistintas; o homem, pela mente, pode viver em cio perpétuo '
+                                    'e sufocar a singularidade. Aflorar o mistério interior '
+                                    'diferencia e torna irrepetível. O cidadão que já se remexe na '
+                                    'cadeira da caverna pode ser ajudado; o profundamente '
+                                    'adormecido ainda não.'},
+                           {'heading': 'Fé e amor, não sabedoria doada',
+                            'body': 'O mestre à sombra do templo não dá de sua sabedoria — fruto '
+                                    'de suor, provas e mérito — mas de sua fé e de seu amor. Quem '
+                                    'promete evolução passiva e barata mente e manipula. Buda: não '
+                                    'olhes o dedo, olha a estrela. O sábio não convida à mansão da '
+                                    'sua sabedoria; leva ao limiar do espírito do outro. '
+                                    'Atravessar é tarefa intransferível. Experiência alheia, sem '
+                                    'vínculo de confiança e sem preparo, relativiza-se como '
+                                    'bizarrice particular. Com vínculo, o mestre poupa dissabores '
+                                    'e riscos no mesmo caminho — nunca o esforço. Nem Buda nem '
+                                    'Cristo puderam obrigar a humanidade a evoluir; o mérito é '
+                                    'individual. “O jantar não é grátis”, diz o eco chinês. '
+                                    'Iniciações por correspondência são contradição nos termos.'},
+                           {'heading': 'Astrônomo, músico, geômetra',
+                            'body': 'O astrônomo fala do espaço; não doa o entendimento. O '
+                                    'verdadeiro contemplador vê no cosmos o microcosmo: estrela e '
+                                    'sonho, ordem externa e psique. Sem sede de relações, a luneta '
+                                    'só mostra pontos luminosos. O músico canta o ritmo do '
+                                    'universo; não dá o ouvido nem a voz. Luz no Caminho chama a '
+                                    'canção da vida — dharma que redime o caos. Platão usava '
+                                    'música para educar a percepção da harmonia e da justiça (cada '
+                                    'coisa no seu lugar). Virtuose técnico sem filosofia pode ser '
+                                    'vaidoso; músico filósofo humaniza-se. O versado em números '
+                                    'fala de pesos e medidas; não leva ninguém até lá. “A visão de '
+                                    'um homem não empresta suas asas a outro.” Pitágoras tocava o '
+                                    'rosto de Deus na geometria eterna; Tales perguntava se se '
+                                    'entende a linha reta sem entender a retidão. Academia: não '
+                                    'entre quem não souber geometria. Proporção áurea na rachadura '
+                                    'do chão: a natureza é matematizável — para quem ama o '
+                                    'mistério.'},
+                           {'heading': 'A palavra que só tu podes dizer',
+                            'body': 'Como cada um está isolado na consciência de Deus, cada um '
+                                    'deve ter a própria compreensão de Deus e da terra. Não é '
+                                    'egoísmo relativista: é quebra-cabeça. Sem a tua peça, a '
+                                    'humanidade fica cega num ângulo. Marco Aurélio: a morte de um '
+                                    'só me empobrece — universo ímpar perdido. Osíris despedaçado: '
+                                    'cada um recupera um membro. Fidípides corre a Maratona e, '
+                                    'antes de morrer, diz “vencemos”: pronunciou a palavra. Sem a '
+                                    'nossa, Atenas queimam. O professor vê essa palavra em germe '
+                                    'e ajuda o parto — às vezes batendo nas grades da jaula para '
+                                    'libertar o prisioneiro, como Platão descrevia o mestre ante o '
+                                    'cárcere. Dureza a favor da alma, não contra o capricho. Ser '
+                                    'humano define-se pelo que a natureza espera: valores, '
+                                    'virtudes, sabedoria — como a planta pela fotossíntese. '
+                                    'Potencial sem ato fica incompleto. Filosofia é a chave do '
+                                    'mito: quem a possui entra; quem não, fica na beleza '
+                                    'superficial sem dimensão.'},
+                           {'heading': 'Exemplos e limiar: o que o comércio ensina ao ensino',
+                            'body': 'Mesmo no trecho em que a palestra desliza para comprar e '
+                                    'vender — mesmo vídeo da série — ressoam lições pedagógicas: '
+                                    'justiça como fio, generosidade da terra como modelo, valor '
+                                    'agregado do trabalho, rejeição do lucro como logro. Educar '
+                                    'também é ensinar a não explorar a ingenuidade do outro e a '
+                                    'não desejar que alguém carregue duas cadeiras enquanto se '
+                                    'carrega zero. A criança que aprende que honra pode ser mais '
+                                    'gostosa que suco recebe formação, não só informação. Mandela '
+                                    'interrompe o pêndulo paixão-ódio: quando ensinar é impor '
+                                    'revanche, forma-se o ciclo; quando se ensina justiça, '
+                                    'quebra-se a cadeia. Assim o capítulo do ensino, lido com o '
+                                    'livro e com a primeira metade da conferência, afirma: mestre '
+                                    'é quem acredita no mistério de cada um e se recusa a '
+                                    'substituir o voo alheio pelo próprio — oferecendo limiar, fé, '
+                                    'amor e, jamais, asas emprestadas.'}],
+              'keys': ['Professor professa: vive e crê no que ensina.',
+                       'Ninguém revela o que já não dormita na aurora do outro.',
+                       'O mestre dá fé e amor; a sabedoria conquista-se.',
+                       'Conduzir ao limiar do próprio espírito — não à mansão do mestre.',
+                       'A visão de um homem não empresta asas a outro.',
+                       'Cada compreensão de Deus é peça irrepetível do quebra-cabeça.'],
+              'reflections': ['Quando ensino, imponho a minha mansão ou liberto o limiar do outro?',
+                              'Que fé e que amor — não que eruditismo — tenho de fato a oferecer?',
+                              'Estou armando o inimigo interno com informação sem formação?',
+                              'Que palavra só eu posso pronunciar — e ainda não pronunciei?']},
+ 'a-amizade': {'summary': 'O jovem pergunta pela amizade num tempo em que ela se esvazia em '
+                          'coleguismo de interesses. Gibran responde: o amigo atende a '
+                          'necessidades humanas — sobretudo a fraternidade — não a desejos de uso. '
+                          'Cultiva-se com amor e colhe-se com gratidão; é apoio que dá asas e '
+                          'abrigo que protege inclusive de nós mesmos. Sem vida interior e sede de '
+                          'bem, não há amizade profunda: só rede onde se pesca o inútil.',
+               'sections': [{'heading': 'Necessidade humana, não meio kantiano',
+                             'body': '“O vosso amigo é a resposta às vossas necessidades” — não '
+                                     'aos desejos. Kant: tratar pessoa como meio é imoral; o '
+                                     'humano é fim em si. Usar o outro como companhia, ouvinte ou '
+                                     'preenchedor de carência é manipulação egoísta. O egoísta é '
+                                     'solitário estrutural: não percebe o outro; a diferença entre '
+                                     'amigo e cadeira rarefaz-se. A principal necessidade humana, '
+                                     'no consenso clássico, é a fraternidade — pensar menos em si. '
+                                     'O amigo oferece o campo onde isso se exerce. A idosa do '
+                                     'filme que nunca amou, só foi amada no pedestal, ilustra o '
+                                     'drama de adiar indefinidamente o encontro com o outro. '
+                                     'Quanto mais se pensa só em si, mais se brutaliza; quanto '
+                                     'mais no outro, mais se cresce. Amizade é pedagogia mútua de '
+                                     'humanização.'},
+                            {'heading': 'Cultivar com amor, colher com gratidão',
+                             'body': 'Campo cultivado esperando colheita calculada é comércio ou '
+                                     'previdência privada, não amizade. Cultivar pelo bem do '
+                                     'outro; receber, quando frutifica, com gratidão — também '
+                                     'saber receber é virtude, sem a cobrança do “não faz mais que '
+                                     'a obrigação”. Platão condenava a horizontalidade do '
+                                     'toma-lá-dá-cá: o beijo que já espera o beijo de volta '
+                                     'empobrece. Relações verticais doam sem fatura. Apoio: base '
+                                     'de propulsão para o degrau seguinte. Se a presença de alguém '
+                                     'torna o outro melhor do que seria sem ela, há relação '
+                                     'humana; senão, exploração mútua. Gibran a Mary Haskell: “teu '
+                                     'amor me dá asas.” No fim da vida, a síntese terrível seria '
+                                     'constatar que só se cortaram asas — melhor teria sido não '
+                                     'existir. Abrigo: proteção contra solidão e, sobretudo, '
+                                     'contra as próprias alienações. O amigo diz: se sobes, vou '
+                                     'contigo; se desces, desce só.'},
+                            {'heading': 'Fome de bem e paz da alma',
+                             'body': 'Cícero: amizade verdadeira quase só entre homens de bem — '
+                                     'magnetismo de quem tem sede de bondade, verdade e justiça. '
+                                     'Vai-se ao amigo com essa fome; juntos, reflete-se o sentido '
+                                     'da vida e evita-se erros que a solidão permitiria. '
+                                     'Coleguismo partilha banalidades e críticas ao ausente — a '
+                                     'pessoa mais “necessária” da conversa social. Olhos opacos '
+                                     'esperam a pausa para despejar o próprio monólogo. Paz: cada '
+                                     'ser em paz quando realiza a sua natureza; o humano, quando '
+                                     'partilha o melhor de si. Angústia de ser estranho a si mesmo '
+                                     'impede profundidade com outrem. A experiência dos jovens que '
+                                     'preferem choque elétrico a quinze minutos de pensamento '
+                                     'prova a fuga de si. Homens vazios têm relações vazias. Casa '
+                                     'no campo do tamanho da paz: primeiro o conteúdo interior; '
+                                     'depois, a partilha.'},
+                            {'heading': 'Não temer o não — cirurgião que permanece',
+                             'body': 'Quando o amigo fala livremente, não temer o não nem limitar '
+                                     'o sim. Quem só quer ouvir o agradável busca adulador. '
+                                     'Plutarco: o adulador é parasita na orelha de quem ama a '
+                                     'glória; some no fracasso e nunca opera de verdade. O '
+                                     'amigo-cirurgião extirpa o mal e fica na convalescença — não '
+                                     'abandona porque estás ferido; veste a camisa nos dias feios '
+                                     'e nos belos. Quando calado, o coração continua a ouvir o '
+                                     'coração dele: união que independe da distância física. '
+                                     '“Venha o que vier, conte comigo” exige maturidade rara numa '
+                                     'cultura volúvel que esquece pais e dissolve solidariedade '
+                                     'após o fim do romance. Amizade de caráter sobrevive à '
+                                     'mudança de emprego; a de circunstância dissolve-se no dia '
+                                     'seguinte. Até a morte, dizem os ousados, pouco pode contra o '
+                                     'vínculo de corações verdadeiramente unidos no bem.'},
+                            {'heading': 'Ausência que nítida a montanha',
+                             'body': 'Ao separar-se, não ficar só em dor: o que mais se ama no '
+                                     'amigo clareia na ausência, como a montanha vista da '
+                                     'planície. Consciência pelo contraste. Propósito único: '
+                                     'aprofundamento do espírito. Outro interesse descaracteriza. '
+                                     'O amor que busca outra coisa que a revelação do próprio '
+                                     'mistério é rede — e nela só se pesca o inútil (fofocas de '
+                                     'parque). Deixar o melhor para o amigo: ser posto de '
+                                     'enriquecimento dos dons da vida (Sai Baba ecoado na '
+                                     'palestra) — as coisas passam, valorizam-se e seguem. '
+                                     'Conhecer vazante e enchente: não só ligar na crise. Procurar '
+                                     'o amigo para viver o tempo, não para matá-lo; ele preenche '
+                                     'necessidades, não vazios. Nas pequenas coisas — a meia bala '
+                                     'da infância — o coração acha a frescura da manhã.'},
+                            {'heading': 'Capacitar-se para a pessoa certa',
+                             'body': 'Não basta aparecer a Monalisa: é preciso ter estudado '
+                                     'pintura — senão resta a bolinha com dois pontinhos e um '
+                                     'risquinho de sorriso enigmático. Esperar “a pessoa certa” '
+                                     'sem crescer é ilusão idêntica. O melhor que se faz por quem '
+                                     'se quer amar é tornar-se capaz de relação profunda. Para '
+                                     'homens pequenos, tudo é pequeno; para superficiais, tudo é '
+                                     'superficial. Platão: atravessar a linha que separa “para que '
+                                     'me serve?” de “como posso servir?”. Amizade exige seres '
+                                     'humanos; não é dada de graça. Quem constata que tem poucos '
+                                     'ou nenhum amigo verdadeiro já deu o passo filosófico da '
+                                     'constatação — base para construir. Quem tem, que cuide: '
+                                     'cuidar do amigo é também cuidar de si, crescendo para '
+                                     'merecê-lo. Assim Gibran devolve densidade a uma palavra que '
+                                     'o calendário da “amizade” comercial esvaziou em '
+                                     'coleguismo.'}],
+               'keys': ['Amigo responde a necessidades humanas, não a caprichos de uso.',
+                        'Cultivar com amor e colher com gratidão — sem toma-lá-dá-cá.',
+                        'O verdadeiro amigo dá asas e protege-te de ti mesmo.',
+                        'Amizade profunda pede homens de bem e vida interior.',
+                        'Não temas o {Q}não{R} do amigo; o adulador não opera nem permanece.',
+                        'O único propósito legítimo é o aprofundamento do espírito.'],
+               'reflections': ['Nas minhas amizades, uso ou encontro?',
+                               'A quem dou asas — e a quem corto?',
+                               'Suporto ouvir um {Q}não{R} salvador, ou só coleciono aduladores?',
+                               'Estou preparado para a {Q}pessoa certa{R}, ou só a espero '
+                               'passivamente?']},
+ 'a-conversacao': {'summary': 'O literato pergunta pela conversação: conhece muitas palavras, teme '
+                              'não saber falar. Gibran denuncia a era de infinitos meios para '
+                              'dizer quase nada — tagarelice que foge da solidão e amordaça o '
+                              'pensamento. A palavra verdadeira nasce do diálogo interior e '
+                              'consola; mil palavras vazias não valem uma que eleva. Deixe o '
+                              'espírito conduzir os lábios; a voz do coração permanece quando as '
+                              'taças e as estátuas se forem.',
+                   'sections': [{'heading': 'Muitos idiomas, pouca coisa a dizer',
+                                 'body': 'O literato — homem das palavras — pergunta como conviver '
+                                         'pela fala: conhece quantidade, teme a qualidade. A '
+                                         'palestra ironiza o poliglota adolescente que falava '
+                                         'cinco línguas para dizer banalidades: bastaria uma. '
+                                         'Nunca houve tantos canais para tão pouco conteúdo. '
+                                         'Caminhada no parque: conversas de crítica ao ausente; o '
+                                         'faltoso é o personagem mais útil do grupo. Ruído sem '
+                                         'utilidade para quem fala ou ouve. Pergunta severa: se '
+                                         'tudo o que disseste até hoje não tivesse sido dito, o '
+                                         'mundo perderia algo? Que palavras fizeram diferença? '
+                                         'Informação sem formação — o erudito do medo que sobe à '
+                                         'mesa ante o rato — não humaniza. Google e humano '
+                                         'nivelam-se quando só há acúmulo. Conversar exige ter '
+                                         'algo a comunicar, como o poeta precisa ter filosofia '
+                                         'antes da forma bela.'},
+                                {'heading': 'Fuga da solidão e do coração',
+                                 'body': 'Quando se deixa a paz com os próprios pensamentos e não '
+                                         'se tolera a solidão do coração, os lábios viram '
+                                         'passatempo. Medo das sobras de tempo: obrigariam o '
+                                         'confronto interior com sonhos abandonados e vazio. '
+                                         'Clássicos chamavam ócio divino ao tempo de não fazer '
+                                         'negócio com o corpo e cuidar da alma. Encontro diário '
+                                         'com a alma — clima, leitura, música — é imprescindível, '
+                                         'ainda que breve. Solidão verdadeira não é '
+                                         'desacompanhamento do outro: é desacompanhamento de si. '
+                                         'Na metrópole, depressão e TV ligada para a vizinhança '
+                                         'ouvir denunciam a fuga. Tagarelice juvenil gera ruído '
+                                         'que distrai de si. Experimento do choque elétrico '
+                                         'preferível ao silêncio: prova empírica da angústia de '
+                                         'estar só com os próprios pés. Sem diálogo interno, a '
+                                         'conversa externa é máscara.'},
+                                {'heading': 'Pensamento na gaiola de palavras',
+                                 'body': 'Em muita conversa, o pensamento fica amordaçado: '
+                                         'parceiro do silêncio, na gaiola verbal abre asas mas não '
+                                         'voa. Pensar dá trabalho e risco; repetir o coro coletivo '
+                                         'é clonagem cômoda — ouves um, ouves todos. O Dhammapada: '
+                                         'mais do que mil palavras sem sentido, uma que traz '
+                                         'consolo. Essa palavra justifica uma vida; Fidípides e '
+                                         '“vencemos” ecoam de novo. Marco Aurélio: cada morte '
+                                         'empobrece o universo de um ângulo irrepetível. Sem vida '
+                                         'interior, sai-se ao mercado da fala de mãos vazias — não '
+                                         'se cultivou o trigo. Muitos buscam conversa por medo de '
+                                         'estar sós; o silêncio revelaria ossos destituídos. '
+                                         'Materialismo projeta felicidade impossível de massificar '
+                                         'e oferece válvulas: novela, fantasia de pianista '
+                                         'aplaudido sem estudo. Desdobramento asfaltado pela '
+                                         'cultura: viver a vida do outro para não habitar a '
+                                         'própria.'},
+                                {'heading': 'Canal transparente e depoimento da vida',
+                                 'body': 'Há quem, por generosidade e pureza, diga coisas que a si '
+                                         'mesmo surpreendem — canal de sabedoria maior. O taoísmo: '
+                                         'transparente, a luz passa; obstruído de egoísmo, '
+                                         'bloqueia. Mandela após décadas de cárcere sem ódio é '
+                                         'conversa muda mais eloquente que tratados: depoimento '
+                                         'contundente. Sócrates e Platão ensinavam também pelo '
+                                         'modo de andar e relacionar-se. Harmonizar-se com o '
+                                         'silêncio rítmico da natureza prepara a palavra justa. Ao '
+                                         'encontrar o amigo na rua ou no mercado, deixar o '
+                                         'espírito conduzir os lábios: o encontro deve deixar '
+                                         'ambos melhores. No fim da vida, a conclusão de que teria '
+                                         'sido melhor não existir — porque se piorou quem passou — '
+                                         'é o fracasso absoluto da conversação humana. '
+                                         'Kübler-Ross: materialistas enfrentam mal a morte '
+                                         'consciente; a palavra e o ato reais faltaram a tempo.'},
+                                {'heading': 'Três peneiras e a voz dentro da voz',
+                                 'body': 'Sócrates filtrava a fala: é bom? é justo? é verdadeiro? '
+                                         'Sem os três, preferia não ouvir. Viveu falando em praça '
+                                         'e nunca se permitiu palavra sem esperança de ajudar — '
+                                         'até a morte. “Deixai que a voz dentro da vossa voz fale '
+                                         'ao ouvido do seu amigo”: sabor do vinho que permanece. '
+                                         'Educar vem de eduzir: palavra que traz à tona o melhor '
+                                         'do outro já vale a vida. Quando as taças se forem, as '
+                                         'palavras verdadeiras não se perdem — passam de geração '
+                                         'em geração. Falamos ainda o que disseram Platão, Buda, '
+                                         'Fábio. Menos medo do silêncio; mais diálogo interior; '
+                                         'palavras escolhidas; menos poluição sonora. A marca '
+                                         'deixada não seja só ruído: seja rastro que toque o '
+                                         'coração. Somos posto de enriquecimento dos dons: a vida '
+                                         'passa, enriquecemos, transmitimos.'},
+                                {'heading': 'Missão da palavra',
+                                 'body': 'Conversação, em Gibran, deixa de ser vício social e '
+                                         'torna-se cumprimento de missão: descobrir dentro de si o '
+                                         'que o mundo necessita ouvir e dizê-lo com economia '
+                                         'sagrada. Texto curto do capítulo exige detenção — uma '
+                                         'página e meia que a pressa moderna desperdiça ao '
+                                         'preferir volume a densura. Mastigar o poema é treino de '
+                                         'vida interior contra o barulho permanente. Isolados em '
+                                         'bolhas de ruído, comunicamos sem encontrar; falamos para '
+                                         'aliviar solidão, não para criar vínculo. A cura é '
+                                         'paradoxal: mais silêncio fecundo para menos palavras '
+                                         'vazias e uma, ao menos, que console e eleve. Assim o '
+                                         'literato aprende o que a quantidade de vocabulário não '
+                                         'ensina: a qualidade de ter alma por trás da língua — e '
+                                         'de não tombar sem ter pronunciado a própria palavra.'}],
+                   'keys': ['Nunca houve tantos meios para dizer tão pouco.',
+                            'Tagarelice muitas vezes foge da solidão de si.',
+                            'O pensamento na gaiola de palavras não voa.',
+                            'Mais vale uma palavra que consola do que mil sem sentido.',
+                            'Deixe o espírito conduzir os lábios; use as três peneiras.',
+                            'A voz do coração permanece quando as taças se vão.'],
+                   'reflections': ['Quando falo para não me ouvir?',
+                                   'Que conversa recente me elevou — e qual foi só ruído?',
+                                   'Minhas palavras passariam nas três peneiras socráticas?',
+                                   'Que palavra única vim ao mundo pronunciar — e ainda adio?']},
+ 'o-tempo': {'summary': 'O astrônomo pergunta pelo tempo porque pensa grande — para além do fim de '
+                        'semana. Gibran distingue tempo de relógio e tempo real: este mede-se por '
+                        'deslocamentos da consciência rumo ao ideal humano. Sem passo interior, '
+                        'vive-se no caos, não em Cronos; a eternidade (Zeus, Olimpo) conquista-se '
+                        'atravessando o tempo com lucidez. O que escapa ao tempo em nós sabe que a '
+                        'vida também escapa: momentos plenos são eternidade no meio do rio.',
+             'sections': [{'heading': 'Cronos, caos e a águia sem degraus',
+                           'body': 'Gibran sonhava aos treze escrever o manual de viver humano; a '
+                                   'criança que disse ao professor “as águias não sobem degraus” '
+                                   'já anunciava outro ritmo. A palestra situa o tempo na chave '
+                                   'grega: Urano, caos, Cronos, Zeus. Cronos não é só ponteiro: é '
+                                   'tempo real, deslocamento ao ideal — valores, virtudes, '
+                                   'sabedoria. Encontrar alguém dez anos depois igual em crítica e '
+                                   'inércia: o relógio andou; o tempo real, não. Sem deslocamento, '
+                                   'permanece-se no caos. Entrar no tempo é mover-se; superá-lo é '
+                                   'tocar a eternidade de consciência. Se na vida já somos mais '
+                                   'inconscientes que conscientes — pilotos automáticos —, como '
+                                   'reivindicar eternidade pós-morte? Inconsciência já é forma de '
+                                   'morte. O capítulo realfabetiza: nada do que se esperava do '
+                                   '“tempo que passa”.'},
+                          {'heading': 'O astrônomo e a planta da casa',
+                           'body': 'Por que um astrônomo? Porque olha estrelas, não só a conta do '
+                                   'mês. A média humana afoga-se no copo d’água do fim de semana e '
+                                   'das férias; teme a obra final da vida porque ela confronta a '
+                                   'morte. Construir casa sem planta — fundação de prédio hoje, '
+                                   'térrea amanhã — espalha material e não ergue morada. O mestre '
+                                   'de obras consulta o futuro pronto para saber o gesto de hoje. '
+                                   'Medir o ilimitado com horas e reger a alma pelas estações do '
+                                   'corpo é categoria errada. Vida biológica decai em energia; '
+                                   'vida metafísica deveria ascender em sabedoria, imaginação e '
+                                   'garra — o ancião do mosteiro que nenhum jovem derrota pela '
+                                   'precisão da consciência. Em Roma, salvar anciãos era salvar '
+                                   'patrimônio; Senado vinha de senex como elogio. Hoje a idade '
+                                   'avançada pesa porque só se seguiu o relógio biológico.'},
+                          {'heading': 'À margem do rio que leva o que amas',
+                           'body': 'Queríamos fazer do tempo um rio e sentar à margem a observar — '
+                                   'que tudo passe sem nos atingir. Impossível se tudo o que '
+                                   'amamos flutua no rio: objetos, prazeres, confortos. Corremos '
+                                   'sempre ao que amamos; se o amado é transitório, somos '
+                                   'arrastados. No Aduat egípcio, o coração pesado demais pela '
+                                   'pluma de Maat volta ao mundo das coisas; leve de fraternidade '
+                                   'e justiça, sobe. “Contudo, o que em vós escapa ao tempo sabe '
+                                   'que a vida também escapa ao tempo.” Sem filosofia a frase '
+                                   'parece enigma; com ela: os instantes de lucidez que nos '
+                                   'fizeram crescer ninguém rouba — eternidade no meio do fluxo. '
+                                   'Entrevistas de memória: trinta anos cabem em quatro ou cinco '
+                                   'horas narradas. O resto caiu no buraco negro do automático. '
+                                   'Todos morrem; nem todos vivem. Ontem é recordação de hoje; '
+                                   'amanhã, sonho de hoje — num instante pleno, o arco inteiro se '
+                                   'concentra.'},
+                          {'heading': 'Descascar a laranja: fresta para a eternidade',
+                           'body': 'O sábio zen: quando descasco a laranja, descasco a laranja — '
+                                   'cem por cento ali. Cada momento é pedagógico; o Bardo Thödol '
+                                   'diz que instante sem ensinamento já teria sido retirado da '
+                                   'vida. Iluminação oriental: uma frase junta todas as peças. O '
+                                   'que canta e medita em nós mora no primeiro momento em que as '
+                                   'estrelas foram semeadas: essência imortal. Morte é '
+                                   'identificar-se com o que se está; eternidade, com o que se é. '
+                                   'Inteligência (interlegere) escolhe, dentre as máscaras, o '
+                                   'rosto. Vida interior cura a solidão — falta de si, não do '
+                                   'próximo. Kübler-Ross: quanto mais materialista, menor a chance '
+                                   'de morrer consciente; a base da consciência era sombra. Amor '
+                                   'ilimitado sentido em nós prova que o limitado não esgota quem '
+                                   'somos; carência afetiva é, muitas vezes, amor não liberado em '
+                                   '360 graus, concentrado em raio laser possessivo.'},
+                          {'heading': 'Caixa de joias e o caminhão do lixo',
+                           'body': 'Guardar numa caixa os momentos em que o tempo foi eternidade — '
+                                   'beleza, honra, compreensão, perdão. Não o Mago Merlin à porta: '
+                                   'o gesto belo, a dor aplacada, a filha saltando sob '
+                                   'sementes-helicóptero ao pôr do sol. Beleza completa demais '
+                                   'para ser mortal: face de Deus. Compartilhar o melhor, não só '
+                                   'dramas. Dividir o tempo em estações, que cada uma envolva as '
+                                   'outras: espremer a laranja, ficar com a vitamina, jogar as '
+                                   'cascas. Arrastar saco de mágoas escolhe a morte quando impede '
+                                   'o passo. O presente abraça o passado com nostalgia e o futuro '
+                                   'com ânsia carinhosa. Gladiador: seja o que vier atrás da '
+                                   'porta, unidos sobrevivemos — integridade acima do medo. Michel '
+                                   'Echenique: há em nós relevo terrestre e algo solar que observa '
+                                   'sem oscilar. Identificar-se com o solar traz aceitação: a vida '
+                                   'traz o necessário.'},
+                          {'heading': 'Amor circunscrito e paz com o tempo',
+                           'body': 'Sentimos poder amar sem limite e, por opção, circunscrevemos a '
+                                   'um ou dois seres e meia dúzia de objetos. Blavatsky: não seque '
+                                   'a lágrima enquanto houver lágrima no último mortal. '
+                                   'Comprometer-se com a dor humana é desconfortável e sagrado; '
+                                   'conforto acomoda e mata a alma. Caminhão de lixo à noite, '
+                                   'senhor do sorvete sob chuva: se não dói, o coração está '
+                                   'defeituoso de estreiteza. Tempo e amor: ambos indivisíveis e '
+                                   'insondáveis. Fazer as pazes com o tempo é perceber que ele '
+                                   'leva cascas, não o que somos — se encontramos o que somos. '
+                                   'Relativiza-se o relógio. Cultura clássica media profundidade, '
+                                   'não extensão de leituras: conhecer todos os livros e não ter '
+                                   'resposta à própria vida é ser Google de carne. Gibran, numa '
+                                   'página e meia, devolve ao tempo a dignidade de caminho para a '
+                                   'eternidade consciente.'}],
+             'keys': ['Tempo real mede-se por deslocamento de consciência, não só por ponteiros.',
+                      'Sem passo interior, vive-se no caos — o relógio anda sozinho.',
+                      'Pensar pequeno no tempo (fim de semana) empobrece a obra da vida.',
+                      'O que escapa ao tempo em nós são os instantes plenamente conscientes.',
+                      'Esprema a experiência: fique com o sumo, deixe as cascas.',
+                      'Paz com o tempo nasce de identidade acima do rio transitório.'],
+             'reflections': ['Qual obra desejo ter cumprido ao fim da vida — e ela orienta o meu '
+                             'hoje?',
+                             'Em que áreas só o meu corpo envelheceu, enquanto a alma estagnou?',
+                             'Que momentos guardo na caixa de joias — e quais cascas ainda '
+                             'arrastro?',
+                             'Meu amor está expandido em 360 graus ou concentrado em raio '
+                             'possessivo?']},
+ 'o-bem-e-o-mal': {'summary': 'Diante do ancião que interroga o essencial, Gibran recusa o '
+                              'dualismo grosseiro: do mal absoluto não se pode falar, porque o que '
+                              'se chama mal é, com frequência, o bem torturado pela própria fome. '
+                              'Bondade não é máscara moral, e sim a ânsia pelo Eu gigante — '
+                              'corrente ou fio, mas sempre a voz mais preciosa da alma. Quem já '
+                              'corre como torrente não humilha a tartaruga: redobra o exemplo, não '
+                              'o insulto.',
+                   'sections': [{'heading': 'A pergunta que só o ocaso ousa',
+                                 'body': 'Não é acaso que o mais ancião da cidade formule a '
+                                         'questão do bem e do mal. Nas tradições que Gibran ecoa, '
+                                         'o ancião não é o decrépito: é quem atravessou o vetor '
+                                         'descendente da energia física e o vetor ascendente da '
+                                         'maturidade metafísica, e chega à morte com lucidez e '
+                                         'algo a ensinar. Platão situava a Ideia do Bem no cume da '
+                                         'inteligência: sem ela, a vida não tem norte; com ela, '
+                                         'cada escolha se ordena. O Senado romano guardava, no '
+                                         'nome mesmo (senex), a memória de que a velhice podia ser '
+                                         'instituição política, não descarte. Na Índia clássica, '
+                                         'belo não era o jovem atraente, mas quem tinha maturidade '
+                                         'para transmitir. Assim, a pergunta do ancião é a '
+                                         'pergunta do fim: o que merece ser compreendido antes que '
+                                         'o ciclo se feche? Gibran responde sem simplismos — e '
+                                         'exige filosofia para ser lido.'},
+                                {'heading': 'Mal como vácuo, não como absoluto',
+                                 'body': '“Eu posso falar do bem que reside em vocês, mas não do '
+                                         'mal.” A frase desmonta a teologia popular do mal '
+                                         'absoluto. Se há um absoluto — Deus, o Bem —, não podem '
+                                         'coexistir dois absolutos: o segundo relativizaria o '
+                                         'primeiro. O mal, no léxico latino que a palestra '
+                                         'recupera, aproxima-se de defectus: falha, vazio, '
+                                         'ausência do bem ainda não conquistado. Uma faca não é '
+                                         'maligna em si; o uso a julga. Justiça platônica é cada '
+                                         'coisa no seu lugar. O sofrimento que acompanha o “mal” '
+                                         'assemelha-se às dores do parto: virtude querendo nascer '
+                                         'e ainda sem passagem. Quem fosse absolutamente '
+                                         'inconsciente dessa fome — feliz no defeito — '
+                                         'aproximar-se-ia da psicopatia. O homem comum sofre '
+                                         'precisamente porque algo nele anseia por corresponder ao '
+                                         'que a natureza humana exige: valores, virtudes, '
+                                         'sabedoria.'},
+                                {'heading': 'Fome que bebe águas paradas',
+                                 'body': 'Quando o bem sente fome, busca alimento até nas cavernas '
+                                         'escuras; quando tem sede, bebe mesmo nas águas '
+                                         'estagnadas. A imagem descreve a angústia existencial que '
+                                         'a sociedade contemporânea rotula depressão e trata com '
+                                         'consumo: carro, status, distração — e a sede permanece. '
+                                         'Platão, no mito da caverna, já denunciava amos que '
+                                         'manipulam a fome interior oferecendo sombras. '
+                                         'Alimenta-se o corpo e a alma continua faminta, porque a '
+                                         'verdade não depende da opinião de quem a nega. O vácuo '
+                                         'ainda não é perversidade: a casa dividida não é antro de '
+                                         'ladrões; o navio sem leme pode vaguear entre recifes e '
+                                         'não afundar. Mas a natureza não tolera vácuos. Vida '
+                                         'vazia é oficina do diabo — não só a mente: a existência '
+                                         'sem direção torna-se joguete de massificação. Ainda não '
+                                         'é o mal; é a porta aberta.'},
+                                {'heading': 'Raiz, fruto e meia vida',
+                                 'body': 'Buscar lucro e sobrevivência não torna o homem mau: '
+                                         'torna-o raiz que suga o seio da terra. Mas planta '
+                                         'completa tem galhos e frutos. Quem só recebe — dinheiro, '
+                                         'atenção, status — é meia planta, meio homem, meia vida. '
+                                         'A fruta não exige que a raiz seja fruta: cada fase tem '
+                                         'necessidade própria; o erro é eternizar a fase. Na '
+                                         'história, imortalizam-se os que deram, não os que '
+                                         'acumularam: Sócrates, Confúcio, Platão atravessam '
+                                         'milênios pela generosidade do que entregaram. O homem é '
+                                         'do tamanho da sua generosidade; se a grandeza dependesse '
+                                         'das coisas, a grandeza seria das coisas. Quem só '
+                                         'sobrevive — como a frase de Coração Valente lembra — '
+                                         'morre sem ter vivido. Gibran não condena a raiz: condena '
+                                         'a estagnação que impede o florescimento.'},
+                                {'heading': 'Balbuciar, mancar, não andar para trás',
+                                 'body': 'Balbuciar não é maldade: fortalece língua débil. Mancar '
+                                         'não é maldade: mesmo os mancos não andam para trás. O '
+                                         'inadmissível é permanecer aos sessenta no balbucio dos '
+                                         'dois meses, ou usar o sapatinho da infância no pé '
+                                         'adulto. Há quem avance lentamente e some; há quem, em '
+                                         'sessenta anos, só tenha subtraído — baixando a '
+                                         'consciência alheia, espalhando materialismo. Esses andam '
+                                         'para trás. Confúcio aconselhava: não despreze quem chora '
+                                         'a dor de um unheiro se você já perdeu uma perna. Porém '
+                                         'Gibran acrescenta o corte ético: os fortes e ligeiros '
+                                         'guardem-se de mancar por complacência junto aos coxos. '
+                                         'Steven Pressfield chamou isso de pacto tácito da '
+                                         'mediocridade: todos na lama, e quem se ergue parece '
+                                         'traidor. Platão: a melhor coisa que se faz por quem se '
+                                         'ama é crescer — só assim se oferece substância, não mera '
+                                         'companhia física.'},
+                                {'heading': 'Gazela, tartaruga e mesma escala',
+                                 'body': '“Pena que as gazelas não possam ensinar velocidade às '
+                                         'tartarugas.” Entre espécies, o exemplo não transmuda a '
+                                         'natureza. Entre humanos ociosos e humanos comprometidos, '
+                                         'porém, a escala é a mesma: o princípio hermético da '
+                                         'vibração — semelhante ao semelhante, diferentes só em '
+                                         'grau — permite acelerar polaridades. O exemplo não '
+                                         'evolui por ninguém; ninguém sobe de patins sendo '
+                                         'arrastado. Mas prova que o possível existe. A bondade, '
+                                         'numa das definições mais densas do livro, é a ânsia pelo '
+                                         'Eu gigante. Tratar essa ânsia como patologia a ser '
+                                         'medicada é matar a voz sagrada. O conto da lagarta a '
+                                         'quem Indra pôs couraça na barriga — e que, sem dor, '
+                                         'nunca virou borboleta — lembra: nem toda dor é má. A '
+                                         'sede desesperadora de Deus, como a do jovem cuja cabeça '
+                                         'o mestre enfia no rio até ele querer respirar, é o motor '
+                                         'do crescimento.'},
+                                {'heading': 'Torrente, fio e o verdadeiramente bom',
+                                 'body': 'Em alguns a ânsia é torrente que carrega segredos das '
+                                         'colinas ao mar; em outros, córrego preguiçoso que '
+                                         'serpenteia. Que o sedento do oceano não diga ao lento: '
+                                         '“Por que hesitas?” O verdadeiramente bom não pergunta ao '
+                                         'nu onde está a roupa, nem ao desabrigado o que houve com '
+                                         'a casa: redobra o próprio exemplo. Heróis pequeninos — '
+                                         'como Platão insistia — relembram quão grande o humano '
+                                         'pode ser; manchetes só mórbidas corroem essa fé. '
+                                         'Valorize o primeiro desenho da criança, o cumprimento no '
+                                         'elevador, o degrau egípcio tão baixo que quase não se '
+                                         'sente o esforço: quem sobe ao sagrado não precisa de '
+                                         'precipícios. Água inerte apodrece; lago sem fluxo vira '
+                                         'malícia. Gravidade celeste da alma: soltos os lastros do '
+                                         'egoísmo, ela cai para cima. Estimular o menor '
+                                         'desprendimento é religar o fio ao mar.'}],
+                   'keys': ['O mal absoluto não cabe na metafísica do Bem.',
+                            'Mal como defectus: vácuo onde a virtude ainda não habita.',
+                            'Bondade é ânsia pelo Eu gigante, não complacência.',
+                            'Quem corre não manca por demagogia: cresce para dar exemplo.',
+                            'O verdadeiramente bom redobra a si, não humilha o lento.'],
+                   'reflections': ['Onde chamo de “mal” o que ainda é imaturidade ou vazio?',
+                                   'Minha angústia pede bem — ou consumo que nunca sacia?',
+                                   'Estou mancando por falsa compaixão ou caminhando para '
+                                   'inspirar?',
+                                   'Como nutrir a ânsia do Eu maior sem orgulho sobre quem '
+                                   'serpenteia?']},
+ 'a-oracao': {'summary': 'A oração, no Gibran, não é barganha de aflitos: é expansão do ser no '
+                         'éter vivo, transbordamento na plenitude, não só vazante na carência. O '
+                         'pontífice — quem faz ponte entre céu e terra — sacraliza a vida quando '
+                         'deixa de usar o sagrado como gênio da lâmpada. Deus não ouve palavras '
+                         'humanas senão quando Ele mesmo as pronuncia pelos nossos lábios; a '
+                         'necessidade verdadeira é Ele em nós.',
+              'sections': [{'heading': 'Oratio contra pedido',
+                            'body': 'Sinônimos cotidianos traem o esvaziamento: reza, oração, '
+                                    'pedido. Pedido puxa o divino para o mundinho; oratio, na '
+                                    'raiz, inclina a alma ao que é divino — movimento de oferenda, '
+                                    'não de captura. Quando só se lembra de Deus no naufrágio e de '
+                                    'si na abundância, o sagrado vira patrocinador de causas '
+                                    'pessoais. Mircea Eliade lembrava: sagrado é função de sentido '
+                                    '— cada coisa no seu lugar se sacraliza: o sol ao nascer, a '
+                                    'flor ao desabrochar, o homem ao desabrochar em virtudes. Isso '
+                                    'é enchente, não vazante. A sacerdotisa pergunta porque o '
+                                    'pontífice, em sentido filosófico largo — artista, legislador, '
+                                    'educador — é ponte. Kant via no respeito (respicere: olhar de '
+                                    'novo) a capacidade de ver o que passa através da pessoa, não '
+                                    'a personalidade isolada. Orar é praticar essa ponte por '
+                                    'dentro.'},
+                           {'heading': 'Expansão, não carência',
+                            'body': '“O que é a oração senão a expansão do vosso ser no éter '
+                                    'vivente?” A Voz do Silêncio chama heresia da separatividade à '
+                                    'ilusão de que eu e o outro somos átomos indiferentes: dela '
+                                    'nascem egoísmo e violência. Livraga ilustrava com sulcos na '
+                                    'areia: dois sulcos, e entre eles — ainda areia. Superar a '
+                                    'separatividade é destino humano; os momentos em que se '
+                                    'ultrapassa o pequeno eu são os mais sagrados. Exalar trevas '
+                                    'no espaço traz alívio; exalar a aurora do coração traz '
+                                    'conforto maior. Há dores mórbidas do egoísmo e dores '
+                                    'construtivas do crescimento — deixar sangue no caminho, como '
+                                    'o sol que deixa rastro vermelho ao pôr-se, quem traz luz. Se '
+                                    'só se busca o sagrado na dor, a vida pode multiplicar a dor '
+                                    'até se aprender a orar com alegria. Conforme o gosto do '
+                                    'freguês — mas o ponto é o mesmo: unidade.'},
+                           {'heading': 'Pirâmide e templo invisível',
+                            'body': 'Ao subir a pirâmide, as distâncias encolhem até o ponto; ao '
+                                    'descer, afastam-se. Quem ascende encontra, nas alturas, quem '
+                                    'ora na mesma hora — e talvez nunca encontraria no plano. Um '
+                                    'indígena a empilhar pedras com espírito pode estar mais '
+                                    'próximo de si do que o vizinho no templo suntuoso sem '
+                                    'espírito. A visita ao templo invisível não deve ter outra '
+                                    'finalidade senão o êxtase e a doce comunhão. Rabi’a '
+                                    'al-Adawiyya orava: se Te busco pelo céu, expulsa-me; se pelo '
+                                    'medo do inferno, queima-me; se só pelo que És, recebe-me. '
+                                    'Todo o nobre se descaracteriza com interesse extrínseco: '
+                                    'justiça por cargo, amor por salário, prece por favor. Platão '
+                                    'deslocava o centro: de “para que me serve?” a “como posso '
+                                    'servir?”. A Lei, não a personalidade, torna-se eixo.'},
+                           {'heading': 'Quem se curva não é erguido',
+                            'body': 'Entrar no templo só para pedir é não receber; só para '
+                                    'curvar-se é não ser erguido; até mendigar favores alheios sem '
+                                    'elevação própria pode não ser ouvido. A estátua de Francisco '
+                                    'ilustra o dilema: se inspira a enfrentar adversidades maiores '
+                                    'que as nossas, aproxima; se vira despachante de milagres para '
+                                    'a debilidade, afasta. Deus, arquétipo de poder sempre '
+                                    'desperto, não cultiva rastejantes. Machado observava: a '
+                                    'ocasião faz o crime; o ladrão já nasce feito — o poder não '
+                                    'corrompe: revela e potencializa a debilidade já presente. O '
+                                    'caniço taoista ensina: entra ar puro, sai ar puro; obstruções '
+                                    'geram pó e sombra. Somos dígito da Lei: palavras dignas são a '
+                                    'Lei adaptada no tempo e no espaço. Para subir, conta comigo; '
+                                    'para a egotrip, desça sozinho. Nenhum ser divino patrocina '
+                                    'banalidade. A prece madura endireita o homem diante do '
+                                    'Absoluto, em vez de ensiná-lo a rastejar.'},
+                           {'heading': 'Prece da natureza e o grande silêncio',
+                            'body': 'Não se ensina a oração dos mares, florestas e montanhas: quem '
+                                    'nasceu deles pode achá-la no coração. Na quietude, a natureza '
+                                    'murmura: “É Tua vontade em nós que quer… Tu és nossa '
+                                    'necessidade; dando-nos mais de Ti, Tu nos dás tudo.” Pedir '
+                                    'gostos com ênfase arrisca ser atendido — e o atendimento pode '
+                                    'aprisionar. Pedir completude é pedir o que falta entre o '
+                                    'pequeno e o Grande Eu. Quando a natureza chama minerais, '
+                                    'vegetais, animais, respondem; quando chama homens na '
+                                    'plenitude humana — o grande silêncio. Diógenes com a lâmpada '
+                                    'ao meio-dia em Atenas: procurava um homem. O ser humano '
+                                    'realizado em valores é espécie em extinção mais rara que o '
+                                    'panda. Harmonizar-se consigo é harmonizar-se com o cosmos: '
+                                    'cada peça no lugar.'},
+                           {'heading': 'Aladim e a libertação do gênio',
+                            'body': 'A lâmpada, o procedimento, o gênio que atende desejos: '
+                                    'alegoria do sagrado utilitário. Aladim, no último desejo, '
+                                    'libera o gênio — que deixa de caber na lâmpada e passa a '
+                                    'estar em toda parte. Abrir mão do mundinho é sacralizar a '
+                                    'vida inteira. Religião como tabela de preços do xamã — chuva '
+                                    'tanto, casamento tanto — é ciclo materialista recorrente. '
+                                    'Gibran alfabetiza de novo: prece não é metade comercial (só '
+                                    'compra); falta a doação. Meia oração, meio homem, meia vida. '
+                                    'A resposta sobre a prece do ser humano verdadeiro choca '
+                                    'porque imaginamos um ser de caprichos a precisar de '
+                                    'patrocinadores. Toda a natureza inclina-se para cima; só o '
+                                    'homem teima em olhar para baixo. Oração é a forma verbal e '
+                                    'vital dessa ânsia de unidade.'}],
+              'keys': ['Oração é expansão e oferenda, não só pedido.',
+                       'Orar também na plenitude sacraliza a vida.',
+                       'Deus ouve quando fala através de nós.',
+                       'Interesse extrínseco descaracteriza o nobre.',
+                       '“Dando-nos mais de Ti, Tu nos dás tudo.”'],
+              'reflections': ['Minha prece é vazante de carência ou enchente de gratidão?',
+                              'Uso o sagrado como gênio da lâmpada ou libero-o em toda a vida?',
+                              'Que palavras minhas poderiam ser eco da Lei, não do ego?',
+                              'Onde ainda separo “horas minhas” e “horas de Deus”?']},
+ 'o-prazer': {'summary': 'O eremita pergunta pelo prazer; Gibran responde sem ascetismo nem '
+                         'libertinagem: prazer é canção de liberdade, não a liberdade; '
+                         'desabrochar, não fruto final; abismo a olhar o cume, sem ser o cume. '
+                         'Sete irmãs escalam até a glória — prazer da essência que não depende do '
+                         'corpo. Distinguir o bom no prazer é imitar abelha e flor: dar e receber '
+                         'em êxtase, cada um sendo o que lhe corresponde.',
+              'sections': [{'heading': 'O eremita e a brisa pecaminosa',
+                            'body': 'Quem pergunta é o ermitão que visita a cidade uma vez ao ano: '
+                                    'figura da renúncia radical. Na Idade Média, monges cobriam-se '
+                                    'para não sentir a brisa — prazer tornado pecado em si. Gibran '
+                                    'parte dessa caricatura para restaurar medida humana: nem todo '
+                                    'prazer é virtude, nem toda renúncia é santidade. O prazer é '
+                                    'dual no mundo manifestado, como a faca de Platão e o dualismo '
+                                    'que Kant também reconhece: bom ou mau conforme o uso e o fim. '
+                                    'O critério gibraniano é severo e claro: é bom o que ajuda a '
+                                    'crescer como humano; o agradável isolado permanece '
+                                    'discutível. Arrombar a porta da gaiola não prova dignidade do '
+                                    'aposento seguinte: pode-se ficar no umbral, vaidoso da '
+                                    'violência do arrombamento, sem jamais levantar voo. A '
+                                    'pergunta do eremita, portanto, não pede condenação do prazer: '
+                                    'pede inteligência para não confundir anúncio de liberdade com '
+                                    'liberdade cumprida.'},
+                           {'heading': 'Canção, não liberdade',
+                            'body': '“O prazer é uma canção de liberdade, mas não é a liberdade.” '
+                                    'É florescer dos desejos, não o fruto; abismo olhando o cume, '
+                                    'sem ser nenhum dos dois; engaiolado ganhando asas, não o '
+                                    'espaço que o envolve. Sócrates dizia “só sei que nada sei” '
+                                    'porque vislumbrara a imensidão do não sabido: assim o prazer '
+                                    'anuncia horizontes sem ainda conquistá-los. Ouça-se a canção '
+                                    'de todo o coração — e não se perca o coração no canto. '
+                                    'Libertinagem é sair de uma gaiola para outra: escravidão '
+                                    'pelos excessos. Evolução, no dizer indiano, é depuração do '
+                                    'gosto: aprender a amar o mais nobre. Condicionamento social '
+                                    'clona pacotes de preferências; desidentificar-se do agradável '
+                                    'atual permite voar. Nenhum corpo ocupa dois lugares: crescer '
+                                    'deixa algo atrás.'},
+                           {'heading': 'Jovens, anciãos e a necessidade de experiência',
+                            'body': 'Jovens que buscam o prazer como tudo: Gibran não condena nem '
+                                    'repreende — deixa procurar. A filosofia da história ensina '
+                                    'que a necessidade evolutiva escreve a trajetória; a reflexão '
+                                    'poupa experiências caras, mas quem necessita da vivência a '
+                                    'terá, porque o livre-arbítrio é inexorável. Anciãos que '
+                                    'recordam prazeres com remorso tratam a alma como embriaguez '
+                                    'culpada; remorso é obscurecimento, não castigo — melhor a '
+                                    'gratidão de uma colheita de verão, quando a intenção de busca '
+                                    'já se esclareceu à distância. Tragédia e comédia gregas: '
+                                    'mesma cena vista pela emoção inflamada ou pela mente madura. '
+                                    'Há ainda os que, nem jovens nem velhos, desprezam o prazer '
+                                    'por medo de ofender o espírito — e descobrem na renúncia o '
+                                    'seu próprio prazer, cavando com mãos trêmulas. Cada qual '
+                                    'encontra o tesouro à profundidade que alcança; desprezar o '
+                                    'achado alheio é outra forma de soberba.'},
+                           {'heading': 'Sete irmãs e a mais bela',
+                            'body': 'Sete irmãs do prazer; a última mais bela que o prazer. Eco '
+                                    'septenário oriental: quaternário mortal — corpo, energia, '
+                                    'emoção, mente concreta — e tríade espiritual — mente '
+                                    'altruísta, intuição, vontade. Cada plano tem prazer próprio; '
+                                    'quanto mais se sobe, mais sutil e menos dependente do '
+                                    'estímulo externo. O sábio tem acesso a todos e prefere os '
+                                    'altos — não por bobagem, mas porque conheceu o sabor. Glória: '
+                                    'êxtase que não depende do corpo — Joana no fogo, monges de '
+                                    'pés destroçados ainda em missão. O prazer do dever cumprido, '
+                                    'corpo exausto e alma plena, já é sombra acessível dessa '
+                                    'sétima irmã. Cavamos raízes e achamos tesouro: a árvore da '
+                                    'vida com raízes no céu. Jung observava que o século econômico '
+                                    'é esbanjador do espírito — contenta-se com tão pouco podendo '
+                                    'tanto. Quem para na primeira irmã nem suspeita da última.'},
+                           {'heading': 'O espírito não é poço raso',
+                            'body': 'O rouxinol ofende a noite? O pirilampo, as estrelas? A chama '
+                                    'sobrecarrega o vento? O espírito não é poço perturbável a '
+                                    'bastão. Ações “boas” por medo do inferno ou desejo de '
+                                    'reputação são comércio — Bodhidharma ao imperador: mérito '
+                                    'zero. O nobre com interesse deixa de ser nobre. O que se faz '
+                                    'em nome da terra resume-se à terra; nuvens atrapalham a visão '
+                                    'do espírito, mas não o destroem. Fédon: cada coisa se destrói '
+                                    'pelo que lhe é próprio; a alma não se perde por defeitos como '
+                                    'o ferro pela ferrugem. No tarô egípcio de autoconhecimento, a '
+                                    'foice da morte recolhe o que aflorou acima da terra — '
+                                    'pensamentos e atos nobres. Nada sobe se não foi feito tendo o '
+                                    'alto em vista.'},
+                           {'heading': 'Represa, harpa e abelha',
+                            'body': 'Negar prazer sem inteligência é represar desejo: a água '
+                                    'estoura e arrasa vale abaixo — celibato imposto sem nível '
+                                    'espiritual permutável ilustra o desastre. O corpo conhece '
+                                    'herança e direitos; é harpa da alma — melodiosa ou dissonante '
+                                    'conforme a afinação, não por culpa da madeira. Justiça '
+                                    'platônica: dar a cada um o que lhe cabe. Distinguir o bom no '
+                                    'prazer: ir aos campos. Prazer da abelha é sugar; da flor, '
+                                    'entregar. Uma é fonte de vida; a outra, mensageira de amor; '
+                                    'para ambas, dar e receber é necessidade em êxtase. Quando '
+                                    'cada um é o que deve ser, o universo encaixa — cosmos, não '
+                                    'caos. Imitai flores e abelhas: prazeres humanos '
+                                    '(fraternidade, inteligibilidade, criação) transbordam e '
+                                    'beneficiam; prazeres só de sobrevivência animalizam. Todos '
+                                    'morrem; nem todos vivem.'}],
+              'keys': ['Prazer é canção de liberdade, não a liberdade.',
+                       'Depurar o gosto é evoluir.',
+                       'A sétima irmã — glória — não depende do corpo.',
+                       'Repressão sem inteligência explode; o espírito não se ofende com a terra.',
+                       'Abelha e flor: prazer maduro é troca, não voracidade.'],
+              'reflections': ['O prazer me dá asas ou me troca de gaiola?',
+                              'Estou no primeiro degrau como se fosse o cume?',
+                              'Minha renúncia é virtude lúcida ou medo disfarçado?',
+                              'Que prazer humano — não só animal — ainda negligencio?']},
+ 'a-beleza': {'summary': 'O poeta pergunta pela beleza; Almustafa responde que só se a encontra '
+                         'quando ela mesma é caminho e tecelã das palavras. As muitas vozes do '
+                         'poema — feridos, apaixonados, cansados, inquietos — não descrevem a '
+                         'beleza: descrevem desejos insatfeitos. A beleza é êxtase, vida a '
+                         'desvelar o rosto sagrado, eternidade a olhar-se no espelho — e vós sois '
+                         'a eternidade e o espelho.',
+              'sections': [{'heading': 'O belo como guia, não como objeto',
+                            'body': '“Onde deverão buscar a beleza… a menos que ela mesma seja o '
+                                    'seu caminho e o seu guia?” Gibran desloca a estética do '
+                                    'consumo visual para a pedagogia da alma. Não se “possui” o '
+                                    'belo como troféu de gosto; caminha-se sob a sua condução. '
+                                    'Falar dela exige que ela teça a linguagem — eco da ideia '
+                                    'platônica de que o kalon participa do inteligível e eleva '
+                                    'quem o contempla com honestidade. No Banquete, a escada de '
+                                    'Diotima já ligava o belo sensível ao Belo em si. Roger '
+                                    'Scruton, na linha que a série evoca, insiste: a beleza '
+                                    'verdadeira forma o caráter; a vulgaridade empobrece o olhar '
+                                    'e, com ele, a conduta. Estética e ética não são '
+                                    'compartimentos estanques: o que educamos o olho a amar, '
+                                    'educamos a vida a desejar. Por isso o poeta pergunta: só quem '
+                                    'já está sob o feitiço formativo do belo pode nomeá-lo sem '
+                                    'traí-lo.'},
+                           {'heading': 'Coro de fomes, não de essência',
+                            'body': 'Os feridos dizem: beleza é amável, jovem mãe encabulada na '
+                                    'própria glória. Os apaixonados: força terrível, tempestade '
+                                    'que sacode terra e céu. Os cansados: sussurro que cede ao '
+                                    'silêncio. Os desassossegados: gritos, cascos, asas, leões. '
+                                    'Guardas aguardam-na no leste; trabalhadores veem-na no '
+                                    'poente; quem está na neve espera a primavera; quem colhe no '
+                                    'calor já a viu dançar com folhas e neve no cabelo. Todas '
+                                    'essas falas, diz o profeta, não falam dela: falam de desejos '
+                                    'não satisfeitos. Aristóteles situava o belo na ordem, '
+                                    'proporção e definição; aqui a ordem se revela negativamente: '
+                                    'o desejo projeta e chama a projeção de beleza. Diagnóstico '
+                                    'severo do gosto contemporâneo, sempre pronto a batizar de '
+                                    '“belo” a própria carência. O poema multiplica vozes para '
+                                    'mostrar que a multiplicidade não é a essência — é o espelho '
+                                    'partido da fome.'},
+                           {'heading': 'Êxtase contra desejo',
+                            'body': '“A beleza não é um desejo, mas um êxtase.” Não boca sedenta '
+                                    'nem mão vazia: coração inflamado e alma encantada. Não a '
+                                    'imagem que se quer ver nem a canção que se quer ouvir: a que '
+                                    'se contempla de olhos fechados e se ouve de ouvidos tapados — '
+                                    'paradoxo que aponta para a visão interior. Não seiva sob '
+                                    'casca enrugada nem asa atada a garra: pomar sempre em flor e '
+                                    'revoada eterna de anjos. O belo autêntico não completa a '
+                                    'falta como objeto de consumo; transforma o sujeito até que a '
+                                    'falta mude de natureza. Contemplar deixa de ser passividade: '
+                                    'torna-se exercício espiritual. Na tradição clássica, o êxtase '
+                                    'não é fuga do mundo, mas intensidade que o revela. Gibran, ao '
+                                    'opor desejo e êxtase, protege a beleza da indústria do anseio '
+                                    'e devolve-a à alma como acontecimento de plenitude.'},
+                           {'heading': 'Vida e véu, eternidade e espelho',
+                            'body': '“A beleza é a Vida quando a Vida desvela sua face sagrada. '
+                                    'Mas vocês são a Vida, e também o seu véu.” Dupla identidade '
+                                    'inquietante: somos o mistério e o que o obscurece. “A beleza '
+                                    'é a eternidade olhando para si mesma num espelho. Mas vocês '
+                                    'são a eternidade, e também o espelho.” A frase-chave da '
+                                    'palestra resume a metafísica do capítulo: contemplar o belo é '
+                                    'descobrir-se partícipe do que se contempla. Isso obriga '
+                                    'eticamente: viver de modo digno do espelho. Platão ligava o '
+                                    'belo ao bem; Aristóteles, à forma realizada; Scruton, à '
+                                    'civilização do olhar responsável. Gibran sintetiza em imagem '
+                                    'ao mesmo tempo oriental e cristã: desvelamento e '
+                                    'espelhamento. O cotidiano torna-se campo de reconhecimento — '
+                                    'ou de véu espesso. Cada gesto pode limpar ou embaciar o '
+                                    'espelho.'},
+                           {'heading': 'Estética como via formativa',
+                            'body': 'Se o belo verdadeiro eleva, cultivá-lo no dia a dia é '
+                                    'resistência à feiura moral disfarçada de estilo. Não se trata '
+                                    'de ornamento: trata-se de harmonia entre o visível e o '
+                                    'invisível. Cada escolha estética — o que se lê, se ouve, se '
+                                    'habita, se celebra — educa a alma para cima ou para baixo. A '
+                                    'série da Nova Acrópole lê o capítulo como caminho espiritual: '
+                                    'contemplar obriga a transformar-se. Quem só busca o agradável '
+                                    'aos sentidos permanece no desejo; quem deixa a beleza ser '
+                                    'guia aproxima-se do êxtase. Reconhecer o belo no gesto justo, '
+                                    'na proporção de um ofício bem feito, no silêncio oportuno, é '
+                                    'já desvelar a face sagrada da vida. Assim a estética deixa de '
+                                    'ser luxo e torna-se disciplina: formar o olhar para não trair '
+                                    'o que o espelho poderia mostrar.'}],
+              'keys': ['A beleza é caminho e guia, não troféu.',
+                       'Muitas vozes descrevem desejos, não a essência do belo.',
+                       'Beleza é êxtase, não desejo.',
+                       '“A beleza é a eternidade contemplando a si mesma no espelho.”',
+                       'Estética verdadeira forma a ética.'],
+              'reflections': ['O que chamo de belo revela o que ainda desejo — ou o que já me '
+                              'eleva?',
+                              'Sou véu ou face desvelada da vida que habito?',
+                              'Que beleza cotidiana ainda trato como ornamental, não formativa?',
+                              'Como limpo o espelho sem idolatrar o próprio reflexo?']},
+ 'a-religiao': {'summary': 'Ao velho sacerdote, Almustafa responde: “Tenho falado de outra coisa '
+                           'hoje?” Religião — religare, unir com intensidade céu e terra — não é '
+                           'fatia da agenda, mas a qualidade de todos os atos. Separar horas para '
+                           'Deus e horas para mim é ainda não ter visitado o santuário cuja janela '
+                           'permanece aberta de aurora em aurora. A vida cotidiana é o templo; '
+                           'entra-se por inteiro, com arado e alaúde, e com toda a humanidade.',
+                'sections': [{'heading': 'Fecho do ciclo e a ponte do sacerdote',
+                              'body': 'O capítulo fecha o arco das perguntas: amor, trabalho, '
+                                      'leis, prazer — tudo já era religião se religião for '
+                                      'sacralização da existência. O velho sacerdote pergunta '
+                                      'porque o pontífice (pons-facere) faz pontes entre essência '
+                                      'e aparência. Etimologia discutida — religare ou relegere — '
+                                      'converge: pôr o homem diante do sagrado dentro e fora. “Não '
+                                      'é a religião todos os nossos atos e reflexões?” Até o '
+                                      'espanto que brota enquanto as mãos talham a pedra. O conto '
+                                      'dos dois pedreiros na catedral: um constrói muro por '
+                                      'jornal; o outro, templo. O espírito impregna a obra. '
+                                      'Banalizar é esvaziar de sentido; sacralizar é ver através '
+                                      'de cada gesto o que se soma ao humano e a si. Tripalium — '
+                                      'tortura — só descreve o trabalho sem alma.'},
+                             {'heading': 'Fé e ofício inseparáveis',
+                              'body': 'Quem separa fé dos atos, crenças das ocupações, cria o '
+                                      '“quartinho da bagunça” da psique: nicho onde a lei única '
+                                      'não vale. Cristianismo: não se serve a dois senhores; Islã: '
+                                      'não se monta em dois camelos. Kant: o que não se pode '
+                                      'sacralizar como oferenda perante o que se tem por nobre, '
+                                      'talvez não deveria ser feito. Negotium e otium romanos '
+                                      'ambos podem ter alma; sem alma, ambos banalizam. Não há '
+                                      'profissão absolutamente agradável no mundo dual — nem a '
+                                      'mais invejada. O trabalho tortura quando nele não se vê o '
+                                      'que somar. Educar não é cargo de horário: quem procura ser '
+                                      'melhor educa do despertar ao sono. César e Deus: leis '
+                                      'humanas deveriam adaptar no tempo as leis da natureza; o '
+                                      'choque gera reação. Unidade é uma só lei em todos os '
+                                      'ambientes.'},
+                             {'heading': 'Asas das horas e moral sem Olimpo',
+                              'body': '“Todas as vossas horas são asas que voam… de um eu para o '
+                                      'outro eu.” Perder um instante sem vestir as asas é perder '
+                                      'um voo. Vida inteiramente pedagógica: roubar momentos de '
+                                      'Cronos para Zeus. Quem veste a moral como melhor '
+                                      'indumentária melhor andaria nu: vento e sol não furam a '
+                                      'pele. Moral como objetivo final é adestramento (medo de '
+                                      'castigo), não convicção. No Egito áureo, ética era '
+                                      'desdobramento do sagrado — feliz quem nascia e morria em '
+                                      'terras onde tudo era cerimônia. Na Grécia, ética era '
+                                      'caminho ao Olimpo; sem Olimpo, resta coerção. Quem pode o '
+                                      'máximo (unidade) naturalmente pode o mínimo (honestidade). '
+                                      'Ética que aprisiona o pássaro cantor em gaiola faz a canção '
+                                      'livre não ecoar: dogmatismo na religião, na ciência, na '
+                                      'política — prescrição do médico sem compreender a saúde.'},
+                             {'heading': 'Janela aberta de aurora em aurora',
+                              'body': 'Para quem a adoração é janela a abrir e fechar, ainda não '
+                                      'visitou a morada da alma cujas janelas vão de aurora em '
+                                      'aurora. O compartimento “religião” duas horas por semana e '
+                                      'o resto banal é hábito social, não religare. Unidade não '
+                                      'tem limite: arrumar a cama, a cortesia no café, agradecer a '
+                                      'casa ao partir, tratar o veículo — tudo pode ser ponte '
+                                      'entre céu e terra. Aladim libera o gênio: Deus deixa a '
+                                      'lâmpada do rito utilitário e passa a habitar todos os '
+                                      'lugares. O pôr do sol no imaginário religioso: nada falta, '
+                                      'nada sobra — atributo do Uno. Um ato tão justo que nada '
+                                      'falte nem sobre é instante divino no seio do múltiplo. '
+                                      'Entra-se no templo cotidiano por inteiro: arado, forja, '
+                                      'marreta, alaúde — o que a necessidade e o prazer moldaram. '
+                                      'Fechar a janela depois do culto é confessar que ainda se '
+                                      'vive em dois mundos.'},
+                             {'heading': 'Teto dos feitos, chão das falhas',
+                              'body': 'Nos sonhos não se voa acima das conquistas nem se cai '
+                                      'abaixo das falhas: o raio real é o que se plasma na '
+                                      'prática. Levar consigo todos os homens: na adoração não se '
+                                      'voa acima das esperanças nem se rasteja abaixo do '
+                                      'desespero. Fraternidade é o primeiro registro da unidade — '
+                                      'o conto do médico que prefere o inferno enquanto houver um '
+                                      'irmão lá. Egoísmo trava a sabedoria: quanto mais se pensa '
+                                      'só em si, mais se afasta da primeira das virtudes humanas. '
+                                      'Subir juntos, “mais além, mas juntos”, é a medida do teto '
+                                      'espiritual. Quem fantasia grandeza sem compromisso com a '
+                                      'humanidade fica preso ao próprio umbigo. O templo '
+                                      'cotidiano exige, portanto, não só pureza privada, mas a '
+                                      'disposição de erguer consigo o chão e o teto da família '
+                                      'humana.'},
+                             {'heading': 'Conhecer sem enigmas, religar na fraternidade',
+                              'body': '“Se desejais conhecer a Deus, não sejais como os '
+                                      'decifradores de enigmas.” A razão, ferramenta da '
+                                      'multiplicidade, parte e atribui; a unidade exige intuir e '
+                                      'reunir. Olhai as crianças a brincar, o verão nas nuvens, o '
+                                      'relâmpago, a chuva, o sorriso nas flores: o divino não se '
+                                      'prova em compêndios — reconhece-se no que atravessa todas '
+                                      'as coisas. Isis recolhe Osíris em cada recanto do Nilo; '
+                                      'deixar um canto por vasculhar é deixar um pedaço do deus. '
+                                      'Rama passa o dedo nas costas do esquilo: o aparentemente '
+                                      'insignificante também carrega a marca sagrada. Fazer as '
+                                      'pazes com o espaço e com o tempo é ver, mesmo no que não '
+                                      'foi agradável, a pedagogia do Uno. Trauma que se recusa a '
+                                      'aprender obriga a repetição. Pelas obras se conhece — não '
+                                      'pelo voto. Religare que não gera fraternidade seleciona e '
+                                      'separa: deixa de ser religião e torna-se seita do ego.'}],
+                'keys': ['Religião é a qualidade de todos os atos.',
+                         'Fé sem ofício é quartinho da bagunça psíquica.',
+                         'Moral sem horizonte sagrado vira adestramento.',
+                         'A vida cotidiana é o templo; entra-se por inteiro.',
+                         'Ver Deus em todas as coisas — não só resolver enigmas.'],
+                'reflections': ['Onde ainda separo o sagrado do que faço entre segunda e sexta?',
+                                'Minha moral é degrau para a unidade ou gaiola de medo?',
+                                'Que gesto banal posso impregnar de sentido hoje?',
+                                'Consigo ver o “dedo de Rama” atrás do que ainda chamo só de '
+                                'trauma?']},
+ 'a-morte': {'summary': 'Almitra pede o segredo da morte; Almustafa responde que ele só se lê no '
+                        'coração da vida. Vida e morte são uma, como rio e oceano. O temor '
+                        'assemelha-se ao tremor do camponês honrado pelo rei: medo e glória '
+                        'misturam-se. Morrer é despir-se ao vento e fundir-se ao sol — e só então '
+                        'se dança de verdade.',
+             'sections': [{'heading': 'No coração da vida',
+                           'body': '“Vocês gostariam de saber o segredo da morte. Mas como o '
+                                   'encontrarão a menos que o busquem no coração da vida?” A '
+                                   'poesia, diz a série, não explica: insinua e sugere. Quem só '
+                                   'estuda o fim sem amar o meio permanece cego ao próprio '
+                                   'mistério. A coruja, olhos feitos para a noite, não desvela o '
+                                   'mistério da luz diurna: metáfora do olhar inadequado ao '
+                                   'objeto. Escancarar as portas do coração ao corpo da vida é a '
+                                   'condição para contemplar o espírito da morte. O dualismo que '
+                                   'opõe viver e morrer como inimigos absolutos falha '
+                                   'metafisicamente: o mesmo fluxo os atravessa. Sem essa unidade, '
+                                   'o medo torna-se mestre absoluto; com ela, a morte deixa de ser '
+                                   'insulto à vida e passa a ser a sua profundidade revelada. Por '
+                                   'isso o capítulo começa pela vida — e só assim ousa falar do '
+                                   'fim.'},
+                          {'heading': 'Rio e oceano, semente e primavera',
+                           'body': '“A vida e a morte são uma mesma coisa, assim como o rio e o '
+                                   'oceano são como um.” O rio não morre ao encontrar o mar: '
+                                   'cumpre-se e amplia-se. Nas profundezas das esperanças e dos '
+                                   'anseios repousa, em silêncio, o conhecimento do além; como '
+                                   'sementes sob a neve, o coração sonha a primavera. “Confiem em '
+                                   'seus sonhos, pois neles estão ocultos os portais da '
+                                   'eternidade.” Não se trata de fantasia escapista: trata-se da '
+                                   'intuição de continuidade que a consciência pressente quando '
+                                   'não se reduz ao corpo. Fundir-se e ser como um regato que '
+                                   'corre e canta a sua melodia para a noite — imagem associada à '
+                                   'série — resume a ética do capítulo: fluir sem retenção amarga, '
+                                   'cantar mesmo na escuridão do trânsito. Quem retém o rio por '
+                                   'medo do oceano nunca conhecerá a própria natureza líquida.'},
+                          {'heading': 'O camponês diante do rei',
+                           'body': 'O temor da morte assemelha-se ao medo do camponês chamado à '
+                                   'presença do rei que lhe põe a mão no ombro em sinal de '
+                                   'consideração. Não sentiria alegria, apesar do tremor, por '
+                                   'receber as insígnias reais? E, contudo, não estará mais atento '
+                                   'ao medo que à alegria? Gibran nomeia com precisão a '
+                                   'ambiguidade humana perante a honra última: a morte como '
+                                   'convocação, não só como roubo. Quão frequentemente o pavor '
+                                   'obscurece a distinção e faz esquecer o privilégio da '
+                                   'audiência? O materialismo extremo, na linha que a série ecoa '
+                                   'ao falar de quem perde a base ante o fim, deixa a consciência '
+                                   'sem chão. Quem viveu só de possessões vê na morte a perda '
+                                   'total; quem viveu de sentido pressente, no tremor, também a '
+                                   'dignidade de ser chamado. O capítulo não anula o medo: ensina '
+                                   'a não deixar que ele cegue a alegria oculta na convocação.'},
+                          {'heading': 'Nu ao vento, hálito ao sol',
+                           'body': '“Pois que é morrer senão se apresentar nu para o vento e '
+                                   'dissolver-se no sol?” Despir-se: deixar a carga do outrora, as '
+                                   'máscaras e os pesos acumulados. “E o que é o cessar da '
+                                   'respiração senão o libertar do hálito de suas marés inquietas, '
+                                   'para que ele possa se elevar e se expandir, e esteja enfim '
+                                   'livre para buscar a Deus sem a carga de outrora?” Morte como '
+                                   'expansão, não aniquilação. O paradoxo antigo do corpo como '
+                                   'túmulo ou templo encontra aqui formulação lírica: o fim da '
+                                   'respiração inquieta é início de busca sem peso. A nudez '
+                                   'perante o vento não é humilhação: é honestidade ontológica — '
+                                   'cai o que restava de disfarce. Dissolver-se no sol não é '
+                                   'desaparecer: é ser acolhido pela luz que sempre chamou o '
+                                   'hálito para cima.'},
+                          {'heading': 'Silêncio, cume, dança',
+                           'body': '“É somente quando beberem do córrego do silêncio que vocês '
+                                   'poderão cantar de verdade. E quando atingirem ao cume da '
+                                   'montanha, só então poderão iniciar a escalada. E quando a '
+                                   'terra reivindicar os seus braços e pernas, é então que poderão '
+                                   'dançar realmente livres.” Tríplice inversão pedagógica: o '
+                                   'canto verdadeiro começa no silêncio; a subida verdadeira, no '
+                                   'cume já alcançado; a dança plena, quando o corpo é reclamado '
+                                   'pela terra. A morte completa o arco e, no mito do Profeta, '
+                                   'prepara o regresso — “outra mulher me conceberá”. Não se '
+                                   'explica o mistério: sugere-se que a liberdade última coincide '
+                                   'com a entrega do que era só instrumento. Quem bebeu silêncio '
+                                   'em vida já ensaiou esse canto; quem só fez barulho descobrirá, '
+                                   'tarde, que ainda não sabia cantar.'}],
+             'keys': ['O segredo da morte lê-se no coração da vida.',
+                      'Vida e morte são uma, como rio e oceano.',
+                      'O temor mistura medo e honra, como o camponês ante o rei.',
+                      'Morrer é despir-se ao vento e libertar o hálito.',
+                      'Só no silêncio se canta; só quando a terra reivindica se dança de verdade.'],
+             'reflections': ['Como vivo hoje o que gostaria de ter vivido ao partir?',
+                             'Meu medo da morte revela o que ainda não amei o suficiente?',
+                             'Já bebi do córrego do silêncio — ou só barulho?',
+                             'Trato a morte como insulto à vida ou como oceano do rio?']},
+ 'a-despedida': {'summary': 'Fecha-se o ciclo: o vento convida a partir, o capitão espera o '
+                            'silêncio, o rio encontra o mar. Almustafa não desce ao nada: promete '
+                            'regressar do silêncio maior, névoa que vira chuva. Almitra permanece '
+                            'no quebra-mar — memória fiel — enquanto a cidade chora como um só '
+                            'coração. Partir é espalhar a semente madura; a sabedoria renasce '
+                            'sempre que alguém souber perguntar de novo.',
+                 'sections': [{'heading': 'Ouvinte e falante',
+                               'body': 'Almitra bendiz o dia, o lugar e o espírito que falou. Ele '
+                                       'responde: “Fui eu realmente quem falou? Não era eu também '
+                                       'um ouvinte?” A despedida começa na humildade gnóstica: a '
+                                       'sabedoria atravessa; ninguém a possui como propriedade. '
+                                       'Desce os degraus do templo, alcança o navio, ergue a voz: '
+                                       'o vento convida a deixar Orphalese, embora ele não esteja '
+                                       'tão apressado quanto o vento. Andarilhos nunca iniciam o '
+                                       'dia onde encerraram o anterior; nenhuma aurora encontra '
+                                       'onde o poente deixou. Mesmo enquanto a terra dorme, '
+                                       'viajam. Somos sementes de planta que perdura: na plenitude '
+                                       'do coração somos dados ao vento e espalhados. A série '
+                                       'inteira preparou este instante: doze anos como ciclo; a '
+                                       'partida como consciência pelo contraste; a palavra como '
+                                       'colheita antes do silêncio maior.'},
+                              {'heading': 'Névoa, maré e promessa',
+                               'body': 'Breves foram os dias e mais breves as palavras. Se a voz '
+                                       'se desvanecer, ele voltará com coração mais fecundo e '
+                                       'lábios mais obedientes ao espírito. “Do silêncio supremo '
+                                       'um dia retornarei.” A névoa da manhã deixa orvalho, '
+                                       'ergue-se em nuvem e chove: ele não tem sido diferente da '
+                                       'névoa. Necessidades humanas mudam; o amor e o desejo de '
+                                       'que o amor satisfaça os anseios, não. Se o dia não '
+                                       'realizou os anseios, que seja promessa de outro. A morte '
+                                       'pode ocultar; o grande silêncio, abarcar — e ainda assim a '
+                                       'compreensão será buscada, não em vão. Verdade dita uma vez '
+                                       'revelar-se-á em voz mais clara. O mito reencarnacionista '
+                                       'ecoa sem dogmatizar: o essencial é a ciclicidade da '
+                                       'sabedoria, não a doutrina.'},
+                              {'heading': 'Lago entre montanhas e o homem da vastidão',
+                               'body': 'Nas ruas e casas, o espírito dele adentrou; as batidas dos '
+                                       'corações ecoavam no seu. Foi lago entre montanhas: '
+                                       'reflexos de cumes interiores, encostas curvadas, rebanhos '
+                                       'errantes de pensamentos e desejos. Córregos de risos '
+                                       'infantis e ânsias juvenis desaguaram no seu silêncio — e '
+                                       'ainda cantavam ao atingir o abismo. Mais doce que risos e '
+                                       'ânsias veio o ilimitado neles: o homem da vastidão de quem '
+                                       'todos são meras células e tendões. Nessa vastidão são '
+                                       'grandes; contemplando-o, ele os amou. Como um carvalho '
+                                       'gigante coberto de flores de macieira: força os liga à '
+                                       'terra, fragrância os eleva ao espaço, resiliência os torna '
+                                       'imortais. Meia verdade é medir-se pelo elo frágil; também '
+                                       'se é tão forte quanto o elo mais forte. Julgar pelo erro é '
+                                       'censurar as estações pela inconstância: sois oceano, e a '
+                                       'primavera sorri no sono do vosso inverno.'},
+                              {'heading': 'Sedento que bebe a água sedenta',
+                               'body': 'Outros pediram riquezas e glória; ele, sem promessa '
+                                       'dourada, recebeu dádiva maior: sede profunda de vida. '
+                                       'Transformar anseios em lábios sedentos e a vida em fonte: '
+                                       'honra e prêmio. Ao beber, a água também o bebe. Orgulhoso '
+                                       'demais para salários, não para presentes — e mesmo '
+                                       'morangos das colinas e sono no pórtico do templo foram '
+                                       'adoçados pelo amor da cidade. Bondade que se olha no '
+                                       'espelho petrifica-se; boa ação que se admira torna-se '
+                                       'maldição. Acusaram-no de solidão com árvores e cumes: como '
+                                       'vê-los senão de altura ou distância? Como estar perto '
+                                       'senão estando longe? Caçava os eus maiores nos céus — e o '
+                                       'caçador era a caça; a flecha voltava ao peito; a asa no '
+                                       'sol projetava sombra de tartaruga. Fé e dúvida no mesmo '
+                                       'homem: dedo na própria ferida para crer mais neles.'},
+                              {'heading': 'Além do corpo, névoa e cristal',
+                               'body': '“Vocês não estão enclausurados em seus corpos… O que '
+                                       'realmente são reside acima das montanhas e vagueia com os '
+                                       'ventos.” Espírito que abarca a terra e move-se no éter. Se '
+                                       'as palavras soam vagas: vago é o início de todas as '
+                                       'coisas, não o fim — lembrai-me como começo. Vida '
+                                       'concebe-se na névoa, não no cristal; e quem sabe se o '
+                                       'cristal não é névoa em decomposição? O que parece mais '
+                                       'fraco e desorientado pode ser o mais forte: o fôlego '
+                                       'ergueu os ossos; um sonho esquecido edificou a cidade. O '
+                                       'véu dos olhos será erguido pelas mãos que o teceram; então '
+                                       'se verá e se ouvirá — e se abençoarão trevas e luz. Aqui '
+                                       'não há sepulturas: montanhas e planícies são berço e '
+                                       'trampolim. No campo dos ancestrais, dançais de mãos dadas '
+                                       'sem saber por quê.'},
+                              {'heading': 'Capitão, lótus e Almitra no quebra-mar',
+                               'body': 'O capitão, paciente, olha velas e horizonte; o timão '
+                                       'implora; ele espera o silêncio do profeta. Marinheiros que '
+                                       'ouviram o coro dos mares também o ouviram. O córrego '
+                                       'alcançou o mar; a grande mãe aperta o filho ao peito. '
+                                       'Adeus: o dia fecha-se como o lótus sobre o próprio amanhã. '
+                                       'O dado será guardado; se insuficiente, novas mãos se '
+                                       'estenderão ao doador. “Mais um pequeno instante… e outra '
+                                       'mulher me conceberá.” Juventude entre eles como sonho de '
+                                       'ontem; meio-dia abrasa; é preciso separar. No crepúsculo '
+                                       'da memória, canção mais profunda; noutro sonho, nova torre '
+                                       'no céu. Âncora erguida, rumo a leste. Choro de um só '
+                                       'coração sobre o mar. Só Almitra permanece — memória fiel '
+                                       'no quebra-mar — até o navio sumir na névoa, repetindo no '
+                                       'coração a promessa do regresso. Assim o livro ensina a '
+                                       'partir: sem negar o que foi dado, sem reter o que '
+                                       'amadureceu.'}],
+                 'keys': ['O sábio é também ouvinte: a palavra atravessa.',
+                          'Partir é espalhar a semente madura ao vento.',
+                          'Sois oceano e homem da vastidão, não só elo frágil.',
+                          'A vida concebe-se na névoa; lembrai o começo.',
+                          'Almitra no quebra-mar: memória fiel é porto da sabedoria.'],
+                 'reflections': ['O que deixo semeado ao fechar esta etapa da vida?',
+                                 'Sei partir sem negar o que foi dado e recebido?',
+                                 'Meço-me só pelo elo frágil — ou também pelo mais forte?',
+                                 'Quem, em mim, faz o papel de Almitra: guardar a palavra até a '
+                                 'névoa?']}}
