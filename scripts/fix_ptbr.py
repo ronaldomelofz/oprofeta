@@ -148,6 +148,12 @@ REPLACEMENTS = [
         "“Seu amigo é a resposta para suas necessidades.”",
     ),
     ("Quando o amor vos chamar, segui-o", "Quando o amor lhes acenar, sigam-no"),
+    # correções apontadas / varredura 2026-08
+    ("missivas", "cartas"),
+    ("Não destinavam-se", "Não se destinavam"),
+    ("julgo de gratidão", "jugo de gratidão"),
+    ("melhor vivera o animal", "melhor teria vivido o animal"),
+    ("não pelo espondere", "não pelo espondê"),
 ]
 
 # Guillemets -> Brazilian quotation style
