@@ -24,6 +24,9 @@ export function Home() {
             <Link className="btn btn-ghost" to="/jornada">
               Mapa dos capítulos
             </Link>
+            <Link className="btn btn-ghost" to="/cartas">
+              Cartas de amor
+            </Link>
           </div>
         </div>
         <div className="hero-orbit" aria-hidden="true">

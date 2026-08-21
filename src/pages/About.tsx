@@ -1,4 +1,4 @@
-import { data } from '../App'
+import { data, lettersData } from '../App'
 import './About.css'
 
 export function About() {
@@ -29,6 +29,19 @@ export function About() {
             <a href={data.meta.series.searchUrl} target="_blank" rel="noreferrer">
               Ver a série no YouTube →
             </a>
+          </p>
+        </section>
+
+        <section>
+          <h2>As cartas</h2>
+          <p>
+            A seção <em>Cartas</em> reúne a correspondência condensada entre Gibran e Mary Haskell, com
+            comentário a partir da palestra{' '}
+            <a href={lettersData.meta.video.url} target="_blank" rel="noreferrer">
+              {lettersData.meta.video.title}
+            </a>
+            . No canal da Nova Acrópole não há série carta a carta — esta homenagem de 2009 é a referência
+            principal encontrada sobre o tema.
           </p>
         </section>
 

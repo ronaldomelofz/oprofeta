@@ -1,0 +1,75 @@
+.letters-page .letters-overview {
+  max-width: 48rem;
+  margin: 0 auto 2.5rem;
+}
+
+.letters-overview-summary {
+  font-size: 1.08rem;
+  line-height: 1.65;
+  color: var(--ink-soft);
+  margin: 0 0 1.5rem;
+}
+
+.letters-video {
+  margin: 0 0 2rem;
+}
+
+.letters-video iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 4px;
+  background: #000;
+}
+
+.letters-video p {
+  margin: 0.65rem 0 0;
+  font-size: 0.92rem;
+}
+
+.letters-essay {
+  display: grid;
+  gap: 1.35rem;
+  margin-bottom: 1.5rem;
+}
+
+.letters-essay h2 {
+  margin: 0 0 0.45rem;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--sea);
+}
+
+.letters-essay p {
+  margin: 0;
+  color: var(--ink-soft);
+  line-height: 1.65;
+}
+
+.letters-list-head {
+  margin-top: 2.5rem;
+}
+
+.letters-list-head h2 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  color: var(--sea);
+}
+
+.letter-author {
+  font-weight: 400;
+  font-size: 0.85em;
+  color: var(--ink-soft);
+}
+
+.letter-overview-link {
+  margin-top: 1.5rem;
+  font-size: 0.95rem;
+}
+
+.letter-prose p:first-child {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-style: italic;
+}

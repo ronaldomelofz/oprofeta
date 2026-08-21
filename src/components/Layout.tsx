@@ -24,6 +24,7 @@ export function Layout() {
             Início
           </NavLink>
           <NavLink to="/jornada">Jornada</NavLink>
+          <NavLink to="/cartas">Cartas</NavLink>
           <NavLink to="/sobre">Sobre</NavLink>
         </nav>
       </header>
