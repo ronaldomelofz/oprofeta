@@ -14,7 +14,6 @@ export function LetterPage() {
   const next =
     index >= 0 && index < lettersData.letters.length - 1 ? lettersData.letters[index + 1] : null
   const [panel, setPanel] = useState<Panel>('texto')
-  const overview = lettersData.meta.commentary
   const video = lettersData.meta.video
 
   useEffect(() => {
@@ -45,14 +44,10 @@ export function LetterPage() {
       <div className="essay">
         <section className="essay-block">
           <h2>Esta carta</h2>
-          <p>{note.summary}</p>
+          {note.summary.split(/\n\n+/).filter(Boolean).map((para, i) => (
+            <p key={i}>{para}</p>
+          ))}
         </section>
-        {overview.sections.slice(0, 2).map((section) => (
-          <section key={section.heading} className="essay-block">
-            <h2>{section.heading}</h2>
-            <p>{section.body}</p>
-          </section>
-        ))}
       </div>
       {note.keys.length > 0 ? (
         <div className="keys-box">
