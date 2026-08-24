@@ -76,6 +76,7 @@ export interface LettersData {
     title: string
     subtitle?: string
     sourcePdf?: string
+    language?: string
     note?: string
     video: {
       id: string
