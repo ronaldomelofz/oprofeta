@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Parse Paulo Coelho adaptation of Gibran–Haskell letters into structured JSON."""
+"""Parse Gibran–Haskell letter selections into structured JSON."""
 from __future__ import annotations
 
 import json
@@ -125,7 +125,7 @@ def main() -> None:
             "title": "As cartas de amor de Gibran",
             "subtitle": "Correspondência com Mary Haskell (1908–1924)",
             "sourcePdf": "cartas/As-cartas-de-amor-de-Gibran.pdf",
-            "note": "Texto adaptado a partir da seleção/tradução associada a Paulo Coelho (edição condensada). Não é a íntegra das 600+ cartas do arquivo da University of South Carolina.",
+            "note": "Seleção condensada da correspondência entre Gibran e Mary Haskell.",
             "video": {
                 "id": "9QNWeNBJm-U",
                 "title": "O Grande Amor do Profeta (2009) — Lúcia Helena Galvão",

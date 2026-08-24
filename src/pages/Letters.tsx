@@ -14,9 +14,8 @@ export function Letters() {
         <p className="eyebrow">Correspondência comentada</p>
         <h1>{meta.title}</h1>
         <p>
-          {meta.subtitle}. Comentário filosófico a partir da palestra{' '}
-          <em>O Grande Amor do Profeta</em> ({meta.video.host}, {meta.video.channel}, 2009) — a referência
-          encontrada no canal sobre Gibran e Mary Haskell.
+          {meta.subtitle}. Comentário a partir da palestra <em>O Grande Amor do Profeta</em> (
+          {meta.video.host}, {meta.video.channel}, 2009).
         </p>
       </header>
 

@@ -239,7 +239,6 @@ def main() -> None:
                 "author": author,
                 "paragraphs": paras,
                 "quote": quote,
-                "source": "pdfcoffee-es",
             }
         )
 
@@ -306,9 +305,11 @@ def main() -> None:
         "meta": {
             "title": "Cartas de amor do Profeta",
             "subtitle": "Correspondência entre Kahlil Gibran e Mary Haskell (1908–1924)",
-            "sourcePdf": "cartas/Cartas de Amor - Gibran (pdfcoffee).pdf",
-            "language": "es",
-            "note": "Texto integral deste volume: «Cartas de Amor del Profeta» (pdfcoffee), adaptação condensada em espanhol associada a Paulo Coelho — 62 cartas/trechos. Não é o arquivo das 600+ cartas da University of South Carolina.",
+            "language": "pt-BR",
+            "note": (
+                "Seleção da correspondência entre Kahlil Gibran e Mary Haskell, "
+                "com leitura a partir da palestra O Grande Amor do Profeta."
+            ),
             "video": {
                 "id": "9QNWeNBJm-U",
                 "title": "O Grande Amor do Profeta (2009) — Lúcia Helena Galvão",

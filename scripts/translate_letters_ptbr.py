@@ -87,21 +87,18 @@ def main() -> None:
         if new_paras:
             q = new_paras[0]
             letter["quote"] = q[:220] + ("…" if len(q) > 220 else "")
-        # title "Primeiro encontro" already PT; dated titles already PT
-        letter["source"] = "pdfcoffee-es→pt-BR"
+        letter.pop("source", None)
         # checkpoint every 5 letters
         if i % 5 == 0 or i == total:
             data["meta"]["language"] = "pt-BR"
+            data["meta"].pop("sourcePdf", None)
             data["meta"]["note"] = (
-                "Texto integral do volume «Cartas de Amor del Profeta» (pdfcoffee), "
-                "traduzido do espanhol para português do Brasil. Adaptação condensada "
-                "associada a Paulo Coelho — 62 cartas/trechos. Não é o arquivo das 600+ "
-                "cartas da University of South Carolina."
+                "Seleção da correspondência entre Kahlil Gibran e Mary Haskell, "
+                "com leitura a partir da palestra O Grande Amor do Profeta."
             )
             OUT.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
             print("  checkpoint saved")
 
-    # also update pdfcoffee copy
     (ROOT / "cartas" / "letters_pdfcoffee.json").write_text(
         json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
     )
