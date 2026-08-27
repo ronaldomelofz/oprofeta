@@ -40,8 +40,17 @@ export function About() {
             <a href={lettersData.meta.video.url} target="_blank" rel="noreferrer">
               {lettersData.meta.video.title}
             </a>
-            .
+            . A fonte integral é o volume <em>Beloved Prophet</em>, organizado por Virginia Hilu —
+            cartas e diário particular de Mary — agora também em PDF traduzido para o português do
+            Brasil.
           </p>
+          {lettersData.meta.sourcePdf && (
+            <p>
+              <a href={lettersData.meta.sourcePdf} target="_blank" rel="noreferrer">
+                Baixar Profeta Amado (PDF) →
+              </a>
+            </p>
+          )}
         </section>
 
         <section>

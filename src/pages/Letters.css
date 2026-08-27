@@ -3,6 +3,25 @@
   margin: 0 auto 2.5rem;
 }
 
+.letters-edition {
+  margin: 1rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.letters-edition a {
+  color: var(--sea);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+
+.letters-edition-source {
+  display: inline;
+  opacity: 0.85;
+  font-size: 0.88em;
+}
+
 .letters-overview-summary {
   font-size: 1.08rem;
   line-height: 1.65;
@@ -48,6 +67,35 @@
 
 .letters-list-head {
   margin-top: 2.5rem;
+}
+
+.letters-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem 1.5rem;
+  max-width: 48rem;
+  margin: 0 auto 1.5rem;
+}
+
+.letters-filters label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.letters-filters select {
+  min-width: 10rem;
+  padding: 0.45rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--sea) 25%, transparent);
+  border-radius: 2px;
+  background: color-mix(in srgb, var(--paper) 92%, white);
+  color: var(--ink);
+  font: inherit;
+  text-transform: none;
+  letter-spacing: normal;
 }
 
 .letters-list-head h2 {

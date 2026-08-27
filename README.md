@@ -26,4 +26,5 @@ npm run build
 - Texto: `O Profeta - Khalil Gibran.pdf` (tradução Rafael Arrais, 2013)
 - Contraste editorial: `o-profeta-gibran-khalil-gibra.pdf` (Mansour Challita)
 - Comentários: destilados das palestras YouTube Nova Acrópole
-- Scripts: `scripts/build_commentaries.py`
+- Cartas: seleção em `/cartas` + edição integral **Profeta Amado** (`public/Beloved-Prophet-Cartas-PTBR.pdf`) a partir de *Beloved Prophet* (Virginia Hilu), revisada em pt-BR
+- Scripts: `scripts/build_commentaries.py`, `scripts/ocr_beloved_prophet.py`, `scripts/translate_beloved_prophet.py`, `scripts/polish_beloved_prophet.py`, `scripts/final_cleanup_beloved_prophet.py`, `scripts/build_beloved_prophet_pdf.py`

@@ -24,3 +24,12 @@ videos/*.webm
 videos/*.mkv
 _new_pdf.txt
 _rebuild_from_new_pdf.py
+
+# Heavy local OCR / scan assets (kept on disk, not in repo)
+cartas/LIVRO-PRINT/
+cartas/ocr_cache/
+cartas/_ocr_test/
+cartas/_ocr_test_50.png
+cartas/*.lcpl
+cartas/_bp_djvu.txt
+cartas/_bp_search.txt.gz

@@ -114,7 +114,7 @@ export function LetterPage() {
 
       <header className="chapter-head">
         <p className="eyebrow">
-          Cartas · {String(letter.id).padStart(2, '0')} · {letter.author}
+          Cartas · {String(letter.id).padStart(3, '0')} · {letter.author}
           {letter.date ? ` · ${letter.date}` : ''} · {progress}%
         </p>
         <h1>{letter.title}</h1>
