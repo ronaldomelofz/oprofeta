@@ -1,5 +1,6 @@
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
+import { MusicToggle } from './MusicToggle'
 import './Layout.css'
 
 export function Layout() {
@@ -26,6 +27,7 @@ export function Layout() {
           <NavLink to="/jornada">Jornada</NavLink>
           <NavLink to="/cartas">Cartas</NavLink>
           <NavLink to="/sobre">Sobre</NavLink>
+          <MusicToggle />
         </nav>
       </header>
       <main>

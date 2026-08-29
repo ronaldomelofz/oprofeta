@@ -39,5 +39,5 @@ copy cartas\Beloved-Prophet-Cartas-PTBR.pdf public\Beloved-Prophet-Cartas-PTBR.p
 
 ## Comentário (YouTube)
 
-- [O Grande Amor do Profeta (2009)](https://www.youtube.com/watch?v=9QNWeNBJm-U) — Lúcia Helena Galvão / Nova Acrópole
+- [O Grande Amor do Profeta (2009)](https://www.youtube.com/watch?v=9QNWeNBJm-U) — Professora Lúcia Helena Galvão / Nova Acrópole
 - Transcrição local: `cartas/videos/grande-amor-do-profeta.txt`

@@ -21,7 +21,7 @@ export function About() {
         <section>
           <h2>O comentário</h2>
           <p>
-            Cada capítulo inclui uma leitura filosófica destilada das palestras de{' '}
+            Cada capítulo inclui uma leitura filosófica destilada das palestras da{' '}
             {data.meta.series.host} na série <strong>{data.meta.series.name}</strong> ({' '}
             {data.meta.series.channel}). Os vídeos originais estão embutidos sempre que disponíveis.
           </p>
@@ -58,7 +58,7 @@ export function About() {
           <ul>
             <li>Autor: Khalil Gibran</li>
             <li>Tradução de referência: Rafael Arrais (2013)</li>
-            <li>Comentários de referência: Lúcia Helena Galvão / Nova Acrópole Brasil</li>
+            <li>Comentários de referência: Professora Lúcia Helena Galvão / Nova Acrópole Brasil</li>
             <li>
               Publicação: <a href="https://oprofetagibran.netlify.app/">oprofetagibran.netlify.app</a>
             </li>

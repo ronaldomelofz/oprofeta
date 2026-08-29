@@ -1,6 +1,6 @@
 # Transcrições e vídeos das palestras
 
-Fonte principal: série *O Profeta* — Lúcia Helena Galvão (Nova Acrópole Brasil).
+Fonte principal: série *O Profeta* — Professora Lúcia Helena Galvão (Nova Acrópole Brasil).
 
 ## Vídeos (`.mp4`)
 

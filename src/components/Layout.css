@@ -81,6 +81,37 @@
   background: var(--sea);
 }
 
+.music-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-left: 0.15rem;
+  padding: 0.55rem 0.9rem;
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  background: transparent;
+  cursor: pointer;
+  transition: background 0.25s var(--ease), color 0.25s var(--ease);
+}
+
+.music-toggle:hover {
+  color: var(--sea);
+  background: rgba(11, 61, 74, 0.06);
+}
+
+.music-toggle.on {
+  color: var(--foam);
+  background: var(--sea);
+}
+
+.music-toggle-icon {
+  flex-shrink: 0;
+}
+
 .footer {
   padding: 1.5rem clamp(1rem, 4vw, 2.5rem) 2rem;
   border-top: 1px solid var(--line);
@@ -99,8 +130,13 @@
     display: none;
   }
 
-  .nav a {
+  .nav a,
+  .music-toggle {
     padding: 0.5rem 0.65rem;
     font-size: 0.85rem;
+  }
+
+  .music-toggle-label {
+    display: none;
   }
 }

@@ -14,8 +14,8 @@ export function Home() {
           <p className="hero-kicker">Edição comentada · Nova Acrópole</p>
           <h1>O Profeta</h1>
           <p className="hero-lead">
-            Khalil Gibran, capítulo a capítulo — o texto integral ao lado da leitura filosófica de Lúcia
-            Helena Galvão, para abrir as entrelinhas do poema.
+            Khalil Gibran, capítulo a capítulo — o texto integral ao lado da leitura filosófica da
+            Professora Lúcia Helena Galvão, para abrir as entrelinhas do poema.
           </p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to={`/capitulo/${first.slug}`}>

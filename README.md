@@ -1,6 +1,6 @@
 # O Profeta Comentado
 
-Edição comentada de *O Profeta*, de Khalil Gibran: texto integral capítulo a capítulo com leitura filosófica destilada da série de Lúcia Helena Galvão no canal [Nova Acrópole](https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran).
+Edição comentada de *O Profeta*, de Khalil Gibran: texto integral capítulo a capítulo com leitura filosófica destilada da série da Professora Lúcia Helena Galvão no canal [Nova Acrópole](https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran).
 
 ## Stack
 

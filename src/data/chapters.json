@@ -6,12 +6,12 @@
     "year": 1923,
     "series": {
       "name": "O Profeta — Comentários filosóficos",
-      "host": "Lúcia Helena Galvão",
+      "host": "Professora Lúcia Helena Galvão",
       "channel": "Nova Acrópole Brasil",
       "channelUrl": "https://www.youtube.com/@NovaAcropole",
       "searchUrl": "https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran"
     },
-    "note": "Edição comentada: texto de “O Profeta - Khalil Gibran.pdf” (trad. Rafael Arrais) com ensaios filosóficos elaborados a partir das palestras de Lúcia Helena Galvão (série O Profeta, Nova Acrópole). Transcrições de referência em /vídeos. Os comentários não reproduzem a fala oral: são narração especializada.",
+    "note": "Edição comentada: texto de “O Profeta - Khalil Gibran.pdf” (trad. Rafael Arrais) com ensaios filosóficos elaborados a partir das palestras da Professora Lúcia Helena Galvão (série O Profeta, Nova Acrópole). Transcrições de referência em /vídeos. Os comentários não reproduzem a fala oral: são narração especializada.",
     "subtitle": "Khalil Gibran · leitura filosófica elaborada capítulo a capítulo",
     "edition": "comentada",
     "sources": {
@@ -19,7 +19,7 @@
       "textPdfAlt": "o-profeta-gibran-khalil-gibra.pdf",
       "series": {
         "name": "O Profeta — Comentários filosóficos",
-        "host": "Lúcia Helena Galvão",
+        "host": "Professora Lúcia Helena Galvão",
         "channel": "Nova Acrópole Brasil",
         "channelUrl": "https://www.youtube.com/@NovaAcropole",
         "searchUrl": "https://www.youtube.com/@NovaAcropole/search?query=kalill%20gibran"
@@ -219,6 +219,13 @@
           "Quando dou, estou apresentando conta ou realizando-me no bem do amado?",
           "Concentro meu coração num único “grau” ou deixo-o irradiar em 360 graus pela vida?"
         ]
+      },
+      "audio": {
+        "src": "/audio/do-amor-sabatella-viana.mp3",
+        "title": "Do Amor",
+        "artists": "Letícia Sabatella e Marcus Viana",
+        "album": "Poemas Místicos do Oriente",
+        "sourceUrl": "https://www.youtube.com/watch?v=oxcDjoIm5TQ"
       }
     },
     {

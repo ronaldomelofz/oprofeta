@@ -15,6 +15,14 @@ export interface ChapterExplanation {
   keys: string[]
 }
 
+export interface ChapterAudio {
+  src: string
+  title: string
+  artists?: string
+  album?: string
+  sourceUrl?: string
+}
+
 export interface Chapter {
   id: number
   slug: string
@@ -25,6 +33,7 @@ export interface Chapter {
   videoId: string | null
   videoUrl: string | null
   quote: string
+  audio?: ChapterAudio
 }
 
 export interface BookMeta {
